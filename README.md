@@ -71,7 +71,7 @@ Credits
 - @srccrow for the Italian translations.
 - @inkhorn for the Portuguese translations.
 - @jontaix for Portuguese translations.
-- @lucasmz for Brazilian Portuguese translations.
+- @lucasmz for Portuguese translations.
 - @q1011 for the Russian translations.
 - Oswald van Ginkel for the Afrikaans translations.
 - huuhaa for the Finnish translations.
