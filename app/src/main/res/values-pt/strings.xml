@@ -71,7 +71,7 @@
     <string name="lblSelfTest">Criar arquivos de autoverificação</string>
     <string name="lblExtendedDatabaseToggle">Banco de dados extendido</string>
     <string name="confirm_extended_title">Ativar o banco de dados extendido?</string>
-    <string name="confirm_extended_summary">[EXPERIMENTAL]\nAtivará a detecção de ~40 milhões de assinaturas adicionais.\Requer um download de ~125MB, irá fazer com que a inicialização demore mais de 2 minutos, aumentará o uso de RAM do app, e aumentará a taxa de falsos positivos.\nEste banco de dados atualiza somente trimestralmente.</string>
+    <string name="confirm_extended_summary">[EXPERIMENTAL]\nAtivará a detecção de ~40 milhões de assinaturas adicionais.\nRequer um download de ~125MB, irá fazer com que a inicialização demore mais de 2 minutos, aumentará o uso de RAM do app, e aumentará a taxa de falsos positivos.\nEste banco de dados atualiza somente trimestralmente.</string>
     <string name="confirm_update_title">Confirmar download</string>
     <string name="confirm_update_summary">Você parece estar em uma conexão medida. Você tem certeza que deseja atualizar os bancos de dados?\n Pode precisar de %s MBs.</string>
     <string name="lblUpdateRunning">Pulando a ação, uma atualização está em execução!</string>
