@@ -6,9 +6,9 @@ android {
         applicationId "us.spotco.malwarescanner"
         minSdkVersion 16
         targetSdkVersion 32
-        versionCode 307
-        versionName "3.07"
-        resConfigs 'en', 'af', 'cs', 'de', 'el', 'es', 'fi', 'fr', 'it', 'pl', 'pt', 'ru', 'tr', 'zh-rCN'
+        versionCode 309
+        versionName "3.09"
+        resConfigs 'en', 'af', 'cs', 'de', 'el', 'es', 'fi', 'fr', 'gl', 'it', 'pl', 'pt', 'pt-rBR', 'ru', 'tr', 'zh-rCN'
     }
     buildTypes {
         debug {
@@ -25,6 +25,13 @@ android {
     }
     lint {
         abortOnError false
+    }
+    packagingOptions {
+        exclude 'org/bouncycastle/pqc/crypto/picnic/lowmcL1.bin.properties'
+        exclude 'org/bouncycastle/pqc/crypto/picnic/lowmcL3.bin.properties'
+        exclude 'org/bouncycastle/pqc/crypto/picnic/lowmcL5.bin.properties'
+        exclude 'org/bouncycastle/x509/CertPathReviewerMessages.properties'
+        exclude 'org/bouncycastle/x509/CertPathReviewerMessages_de.properties'
     }
 }
 

@@ -1,0 +1,4 @@
+* Added Galician translations from @ghose
+* Added Brazilian Portuguese from @lucasmz
+* Updated German translations from @thereisnoanderson
+* Updated Italian translations from Tommaso Fonda

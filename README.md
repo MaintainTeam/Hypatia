@@ -84,6 +84,8 @@ Credits
 - Dimitris Vagiakakos for the Greek translations.
 - @gallegonovato for the Spanish translations.
 - @Fjuro for the Czech translations.
+- @thereisnoanderson for German translations.
+- @ghose for the Galician translations.
 - Icons: Google/Android/AOSP, License: Apache 2.0, https://google.github.io/material-design-icons/
 
 Notices
