@@ -39,7 +39,7 @@
 
     <string name="main_starting_scan">Começando o scan…</string>
     <string name="main_cancelling_scan">Cancelando o scan…</string>
-    <string name="main_files_pending_scan">%s arquivos faltam serem escaneados</string>
+    <string name="main_files_pending_scan">%s arquivos pendentes para escanear</string>
     <string name="main_database_loading">Carregando banco de dados…</string>
     <string name="main_database_loaded">O banco de dados foi carregado com %s assinaturas</string>
     <string name="main_hashing_files">Calculando as hashes dos arquivos…</string>
