@@ -1,4 +1,4 @@
-[Banner](https://divestos.org/images/featureGraphics/Hypatia.png)
+![Banner](https://divestos.org/images/featureGraphics/Hypatia.png)
 
 Hypatia
 =======
@@ -7,7 +7,7 @@ Genel Bakış
 --------
 Hypatia, Android için dünyanın ilk özgür yazılım kötücül yazılım tarayıcısıdır. ClamAV tarzı imzalardan güç alır.
 
-[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
+[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on-tr.png"
      alt="Get it on F-Droid"
      height="80">](https://f-droid.org/packages/us.spotco.malwarescanner/)
 

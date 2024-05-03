@@ -5,6 +5,10 @@ Vue d'ensemble
 --------
 Hypatia est le premier scanner de malware FOSS (logiciel libre) au monde pour Android. Il est propulsé par les bases de données de signatures de style ClamAV.
 
+[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on-fr.png"
+     alt="Disponible sur F-Droid"
+     height="80">](https://f-droid.org/packages/us.spotco.malwarescanner/)
+
 Caractéristiques
 --------
 - Impact de la batterie proche de zéro: vous ne remarquerez aucun impact sur la batterie

@@ -5,7 +5,7 @@ Przegląd
 --------
 Hypatia to pierwszy w świecie FOSS skaner złośliwego oprogramowania na Androida. Jest oparty o bazy danych sygnatur w stylu ClamAV.
 
-[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
+[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on-pl.png"
      alt="Pobierz w F-Droid"
      height="80">](https://f-droid.org/packages/us.spotco.malwarescanner/)
 
