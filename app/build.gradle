@@ -8,7 +8,7 @@ android {
         targetSdkVersion 32
         versionCode 309
         versionName "3.09"
-        resConfigs 'en', 'af', 'cs', 'de', 'el', 'es', 'fi', 'fr', 'gl', 'it', 'pl', 'pt', 'ru', 'tr', 'zh-rCN'
+        resConfigs 'en', 'af', 'cs', 'de', 'el', 'es', 'fi', 'fr', 'gl', 'it', 'pl', 'pt', 'pt-rBR', 'ru', 'tr', 'zh-rCN'
     }
     buildTypes {
         debug {

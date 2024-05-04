@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Hypatia</string>
     <string name="app_copyright">Direitos Autorais 2017-2024 Divested Computing Group</string>
     <string name="app_license">Licença: GPL-3.0</string>
     <string name="app_version">Versão: %s</string>
