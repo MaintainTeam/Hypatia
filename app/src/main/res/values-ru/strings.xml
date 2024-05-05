@@ -18,14 +18,14 @@
     <string name="lblNotificationMalwareDetectionDescription">Используется для оповещения при обнаружении вредоносного ПО</string>
     <string name="lblNotificationRealtimeTitle">Сканер в реальном времени</string>
     <string name="lblNotificationRealtimeDescription">Используется для отображения счетчика просканированных файлов и поддержки фоновой службы</string>
-    <string name="lblNotificationRealtimeText">Вредоносное ПО обнаруживается в режиме реального времени</string>
+    <string name="lblNotificationRealtimeText">Вредоносное ПО обнаруживается в реальном времени</string>
     <string name="lblNotificationRealtimeStopped">Hypatia: сканирование в реальном времени остановлено</string>
     <string name="lblNotificationRealtimeDetection">Обнаружено вредоносное ПО:</string>
     <string name="lblRealtimeScannerToggle">Сканер в реальном времени</string>
     <string name="lblReset">Сбросить</string>
     <string name="lblOverride">Переопределить</string>
 
-    <string name="main_database_updating">Обновление %s баз данных…</string>
+    <string name="main_database_updating">Обновляются базы данных: %s…</string>
     <string name="main_database_override">Используется сервер %s</string>
     <string name="main_database_download_success">Успешно загружена</string>
     <string name="main_database_download_error">Файл не загружен, код ответа %s</string>
@@ -37,21 +37,21 @@
 
     <string name="main_starting_scan">Запуск сканирования…</string>
     <string name="main_cancelling_scan">Отмена сканирования…</string>
-    <string name="main_files_pending_scan">%s файл(-ов) ожидают сканирования</string>
+    <string name="main_files_pending_scan">%s файла(-ов) ожидают сканирования</string>
     <string name="main_database_loading">Загрузка базы данных…</string>
     <string name="main_database_loaded">Загружена база данных с %s сигнатурами</string>
     <string name="main_hashing_files">Хеширование файлов…</string>
     <string name="main_hashing_done">Расчетные хеши для всех файлов</string>
     <string name="main_hash_scan_done">Проверены все хэши %s по базам данных сигнатур</string>
-    <string name="main_scanning_done">Сканирование выполнено за %s секунд @ %sMB/s!</string>
+    <string name="main_scanning_done">Сканирование выполнено за %s секунд(-ы) @ %sMB/s!</string>
     <string name="main_files_scanned_count">Просканировано %s файлов</string>
     <string name="scan_control">Контроль сканирования</string>
-    <string name="lblScanRunning">Пропускаем действие, выполняется сканирование!</string>
+    <string name="lblScanRunning">Пропуск действия, выполняется сканирование!</string>
     <string name="lblSigningKey">Ключ подписи базы данных</string>
      <string name="lblNoNetwork">Нет подключения к сети!</string>
     <string name="self_test_result_success">Самотестирование прошло успешно.</string>
     <string name="self_test_result_failure">Самотестирование завершено неудачно!</string>
-    <string name="lblDatabaseLoading">Пропуск действия, база данных загружается!</string>
+    <string name="lblDatabaseLoading">Пропуск действия, загружается база данных!</string>
     <string name="lblDatabasesUpdated">Все базы данных обновлены!</string>
     <string name="lookupVT">Поиск</string>
     <string name="deleteFile">Удалить</string>
@@ -72,6 +72,6 @@
     <string name="confirm_extended_summary">[EXPERIMENTAL]\nЭто позволит обнаружить еще ~40 миллионов сигнатур.\nЭто требует загрузки 125 МБ, замедлит запуск более чем на две минуты, увеличит использование оперативной памяти приложения и повысит процент ложных срабатываний.\nДанная база данных обновляется только раз в квартал.</string>
     <string name="confirm_update_title">Подтвердить загрузку</string>
     <string name="confirm_update_summary">Похоже, вы используете тарифицируемое подключение. Вы уверены, что хотите обновить базы данных?\nОбъем загружаемых данных может достигать %s мегабайт.</string>
-    <string name="lblUpdateRunning">Пропуск действия, обновление запущено!</string>
+    <string name="lblUpdateRunning">Пропуск действия, запущено обновление!</string>
     <string name="lblWroteTestFiles">Записаны тестовые файлы!</string>
 </resources>
