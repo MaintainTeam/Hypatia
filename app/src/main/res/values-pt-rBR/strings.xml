@@ -3,17 +3,17 @@
     <string name="app_copyright">Direitos Autorais 2017-2024 Divested Computing Group</string>
     <string name="app_license">Licença: GPL-3.0</string>
     <string name="app_version">Versão: %s</string>
-    <string name="app_db_type_clamav">Movido à assinaturas de estilo ClamAV</string>
+    <string name="app_db_type_clamav">Movido à assinaturas estilo ClamAV</string>
 
     <string name="lblOnionRoutingToggle">Baixar via Tor</string>
     <string name="lblOnionRoutingEnabledHint">Baixando via Tor, isto pode demorar um pouco…</string>
     <string name="lblOnionRoutingNotInstalled">O Orbot não está instalado!</string>
-    <string name="lblUpdateDatabase">Atualizar bancos de dados</string>
-    <string name="lblDatabaseServer">Substituir o servidor da database</string>
+    <string name="lblUpdateDatabase">Atualizar banco de dados</string>
+    <string name="lblDatabaseServer">Alterar servidor do banco de dados</string>
     <string name="lblFullCredits">Créditos</string>
     <string name="lblScanSystem">Escanear /system</string>
     <string name="lblScanApps">Escanear APKs dos apps</string>
-    <string name="lblScanInternal">Escanear o armazenamento interno</string>
+    <string name="lblScanInternal">Escanear armazenamento interno</string>
     <string name="lblScanExternal">Escanear armazenamento externo</string>
     <string name="lblNotificationMalwareDetectionTitle">Detecção de Malware</string>
     <string name="lblNotificationMalwareDetectionDescription">Usado para alertar quando malware é detectado</string>
@@ -24,7 +24,7 @@
     <string name="lblNotificationRealtimeDetection">Malware detectado:</string>
     <string name="lblRealtimeScannerToggle">Escanear em tempo real</string>
     <string name="lblReset">Redefinir</string>
-    <string name="lblOverride">Substituir</string>
+    <string name="lblOverride">Alterar</string>
 
     <string name="main_database_updating">Atualizando %s banco(s) de dados…</string>
     <string name="main_database_override">Usando o servidor %s</string>
@@ -38,15 +38,15 @@
 
     <string name="main_starting_scan">Começando o scan…</string>
     <string name="main_cancelling_scan">Cancelando o scan…</string>
-    <string name="main_files_pending_scan">%s arquivos faltam ser escaneados</string>
+    <string name="main_files_pending_scan">%s arquivos pendentes para escanear</string>
     <string name="main_database_loading">Carregando banco de dados…</string>
     <string name="main_database_loaded">O banco de dados foi carregado com %s assinaturas</string>
-    <string name="main_hashing_files">Fazendo hash dos arquivos…</string>
+    <string name="main_hashing_files">Calculando as hashes dos arquivos…</string>
     <string name="main_hashing_done">Hashes calculadas para todos os arquivos</string>
-    <string name="main_hash_scan_done">Foi verificado %s hashes contra os bancos de dados de assinaturas</string>
-    <string name="main_scanning_done">O scan foi completado em %s segundos @ %sMB/s!</string>
+    <string name="main_hash_scan_done">Foram verificadas as hashes %s contra o banco de dados de assinaturas</string>
+    <string name="main_scanning_done">O scan foi completado em %s segundos em %sMB/s!</string>
     <string name="main_files_scanned_count">%s arquivos escaneados</string>
-    <string name="scan_control">Controle de Scan</string>
+    <string name="scan_control">Botão de scan manual</string>
     <string name="lblScanRunning">Pulando a ação, um scan está em execução!</string>
     <string name="lblSigningKey">Chave de assinatura do banco de dados</string>
     <string name="lblNoNetwork">Nenhuma rede conectada!</string>
@@ -61,18 +61,18 @@
     <string name="detections_none">Nenhuma correspondência foi encontrada :)</string>
     <string name="detections_found">Foram encontradas correspondências! :(</string>
     <string name="confirm_lookup_title">Confirmar consulta</string>
-    <string name="confirm_lookup_summary">Você tem certeza que deseja abrir VirusTotal.com em seu navegador web com a hash seguinte?</string>
+    <string name="confirm_lookup_summary">Você tem certeza que deseja abrir VirusTotal.com em seu navegador web com a seguinte hash?</string>
     <string name="confirm_delete_title">Confirmar exclusão</string>
-    <string name="confirm_delete_summary">Você tem certeza que deseja excluir o arquivo seguinte?</string>
+    <string name="confirm_delete_summary">Você tem certeza que deseja excluir o seguinte arquivo?</string>
     <string name="delete_failed">Falha ao excluir!</string>
     <string name="ignored">Ignorado!</string>
     <string name="uninstallApp">Desinstalar</string>
-    <string name="lblSelfTest">Escrever arquivos de autoverificação</string>
+    <string name="lblSelfTest">Criar arquivos de autoverificação</string>
     <string name="lblExtendedDatabaseToggle">Banco de dados extendido</string>
     <string name="confirm_extended_title">Ativar o banco de dados extendido?</string>
-    <string name="confirm_extended_summary">[EXPERIMENTAL]\nIsto ativará a detecção de ~40 milhões de assinaturas adicionais.\nIsto precisará de um download de ~125MB, irá fazer com que a inicialização demore mais de 2 minutos, aumentará o uso de RAM do app, e aumentará a taxa de falsos positivos.\nEste banco de dados atualiza somente trimestralmente.</string>
+    <string name="confirm_extended_summary">[EXPERIMENTAL]\nAtivará a detecção de ~40 milhões de assinaturas adicionais.\nRequer um download de ~125MB, irá fazer com que a inicialização demore mais de 2 minutos, aumentará o uso de RAM do app, e aumentará a taxa de falsos positivos.\nEste banco de dados atualiza somente trimestralmente.</string>
     <string name="confirm_update_title">Confirmar download</string>
-    <string name="confirm_update_summary">Você parece estar em uma conexão medida. Você tem certeza que deseja atualizar os bancos de dados?\nIsso pode precisar de %s megabytes de dados.</string>
+    <string name="confirm_update_summary">Você parece estar em uma conexão medida. Você tem certeza que deseja atualizar os bancos de dados?\n Pode precisar de %s MBs.</string>
     <string name="lblUpdateRunning">Pulando a ação, uma atualização está em execução!</string>
-    <string name="lblWroteTestFiles">Arquivos de autoverificação foram escritos!</string>
+    <string name="lblWroteTestFiles">Arquivos de autoverificação foram criados!</string>
 </resources>
