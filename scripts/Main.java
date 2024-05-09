@@ -60,9 +60,12 @@ public class Main {
 
     public static void main(String[] args) {
         //isFileInNsrl("B61905308B336AD268A782790B661616");
-        signaturesMD5 = BloomFilter.create(Funnels.stringFunnel(Charsets.US_ASCII), 6000000, 0.00001); //6m
-        signaturesSHA1 = BloomFilter.create(Funnels.stringFunnel(Charsets.US_ASCII), 50000, 0.00001); //50k
-        signaturesSHA256 = BloomFilter.create(Funnels.stringFunnel(Charsets.US_ASCII), 2000000, 0.00001); //2m
+        int amtMaxMD5 = 7000000; //7m
+        int amtMaxSHA1 = 50000; //50k
+        int amtMaxSHA256 = 2000000; //2m
+        signaturesMD5 = BloomFilter.create(Funnels.stringFunnel(Charsets.US_ASCII), amtMaxMD5, 0.00001);
+        signaturesSHA1 = BloomFilter.create(Funnels.stringFunnel(Charsets.US_ASCII), amtMaxSHA1, 0.00001);
+        signaturesSHA256 = BloomFilter.create(Funnels.stringFunnel(Charsets.US_ASCII), amtMaxSHA256, 0.00001);
 
         System.out.println("Processing exclusions:");
         File[] exclusions = new File(args[0] + "../exclusions/").listFiles();
@@ -110,7 +113,9 @@ public class Main {
                     }
                     String line;
                     if (databaseLocation.getName().endsWith(".hdb") //.hdb/.hsb format: hash:size:name:version
-                            || databaseLocation.getName().endsWith(".hsb")) {
+                            || databaseLocation.getName().endsWith(".hsb")
+                            || databaseLocation.getName().endsWith(".hdu")
+                            || databaseLocation.getName().endsWith(".hsu")) {
                         while ((line = reader.readLine()) != null) {
                             if (line.length() > 0 && line.contains(":")) {
                                 String[] lineS = line.trim().toLowerCase().split(":");
@@ -147,8 +152,32 @@ public class Main {
         System.out.println("Lines read: valid: " + amtLinesValid + ", invalid: " + amtLinesInvalid);
         System.out.println("Read count: md5: " + amtSignaturesReadMD5 + ", sha1: " + amtSignaturesReadSHA1 + ", sha256: " + amtSignaturesReadSHA256);
         System.out.println("Added count: md5: " + amtSignaturesAddedMD5 + ", sha1: " + amtSignaturesAddedSHA1 + ", sha256: " + amtSignaturesAddedSHA256);
+        System.out.println("Max amount: md5: " + amtMaxMD5 + ", sha1: " + amtMaxSHA1 + ", sha256: " + amtMaxSHA256);
+        System.out.println("Fill amount: md5: " + ((100F/amtMaxMD5) * amtSignaturesAddedMD5) + "%, sha1: " + ((100F/amtMaxSHA1) * amtSignaturesAddedSHA1) + "%, sha256: " + ((100F/amtMaxSHA256) * amtSignaturesAddedSHA256));
         System.out.println("Approximate count: md5: " + signaturesMD5.approximateElementCount() + ", sha1: " + signaturesSHA1.approximateElementCount() + ", sha256: " + signaturesSHA256.approximateElementCount());
+        System.out.println("App reported count: " + (signaturesMD5.approximateElementCount() + signaturesSHA1.approximateElementCount() + signaturesSHA256.approximateElementCount()));
         System.out.println("Expected false postive rate: md5: " + signaturesMD5.expectedFpp() + ", sha1: " + signaturesSHA1.expectedFpp() + ", sha256: " + signaturesSHA256.expectedFpp());
+        System.out.println("Testing exclusions:");
+        int matchedExclusions = 0;
+        for(String excluded : arrExclusions) {
+                if(excluded.length() == 32 && signaturesMD5.mightContain(excluded)) {
+                        System.out.println("\tmd5: Found excluded hash " + excluded);
+                        matchedExclusions++;
+                }
+                if(excluded.length() == 40 && signaturesSHA1.mightContain(excluded)) {
+                        System.out.println("\tsha1: Found excluded hash " + excluded);
+                        matchedExclusions++;
+                }
+                if(excluded.length() == 64 && signaturesSHA256.mightContain(excluded)) {
+                        System.out.println("\tsha256: Found excluded hash " + excluded);
+                        matchedExclusions++;
+                }
+        }
+        if(matchedExclusions == 0) {
+            System.out.println("\tNo exclusions found :)");
+        } else {
+            System.out.println("\tExclusions were found!");
+        }
         try {
             FileOutputStream fileSignaturesMD5 = new FileOutputStream(new File(args[0]) + "/hypatia-md5-bloom.bin");
             signaturesMD5.writeTo(fileSignaturesMD5);
@@ -181,7 +210,7 @@ public class Main {
                     System.out.println("\t\tSkipping excluded hash: " + potentialHash);
                     return;
                 }
-		//if(isFileInNsrl(potentialHash)) {
+                //if(isFileInNsrl(potentialHash)) {
                 //    return;
                 //}
                 if (potentialHash.length() == 32) {
