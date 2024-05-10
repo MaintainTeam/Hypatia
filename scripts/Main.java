@@ -37,6 +37,7 @@ import java.util.regex.Pattern;
 
 public class Main {
 
+    private static BloomFilter<String> signaturesMD5Dedupe = null;
     private static BloomFilter<String> signaturesMD5 = null;
     private static BloomFilter<String> signaturesSHA1 = null;
     private static BloomFilter<String> signaturesSHA256 = null;
@@ -49,6 +50,7 @@ public class Main {
     private static int amtSignaturesReadSHA256 = 0;
 
     private static int amtSignaturesAddedMD5 = 0;
+    private static int amtSignaturesDedupedMD5 = 0;
     private static int amtSignaturesAddedSHA1 = 0;
     private static int amtSignaturesAddedSHA256 = 0;
 
@@ -56,16 +58,33 @@ public class Main {
     private static int amtPreviousSignaturesSHA1 = 0;
     private static int amtPreviousSignaturesSHA256 = 0;
 
+    private static boolean extendedMode = false;
+
     private static ArrayList<String> arrExclusions = new ArrayList<String>();
 
     public static void main(String[] args) {
+        extendedMode = args[0].contains("-extended");
         //isFileInNsrl("B61905308B336AD268A782790B661616");
-        int amtMaxMD5 = 7000000; //7m
+        int amtMaxMD5 = 7200000; //7.2m
+        if(extendedMode) {
+                amtMaxMD5 = 52000000; //52m
+        }
         int amtMaxSHA1 = 50000; //50k
         int amtMaxSHA256 = 2000000; //2m
         signaturesMD5 = BloomFilter.create(Funnels.stringFunnel(Charsets.US_ASCII), amtMaxMD5, 0.00001);
         signaturesSHA1 = BloomFilter.create(Funnels.stringFunnel(Charsets.US_ASCII), amtMaxSHA1, 0.00001);
         signaturesSHA256 = BloomFilter.create(Funnels.stringFunnel(Charsets.US_ASCII), amtMaxSHA256, 0.00001);
+        File existingDatabase = new File(args[0] + "../production/hypatia-md5-bloom.bin");
+        if(extendedMode && existingDatabase.exists()) {
+                try {
+                System.out.println("Loading existing hypatia-md5-bloom.bin database");
+                FileInputStream databaseLoading = new FileInputStream(existingDatabase);
+                signaturesMD5Dedupe = BloomFilter.readFrom(databaseLoading, Funnels.stringFunnel(Charsets.US_ASCII));
+                System.out.println("\tLoaded " + signaturesMD5Dedupe.approximateElementCount() + " entries");
+                } catch (Exception e) {
+                e.printStackTrace();
+                }
+        }
 
         System.out.println("Processing exclusions:");
         File[] exclusions = new File(args[0] + "../exclusions/").listFiles();
@@ -94,7 +113,7 @@ public class Main {
         System.out.println("Processing signatures:");
         File[] databases = new File(args[0]).listFiles();
         File extras = new File(args[0] + "../extras/");
-        if(extras.exists()) {
+        if(extras.exists() && !extendedMode) {
             databases = Stream.concat(Arrays.stream(databases), Arrays.stream(extras.listFiles())).toArray(File[]::new);
         }
         Arrays.sort(databases);
@@ -152,9 +171,11 @@ public class Main {
         System.out.println("Lines read: valid: " + amtLinesValid + ", invalid: " + amtLinesInvalid);
         System.out.println("Read count: md5: " + amtSignaturesReadMD5 + ", sha1: " + amtSignaturesReadSHA1 + ", sha256: " + amtSignaturesReadSHA256);
         System.out.println("Added count: md5: " + amtSignaturesAddedMD5 + ", sha1: " + amtSignaturesAddedSHA1 + ", sha256: " + amtSignaturesAddedSHA256);
-        System.out.println("Max amount: md5: " + amtMaxMD5 + ", sha1: " + amtMaxSHA1 + ", sha256: " + amtMaxSHA256);
-        System.out.println("Fill amount: md5: " + ((100F/amtMaxMD5) * amtSignaturesAddedMD5) + "%, sha1: " + ((100F/amtMaxSHA1) * amtSignaturesAddedSHA1) + "%, sha256: " + ((100F/amtMaxSHA256) * amtSignaturesAddedSHA256));
         System.out.println("Approximate count: md5: " + signaturesMD5.approximateElementCount() + ", sha1: " + signaturesSHA1.approximateElementCount() + ", sha256: " + signaturesSHA256.approximateElementCount());
+        if(extendedMode) { System.out.println("Deduped count: md5: " + amtSignaturesDedupedMD5); }
+        System.out.println("Max amount: md5: " + amtMaxMD5 + ", sha1: " + amtMaxSHA1 + ", sha256: " + amtMaxSHA256);
+        System.out.println("Fill amount: md5: " + ((100F/amtMaxMD5) * amtSignaturesAddedMD5) + "%, sha1: " + ((100F/amtMaxSHA1) * amtSignaturesAddedSHA1) + "%, sha256: " + ((100F/amtMaxSHA256) * amtSignaturesAddedSHA256) + "%");
+
         System.out.println("App reported count: " + (signaturesMD5.approximateElementCount() + signaturesSHA1.approximateElementCount() + signaturesSHA256.approximateElementCount()));
         System.out.println("Expected false postive rate: md5: " + signaturesMD5.expectedFpp() + ", sha1: " + signaturesSHA1.expectedFpp() + ", sha256: " + signaturesSHA256.expectedFpp());
         System.out.println("Testing exclusions:");
@@ -214,7 +235,14 @@ public class Main {
                 //    return;
                 //}
                 if (potentialHash.length() == 32) {
-                    if (signaturesMD5.put(potentialHash)) {
+                    boolean shouldAdd = true;
+                    if (extendedMode) {
+                        if(signaturesMD5Dedupe.mightContain(potentialHash)) {
+                            shouldAdd = false;
+                            amtSignaturesDedupedMD5++;
+                        }
+                    }
+                    if (shouldAdd && signaturesMD5.put(potentialHash)) {
                         amtSignaturesAddedMD5++;
                     }
                     amtSignaturesReadMD5++;
