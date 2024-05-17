@@ -86,6 +86,8 @@ Credits
 - @Fjuro for the Czech translations.
 - @thereisnoanderson for German translations.
 - @ghose for the Galician translations.
+- @yurtpage: Russian Translation
+- @eloitor: Translations work
 - Icons: Google/Android/AOSP, License: Apache 2.0, https://google.github.io/material-design-icons/
 
 Notices
