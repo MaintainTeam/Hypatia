@@ -6,7 +6,7 @@ PNG_FILES := $(patsubst translations/%.txt, $(BASE_OUTPUT_DIR)/%/images/featureG
 
 all: $(PNG_FILES)
 
-$(BASE_OUTPUT_DIR)/%/images/featureGraphic.png: translations/%.txt $(TEMPLATE) 
+$(BASE_OUTPUT_DIR)/%/images/featureGraphic.png: translations/%.txt $(TEMPLATE)
 	@mkdir -p $(dir $@)
 	@TRANSLATION_CONTENT=$$(cat $< ); \
 	convert $(TEMPLATE) \

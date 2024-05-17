@@ -1,0 +1,6 @@
+* The database override option now has a choice for primary servers or a Cloudflare mirror
+* Updated/merged Brazilian translations from @lucasmz
+* Updated Russian fastlane translations from @t1011
+* Updated Russian fastlane translations from @yurtpage
+* Fastlane feature graphic banners are now translated thanks to @eloitor and @lucasmz
+* Repo READMEs have received translated F-Droid badges from @eloitor
