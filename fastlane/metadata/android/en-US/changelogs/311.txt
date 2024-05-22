@@ -1,0 +1,1 @@
+* Ability to scan screen content for malicious links

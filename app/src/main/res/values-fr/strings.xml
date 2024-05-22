@@ -48,7 +48,7 @@
     <string name="scan_control">Contrôle de l\'analyse</string>
     <string name="lblScanRunning">Action ignorée, une analyse est en cours !</string>
     <string name="lblSigningKey">Signature utilisée pour signer la base de données</string>
-   <string name="lblNoNetwork">Aucun réseau connecté !</string>
+    <string name="lblNoNetwork">Aucun réseau connecté !</string>
     <string name="self_test_result_success">Auto-test réussi.</string>
     <string name="self_test_result_failure">Échec de l\'auto-test !</string>
     <string name="lblDatabaseLoading">Action sautée, la base de données est en cours de chargement ! </string>

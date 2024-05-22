@@ -22,7 +22,12 @@
         android:title="@string/lblSigningKey" />
     <item
         android:id="@+id/toggleExtended"
-        android:title="@string/lblExtendedDatabaseToggle" />
+        android:title="@string/lblExtendedDatabaseToggle"
+        android:checkable="true" />
+    <item
+        android:id="@+id/toggleLinkScanner"
+        android:title="@string/lblLinkScannerToggle"
+        android:checkable="true" />
     <item
         android:id="@+id/toggleRealtime"
         android:title="@string/lblRealtimeScannerToggle"

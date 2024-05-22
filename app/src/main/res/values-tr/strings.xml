@@ -49,7 +49,7 @@
     <string name="scan_control">Tarama Kontrolü</string>
     <string name="lblScanRunning">Faaliyet es geçiliyor, bir tarama devam etmekte!</string>
     <string name="lblSigningKey">Veri tabanı imzalama anahtarı</string>
-   <string name="lblNoNetwork">Hiçbir şebeke bağlı değil!</string>
+    <string name="lblNoNetwork">Hiçbir şebeke bağlı değil!</string>
     <string name="self_test_result_success">Kendi kendini deneme başarılı.</string>
     <string name="self_test_result_failure">Kendi kendini deneme başarısız oldu!</string>
     <string name="lblDatabaseLoading">Faaliyet atlanıyor, veri tabanı yüklenmekte!</string>

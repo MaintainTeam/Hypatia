@@ -48,7 +48,7 @@
     <string name="scan_control">Контроль сканирования</string>
     <string name="lblScanRunning">Пропуск действия, выполняется сканирование!</string>
     <string name="lblSigningKey">Ключ подписи базы данных</string>
-     <string name="lblNoNetwork">Нет подключения к сети!</string>
+    <string name="lblNoNetwork">Нет подключения к сети!</string>
     <string name="self_test_result_success">Самотестирование прошло успешно.</string>
     <string name="self_test_result_failure">Самотестирование завершено неудачно!</string>
     <string name="lblDatabaseLoading">Пропуск действия, загружается база данных!</string>
