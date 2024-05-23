@@ -83,5 +83,5 @@
     <string name="lblNotificationLinkDetection">Malicious Link Detected:</string>
     <string name="lblLinkScannerToggle">Link Scanner</string>
     <string name="confirm_link_scanner_title">Enable link scanner?</string>
-    <string name="confirm_link_scanner_summary">[EXPERIMENTAL]\nThis will download an additional database of domains.\nAny domains found in screen content will be checked against the database.\nThis requires granting accessibility service permission manually.</string>
+    <string name="confirm_link_scanner_summary">[EXPERIMENTAL]\nThis will download an additional database of domains.\nAny domains found in screen content will be checked against the database.\nThis requires granting accessibility service permission manually.\nThis can have a substantial performance impact on screen with large amounts of text.</string>
 </resources>
