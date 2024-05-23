@@ -74,7 +74,7 @@ public class Main {
         }
         int amtMaxSHA1 = 50000; //50k
         int amtMaxSHA256 = 2000000; //2m
-        int amtMaxDomains = 1800000; //1.8m
+        int amtMaxDomains = 4200000; //4.2m
         signaturesMD5 = BloomFilter.create(Funnels.stringFunnel(Charsets.US_ASCII), amtMaxMD5, 0.00001);
         signaturesSHA1 = BloomFilter.create(Funnels.stringFunnel(Charsets.US_ASCII), amtMaxSHA1, 0.00001);
         signaturesSHA256 = BloomFilter.create(Funnels.stringFunnel(Charsets.US_ASCII), amtMaxSHA256, 0.00001);
@@ -115,7 +115,7 @@ public class Main {
         }
         System.out.println("\tLoaded " + arrExclusions.size() + " excluded hashes");
 
-        if (args.length == 2) {
+        if (args.length == 2 && !extendedMode) {
             System.out.println("Processing domains:");
             File domainDatabase = new File(args[1]);
             if (domainDatabase.exists()) {
