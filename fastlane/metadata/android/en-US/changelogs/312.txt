@@ -1,0 +1,1 @@
+* Many optimizations to the link scanner feature
