@@ -2,7 +2,6 @@
 <resources>
     <string name="app_version">Versio: %s</string>
     <string name="app_db_type_clamav">Powered by ClamAV tyylin allekirjoitukset</string>
-
     <string name="lblOnionRoutingToggle">Lataa käyttäen Tor-verkkoa</string>
     <string name="lblOnionRoutingEnabledHint">Ladataan käyttäen Tor-verkkoa, tämä voi kestää jonkin aikaa…</string>
     <string name="lblOnionRoutingNotInstalled">Orbot:ia ei ole asennettu!</string>
@@ -23,7 +22,6 @@
     <string name="lblRealtimeScannerToggle">Reaaliaikainen tarkistus</string>
     <string name="lblReset">Palauta</string>
     <string name="lblOverride">Ohita</string>
-
     <string name="main_database_updating">Päivitetään %s tietokanta(a)…</string>
     <string name="main_database_override">Käytetään palvelinta %s</string>
     <string name="main_database_download_success">Ladattiin onnistuneesti</string>
@@ -33,7 +31,6 @@
     <string name="main_database_not_changed">Tiedostoa ei ole muutettu</string>
     <string name="main_database_not_modified_since">%s jälkeen</string>
     <string name="main_database_download_error_logcat">Lataus epäonnistui, tarkista logcat</string>
-
     <string name="main_starting_scan">Aloitetaan tarkistus…</string>
     <string name="main_cancelling_scan">Perutaan tarkistus…</string>
     <string name="main_files_pending_scan">%s tarkistettavaa tiedostoa</string>
@@ -44,4 +41,50 @@
     <string name="main_hash_scan_done">Tarkistettiin kaikki %s hashit allekirjoitustietokannoista</string>
     <string name="main_scanning_done">Tarkistus suoritettu %s sekunnissa @ %sMB/s!</string>
     <string name="main_files_scanned_count">%s tiedostoa tarkistettu</string>
+    <string name="lblDatabasesUpdated">Kaikki tietokannat on päivitetty!</string>
+    <string name="ignoreDetection">Jätä huomiotta</string>
+    <string name="detections_found">Osumia löydettiin! :(</string>
+    <string name="confirm_lookup_title">Vahvista tarkistuksen tulos</string>
+    <string name="scan_control">Tarkistuksen asetukset</string>
+    <string name="lblScanRunning">Toiminta ohitettiin, tarkistus on käynnissä!</string>
+    <string name="lblSigningKey">Tietokannan allekirjoitusavain</string>
+    <string name="delete_failed">Poistaminen epäonnistui!</string>
+    <string name="confirm_lookup_summary">Haluatko varmasti avata VirusTotal.com sivuston selaimessasi seuraavalla hashilla?</string>
+    <string name="confirm_extended_summary">[KOKEELLINEN]
+\nTämä ottaa käyttöön ~40 miljoonan ylimääräisen allekirjoituksen havaitsemisen.
+\nTämä vaatii 200 Mt:n latauksen, hidastaa käynnistystä yli kaksi minuuttia, lisää sovelluksen RAM-muistin käyttöä ja lisää väärien positiivisten tulosten määrää.
+\nTämä tietokanta päivittyy vain neljännesvuosittain.</string>
+    <string name="app_copyright">Tekijänoikeus 2017-2024 Divested Computing Group</string>
+    <string name="app_license">Lisenssi: GPL-3.0</string>
+    <string name="lblNoNetwork">Ei verkkoyhteyttä!</string>
+    <string name="self_test_result_success">Omavalvonta onnistui.</string>
+    <string name="self_test_result_failure">Omavalvonta epäonnistui!</string>
+    <string name="lblDatabaseLoading">Toiminta ohitettin, tietokantaa ladataan!</string>
+    <string name="deleteFile">Poista</string>
+    <string name="deleted">Poistettu!</string>
+    <string name="detections_none">Osumia ei löytynyt :)</string>
+    <string name="lookupVT">Tarkistuksen tulos</string>
+    <string name="confirm_delete_title">Vahvista poisto</string>
+    <string name="confirm_delete_summary">Haluatko varmasti poistaa seuraavan tiedoston?</string>
+    <string name="ignored">Huomioimatta jätetty!</string>
+    <string name="uninstallApp">Poista asennus</string>
+    <string name="lblSelfTest">Kirjoita omavalvontatiedostot</string>
+    <string name="lblExtendedDatabaseToggle">Laajennettu tietokanta</string>
+    <string name="confirm_extended_title">Otetaanko laajennettu tietokanta käyttöön?</string>
+    <string name="confirm_update_title">Vahvista lataaminen</string>
+    <string name="confirm_update_summary">Näyttää siltä, että käytät laskutettavaa datayhteyttä. Oletko varma, että haluat päivittää tietokannat?
+\nLataus voi kuluttaa jopa %s megatavua dataa.</string>
+    <string name="lblUpdateRunning">Toiminta ohitettiin, päivitys on käynnissä!</string>
+    <string name="lblWroteTestFiles">Testitiedostot kirjoitettu!</string>
+    <string name="lblResetPrimary">Ensisijaiset palvelimet</string>
+    <string name="accessibility_service_label">Hypatia Linkkien tarkistaja</string>
+    <string name="lblNotificationLinkDetection">Haitallinen linkki havaittu:</string>
+    <string name="lblLinkScannerToggle">Linkkien tarkistus</string>
+    <string name="confirm_link_scanner_title">Ota linkkien tarkistus käyttöön?</string>
+    <string name="confirm_link_scanner_summary">[KOKEELLINEN]
+\nTämä lataa verkkotunnusten tietokannan.
+\nKaikki näytön sisällöstä löytyvät verkkotunnukset tarkistetaan tietokannasta.
+\nTämä edellyttää saavutettavuuspalvelun käyttöoikeuden myöntämistä manuaalisesti.
+\nTämä voi vaikuttaa merkittävästi suorituskykyyn silloin, kun näytöllä on paljon tekstiä.</string>
+    <string name="accessibility_service_description">Poimii verkkotunnukset kaikesta näytön tekstisisällöstä ja vertaa niitä estolistaan</string>
 </resources>
