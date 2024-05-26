@@ -3,7 +3,6 @@
     <string name="app_license">Licencia: GPL-3.0</string>
     <string name="app_version">Versión: %s</string>
     <string name="app_db_type_clamav">Con firmas del estilo de ClamAV</string>
-
     <string name="lblOnionRoutingToggle">Descarga a través de Tor</string>
     <string name="lblOnionRoutingEnabledHint">Descargando sobre Tor, esto puede tardar un rato...</string>
     <string name="lblOnionRoutingNotInstalled">¡Orbot no está instalado!</string>
@@ -24,7 +23,6 @@
     <string name="lblRealtimeScannerToggle">Escáner en tiempo real</string>
     <string name="lblReset">Reiniciar</string>
     <string name="lblOverride">Anular</string>
-
     <string name="main_database_updating">Actualizando las bases de datos %s...</string>
     <string name="main_database_override">Utilizando el servidor %s</string>
     <string name="main_database_download_success">Se ha descargado correctamente</string>
@@ -34,7 +32,6 @@
     <string name="main_database_not_changed">Archivo no modificado</string>
     <string name="main_database_not_modified_since">desde %s</string>
     <string name="main_database_download_error_logcat">No se ha podido descargar, compruebe el logcat</string>
-
     <string name="main_starting_scan">Empezando a escanear...</string>
     <string name="main_cancelling_scan">Cancelando el escaneo...</string>
     <string name="main_files_pending_scan">%s archivos pendientes de escanear</string>
@@ -74,4 +71,11 @@
     <string name="confirm_update_summary">Parece que estás en una conexión medida (límite de datos). ¿Seguro que desea actualizar las bases de datos?\nPuede descargar hasta %s megabytes de datos.</string>
     <string name="lblUpdateRunning">Omitiendo la acción, ¡se está ejecutando una actualización!</string>
     <string name="lblWroteTestFiles">¡Se escribieron los archivos de prueba!</string>
+    <string name="lblResetPrimary">Servidores principales</string>
+    <string name="lblNotificationLinkDetection">Enlace malicioso detectado:</string>
+    <string name="app_copyright">Derechos de autor 2017-2024 Divested Computing Group</string>
+    <string name="lblResetCloudflare">Espejo de Cloudflare</string>
+    <string name="accessibility_service_description">Extrae dominios de todo el contenido del texto de la pantalla y los compara con una lista de bloqueo</string>
+    <string name="lblLinkScannerToggle">Escáner de enlaces</string>
+    <string name="confirm_link_scanner_title">¿Habilitar el escáner de enlaces?</string>
 </resources>
