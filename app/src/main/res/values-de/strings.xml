@@ -4,7 +4,6 @@
     <string name="app_copyright">Urheberrecht 2017-2024 Divested Computing Group</string>
     <string name="app_version">Versionsnummer: %s</string>
     <string name="app_db_type_clamav">Basierend auf Signaturen im Stil von ClamAV</string>
-
     <string name="lblOnionRoutingToggle">Über Tor laden</string>
     <string name="lblOnionRoutingEnabledHint">Downloads werden zur Anonymisierung über das Tor-Netzwerk geleitet und können daher länger dauern.</string>
     <string name="lblOnionRoutingNotInstalled">Orbot ist nicht installiert!</string>
@@ -25,7 +24,6 @@
     <string name="lblRealtimeScannerToggle">Echtzeit-Scanner</string>
     <string name="lblReset">Zurücksetzen</string>
     <string name="lblOverride">Überschreiben</string>
-
     <string name="main_database_updating">%s Datenbank(en) wird/werden aktualisiert…</string>
     <string name="main_database_override">Datenbankserver %s wird genutzt</string>
     <string name="main_database_download_success">Erfolgreich heruntergeladen</string>
@@ -35,7 +33,6 @@
     <string name="main_database_not_changed">Keine Veränderung der Datenbank(en)</string>
     <string name="main_database_not_modified_since">seit %s</string>
     <string name="main_database_download_error_logcat">Download ist fehlgeschlagen. Details können im logcat eingesehen werden</string>
-
     <string name="main_starting_scan">Schadsoftware-Prüfung startet…</string>
     <string name="main_cancelling_scan">Prüfung wird abgebrochen…</string>
     <string name="main_files_pending_scan">%s Dateien sind zur Schadsoftware-Prüfung vorgesehen</string>
@@ -74,4 +71,6 @@
     <string name="confirm_update_summary">Sie laufen wahrscheinlich über eine getaktete Verbindung. Wollen Sie die Datenbanken wirklich aktualisieren? Es werden bis zu %s Megabytes heruntergeladen.</string>
     <string name="lblUpdateRunning">Vorhaben wurde übersprungen, ein aktiver Update läuft bereits!</string>
     <string name="lblWroteTestFiles">Selbsttest Dateien wurden geschrieben!</string>
+    <string name="lblResetPrimary">Primäre Server</string>
+    <string name="lblResetCloudflare">Cloudflare-Spiegelserver</string>
 </resources>
