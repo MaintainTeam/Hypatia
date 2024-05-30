@@ -4,7 +4,6 @@
     <string name="app_license">Lisans: GPL-3.0</string>
     <string name="app_version">Sürüm: %s</string>
     <string name="app_db_type_clamav">ClamAV tarzı imzalarla güçlendirilmiştir</string>
-
     <string name="lblOnionRoutingToggle">Tor üzerinden indir</string>
     <string name="lblOnionRoutingEnabledHint">Tor üzerinden indiriliyor, bu uzun sürebilir…</string>
     <string name="lblOnionRoutingNotInstalled">Orbot kurulu değil!</string>
@@ -25,7 +24,6 @@
     <string name="lblRealtimeScannerToggle">Gerçek Zamanlı Tarayıcı</string>
     <string name="lblReset">Sıfırla</string>
     <string name="lblOverride">Yerine Koy</string>
-
     <string name="main_database_updating">%s veri tabanı güncelleniyor…</string>
     <string name="main_database_override">%s sunucusu kullanılıyor</string>
     <string name="main_database_download_success">Başarıyla indirildi</string>
@@ -35,7 +33,6 @@
     <string name="main_database_not_changed">Dosya değiştirilmedi</string>
     <string name="main_database_not_modified_since">%s tarihinden beri</string>
     <string name="main_database_download_error_logcat">İndirme başarısız, logcat kontrolü yapın</string>
-
     <string name="main_starting_scan">Tarama başlatılıyor…</string>
     <string name="main_cancelling_scan">Tarama iptal ediliyor…</string>
     <string name="main_files_pending_scan">%s dosya taranmayı bekliyor</string>
@@ -75,4 +72,16 @@
     <string name="confirm_update_summary">Ölçümlü bir bağlantı kullanıyorsunuz gibi görünüyor. Veri tabanlarını güncellemek istediğinizden emin misiniz?\nBu, %s megabayta kadar veri indirebilir.</string>
     <string name="lblUpdateRunning">Faaliyet atlanıyor, bir güncelleme çalışmaktadır!</string>
     <string name="lblWroteTestFiles">Kendi kendini deneme dosyaları yazıldı!</string>
+    <string name="confirm_link_scanner_title">Bağlantı tarayıcısı etkinleştirilsin mi?</string>
+    <string name="lblResetPrimary">Birincil Sunucular</string>
+    <string name="accessibility_service_label">Hypatia Bağlantı Tarayıcısı</string>
+    <string name="lblResetCloudflare">Cloudflare Yansısı</string>
+    <string name="accessibility_service_description">Tüm metin ekran içeriğinden alan isimlerini çıkarır ve bunları bir engelleme listesiyle karşılaştırır</string>
+    <string name="lblNotificationLinkDetection">Kötücül Bağlantı Tespit Edildi:</string>
+    <string name="lblLinkScannerToggle">Bağlantı Tarayıcısı</string>
+    <string name="confirm_link_scanner_summary">[DENEYSEL]
+\nBu, ilave bir alan isimleri veri tabanı indirecektir.
+\nEkran içeriğinde bulunan her alan adı veri tabanıyla karşılaştırılacaktır.
+\nBu, erişilebilirlik hizmetine elle izin verilmesine ihtiyaç duyar.
+\nBüyük miktarda metin içeren ekranlarda, bunun performansa önemli olumsuz etkisi olabilir.</string>
 </resources>
