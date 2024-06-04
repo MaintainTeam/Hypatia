@@ -9,7 +9,7 @@
     <string name="lblOnionRoutingNotInstalled">Orbot 未安装！</string>
     <string name="lblUpdateDatabase">更新数据库</string>
     <string name="lblDatabaseServer">数据库服务器覆盖</string>
-    <string name="lblFullCredits">致谢名单</string>
+    <string name="lblFullCredits">致谢</string>
     <string name="lblScanSystem">扫描 /system</string>
     <string name="lblScanApps">扫描应用软件包</string>
     <string name="lblScanInternal">扫描内部存储空间</string>
