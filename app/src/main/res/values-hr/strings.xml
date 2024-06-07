@@ -77,4 +77,11 @@
 \nTo zahtijeva ručno dodjeljivanje dopuštenja usluge pristupačnosti.
 \nTo može imati značajan utjecaj na performanse na zaslonima s velikom količinom teksta.</string>
     <string name="app_copyright">Autorska prava 2017-2024 Divested Computing Group</string>
+    <string name="app_db_type_clamav">Pokreće potpise u stilu ClamAV</string>
+    <string name="main_database_download_error">Datoteka nije preuzeta, kod odgovora %s</string>
+    <string name="main_database_loaded">Učitana baza podataka s potpisima %s</string>
+    <string name="main_hash_scan_done">Provjereni su svi %s hashovi prema bazama podataka potpisa</string>
+    <string name="lblSigningKey">Ključ za potpisivanje baze podataka</string>
+    <string name="lblNoNetwork">Nema mrežne veze!</string>
+    <string name="main_hashing_done">Izračunati hashovi za sve datoteke</string>
 </resources>
