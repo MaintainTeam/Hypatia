@@ -8,7 +8,7 @@
     <string name="lblOnionRoutingEnabledHint">Baixando via Tor, isto pode demorar um pouco…</string>
     <string name="lblOnionRoutingNotInstalled">O Orbot não está instalado!</string>
     <string name="lblUpdateDatabase">Atualizar bancos de dados</string>
-    <string name="lblDatabaseServer">Alterar servidor do banco de dados</string>
+    <string name="lblDatabaseServer">Alterar o servidor do banco de dados</string>
     <string name="lblFullCredits">Créditos</string>
     <string name="lblScanSystem">Fazer scan em /system</string>
     <string name="lblScanApps">Fazer scan nos APKs dos apps</string>
@@ -25,7 +25,7 @@
     <string name="lblReset">Redefinir</string>
     <string name="lblOverride">Alterar</string>
     <string name="main_database_updating">Atualizando %s banco(s) de dados…</string>
-    <string name="main_database_override">Usando o servidor %s</string>
+    <string name="main_database_override">Usando servidor %s</string>
     <string name="main_database_download_success">Baixado com sucesso</string>
     <string name="main_database_download_error">Arquivo não foi baixado, código de resposta %s</string>
     <string name="main_no_database_available">Nenhum banco de dados disponível, o escaneamento não será feito…</string>
@@ -79,7 +79,7 @@
 \nPrecisa que a permissão de serviço de acessibilidade seja concedida manualmente.
 \nPode ter um impacto considerável em telas com grandes quantidades de texto.</string>
     <string name="lblResetPrimary">Servidores Primários</string>
-    <string name="lblResetCloudflare">Espelho da Cloudflare</string>
+    <string name="lblResetCloudflare">Espelho Cloudflare</string>
     <string name="accessibility_service_label">Scanner de Links do Hypatia</string>
     <string name="accessibility_service_description">Extrai domínios de todo o conteúdo de texto da tela e verifica se estão numa lista de bloqueio</string>
     <string name="lblNotificationLinkDetection">Link Malicioso Detectado:</string>
