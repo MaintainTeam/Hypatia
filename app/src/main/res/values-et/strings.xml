@@ -3,4 +3,7 @@
     <string name="app_license">Litsents: GPL-3.0</string>
     <string name="app_version">Versioon: %s</string>
     <string name="app_copyright">Autoriõigused 2017-2024 Divested Computing Group</string>
+    <string name="main_database_override">Kasutame serverit %s</string>
+    <string name="lblResetPrimary">Põhiserverid</string>
+    <string name="lblResetCloudflare">Cloudflare peegelserver</string>
 </resources>
