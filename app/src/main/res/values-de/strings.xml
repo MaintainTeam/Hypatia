@@ -2,14 +2,14 @@
 <resources>
     <string name="app_license">Lizenz: GPL-3.0</string>
     <string name="app_copyright">Urheberrecht 2017-2024 Divested Computing Group</string>
-    <string name="app_version">Versionsnummer: %s</string>
+    <string name="app_version">Version: %s</string>
     <string name="app_db_type_clamav">Basierend auf Signaturen im Stil von ClamAV</string>
-    <string name="lblOnionRoutingToggle">Über Tor laden</string>
-    <string name="lblOnionRoutingEnabledHint">Downloads werden zur Anonymisierung über das Tor-Netzwerk geleitet und können daher länger dauern.</string>
+    <string name="lblOnionRoutingToggle">Downloads via Tor</string>
+    <string name="lblOnionRoutingEnabledHint">Downloads via Tor, dies könnte etwas dauern…</string>
     <string name="lblOnionRoutingNotInstalled">Orbot ist nicht installiert!</string>
     <string name="lblUpdateDatabase">Datenbank aktualisieren</string>
     <string name="lblDatabaseServer">Datenbankserver überschreiben</string>
-    <string name="lblFullCredits">Mitwirkende</string>
+    <string name="lblFullCredits">Danksagung</string>
     <string name="lblScanSystem">/system scannen</string>
     <string name="lblScanApps">APK-Dateien scannen</string>
     <string name="lblScanInternal">Internen Speicher scannen</string>
@@ -41,7 +41,7 @@
     <string name="main_hashing_files">Generiere Prüfsummen der Dateien…</string>
     <string name="main_hashing_done">Prüfsummen für alle Dateien generiert</string>
     <string name="main_hash_scan_done">Alle %s Prüfsummen wurden mit den Signaturen der Datenbank(en) verglichen</string>
-    <string name="main_scanning_done">Überprüfung nach %s Sekunden und bei %sMB/s abgeschlossen</string>
+    <string name="main_scanning_done">Überprüfung nach %s Sekunden und mit %sMB/s abgeschlossen!</string>
     <string name="main_files_scanned_count">%s Dateien überprüft</string>
     <string name="scan_control">Scan Steuerung</string>
     <string name="lblScanRunning">Vorhaben wurde übersprungen, ein aktiver Scan läuft bereits!</string>
@@ -68,15 +68,21 @@
     <string name="lblExtendedDatabaseToggle">Erweiterte Datenbank laden</string>
     <string name="confirm_extended_title">Erweiterte Datenbank aktivieren?</string>
     <string name="confirm_extended_summary">[EXPERIMENTELL]\nDiese Funktion ermöglicht das erkennen weiterer ~40 Millionen Signaturen.\nDies erfordert den Download von 125MB, eine über zweiminütige vorbereitung beim jeweiligen ersten Scan und eine hohe Anzahl falscher Schadsoftware funde.\nDiese Datenbank wird nur vierteljährlich aktualisiert.</string>
-    <string name="confirm_update_summary">Sie laufen wahrscheinlich über eine getaktete Verbindung. Wollen Sie die Datenbanken wirklich aktualisieren? Es werden bis zu %s Megabytes heruntergeladen.</string>
+    <string name="confirm_update_summary">Es scheint als laufen Sie über eine getaktete Verbindung. Soll die Datenbank wirklich aktualisiert werden?
+\nDies könnte bis zu %s Megabytes an Daten herunterladen.</string>
     <string name="lblUpdateRunning">Vorhaben wurde übersprungen, ein aktiver Update läuft bereits!</string>
     <string name="lblWroteTestFiles">Selbsttest Dateien wurden geschrieben!</string>
     <string name="lblResetPrimary">Primärer Server</string>
     <string name="lblResetCloudflare">Cloudflare Mirror/Spiegel</string>
-    <string name="confirm_update_title">Herunterladen bestätigen</string>
+    <string name="confirm_update_title">Download bestätigen</string>
     <string name="accessibility_service_label">Hypatia Link Scanner</string>
-    <string name="accessibility_service_description">Entnimmt Domain Addresen von allen text inhalten des Bildschirms und vergleicht diese gegen die Blockierliste</string>
-    <string name="lblNotificationLinkDetection">Bösartiger Link entdeckt:</string>
+    <string name="accessibility_service_description">Entinmmt Webaddressen vom Text des Bildschirminhalts und vergleicht diese gegen die Blockierliste</string>
+    <string name="lblNotificationLinkDetection">Bösartiger Link erkannt:</string>
     <string name="lblLinkScannerToggle">Link Scanner</string>
     <string name="confirm_link_scanner_title">Link Scanner aktivieren?</string>
+    <string name="confirm_link_scanner_summary">[EXPERIMENTELL]
+\nDiese funktion wird eine zusätzliche Webaddressen-Datenbank herunterladen.
+\nJegliche erkannte Webaddresse im Bildschirminhalt wird mittels dieser Datenbank verglichen.
+\nDiese funktion benötigt das manuelle freigeben der Android \"Bedienungshilfe-Berechtigung\".
+\nDiese funktion kann bei Bildschirminhalten mit viel Text einen großen einfluss auf die Geräteleistung verusachen.</string>
 </resources>
