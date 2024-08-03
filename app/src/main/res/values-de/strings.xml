@@ -51,8 +51,8 @@
     <string name="self_test_result_failure">Der Selbsttest ist fehlgeschlagen!</string>
     <string name="lblDatabaseLoading">Vorhaben wurde übersprungen, Datenbank wird geladen!</string>
     <string name="lblDatabasesUpdated">Alle Datenbanken wurden aktualisiert!</string>
-    <string name="lookupVT">Suchen</string>
-    <string name="deleteFile">Löschen</string>
+    <string name="lookupVT">Nachschauen</string>
+    <string name="deleteFile">Entfernen</string>
     <string name="deleted">Gelöscht!</string>
     <string name="ignoreDetection">Ignorieren</string>
     <string name="detections_none">Keine Schadsoftware gefunden :)</string>
