@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_license">Lizenz: GPL-3.0</string>
+    <string name="app_license">Lizenz: AGPL-3.0-or-later</string>
     <string name="app_copyright">Urheberrecht 2017-2024 Divested Computing Group</string>
     <string name="app_version">Versionsnummer: %s</string>
     <string name="app_db_type_clamav">Basierend auf Signaturen im Stil von ClamAV</string>

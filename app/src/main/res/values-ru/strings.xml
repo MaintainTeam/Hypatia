@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_license">Лицензия: GPL-3.0</string>
+    <string name="app_license">Лицензия: AGPL-3.0-or-later</string>
     <string name="app_version">Версия: %s</string>
     <string name="app_db_type_clamav">Используются сигнатуры от ClamAV</string>
 
