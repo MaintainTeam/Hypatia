@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name" translatable="false">Hypatia</string>
     <string name="app_copyright">Copyright 2017-2024 Divested Computing Group</string>
-    <string name="app_license">License: AGPL-3.0-or-later</string>
+    <string name="app_license">License: GPL-3.0</string>
     <string name="app_version">Version: %s</string>
     <string name="app_db_type_clamav">Powered by ClamAV style signatures</string>
 
