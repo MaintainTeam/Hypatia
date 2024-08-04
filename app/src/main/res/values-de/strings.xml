@@ -52,7 +52,7 @@
     <string name="lblDatabaseLoading">Vorhaben wurde übersprungen, Datenbank wird geladen!</string>
     <string name="lblDatabasesUpdated">Alle Datenbanken wurden aktualisiert!</string>
     <string name="lookupVT">Nachschauen</string>
-    <string name="deleteFile">Entfernen</string>
+    <string name="deleteFile">Löschen</string>
     <string name="deleted">Gelöscht!</string>
     <string name="ignoreDetection">Ignorieren</string>
     <string name="detections_none">Keine Schadsoftware gefunden :)</string>
