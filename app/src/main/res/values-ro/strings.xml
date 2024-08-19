@@ -44,4 +44,19 @@
     <string name="lblScanInternal">Scanează stocarea internă</string>
     <string name="lblOnionRoutingEnabledHint">Se descarcă prin Tor, asta poate dura un timp…</string>
     <string name="main_database_not_changed">Fișierul a rămas neschimbat</string>
+    <string name="app_copyright">Drepturi de autor 2017-2024 Divested Computing Group</string>
+    <string name="app_license">Licență: GPL-3.0</string>
+    <string name="app_db_type_clamav">Se utilizează semnături de tip ClamAV</string>
+    <string name="lblFullCredits">Credite</string>
+    <string name="lblNotificationRealtimeTitle">Scaner in timp real</string>
+    <string name="lblNotificationRealtimeText">Malware-urile cunoscute vor fi detectate in timp real</string>
+    <string name="lblNotificationRealtimeStopped">Hypatia: Scanarea în timp real a fost oprită</string>
+    <string name="lblRealtimeScannerToggle">Scaner in timp real</string>
+    <string name="main_database_override">Se utilizează server-ul %s</string>
+    <string name="main_database_download_error">Fișierul nu a fost descărcat, cod de răspuns %s</string>
+    <string name="main_no_database_available">Nicio bază de date disponibilă, scanare anulată…</string>
+    <string name="main_database_not_modified_since">din data de %s</string>
+    <string name="main_database_download_error_logcat">Descărcare eșuată, verificați logcat</string>
+    <string name="lblSigningKey">Cheia de semnare a bazei de date</string>
+    <string name="lblDatabaseLoading">Acțiunea a fost ignorată, bază de date in curs de încărcare!</string>
 </resources>
