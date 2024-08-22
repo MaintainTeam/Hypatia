@@ -36,7 +36,7 @@
     <string name="delete_failed">Ștergere eșuată!</string>
     <string name="ignored">Ignorat!</string>
     <string name="confirm_update_title">Confirma-ți descărcarea</string>
-    <string name="lblResetPrimary">Servere principale</string>
+    <string name="lblResetPrimary">Serverele principale</string>
     <string name="lblLinkScannerToggle">Link Scanner</string>
     <string name="app_version">Versiune: %s</string>
     <string name="lblNotificationRealtimeDetection">Malware Detectat:</string>
@@ -52,11 +52,19 @@
     <string name="lblNotificationRealtimeText">Malware-urile cunoscute vor fi detectate in timp real</string>
     <string name="lblNotificationRealtimeStopped">Hypatia: Scanarea în timp real a fost oprită</string>
     <string name="lblRealtimeScannerToggle">Scaner in timp real</string>
-    <string name="main_database_override">Se utilizează server-ul %s</string>
+    <string name="main_database_override">Se utilizează serverul %s</string>
     <string name="main_database_download_error">Fișierul nu a fost descărcat, cod de răspuns %s</string>
     <string name="main_no_database_available">Nicio bază de date disponibilă, scanare anulată…</string>
     <string name="main_database_not_modified_since">din data de %s</string>
     <string name="main_database_download_error_logcat">Descărcare eșuată, verificați logcat</string>
     <string name="lblSigningKey">Cheia de semnare a bazei de date</string>
     <string name="lblDatabaseLoading">Acțiunea a fost ignorată, bază de date in curs de încărcare!</string>
+    <string name="lblNotificationMalwareDetectionDescription">Utilizat pentru a alerta când este detectat malware</string>
+    <string name="lblOverride">Suprascriere</string>
+    <string name="main_hashing_done">Hash-ul calculat pentru toate fișierele</string>
+    <string name="confirm_lookup_summary">Sunteți sigur(ă) că doriți să deschideți VirusTotal.com în browserul dvs. web cu următorul hash?</string>
+    <string name="lblResetCloudflare">Server Cloudflare</string>
+    <string name="confirm_update_summary">Se pare că aveți o conexiune contorizată. Sunteți sigur(ă) că doriți să actualizați bazele de date?
+\nSe pot descărca până la %s megabiti de date.</string>
+    <string name="accessibility_service_description">Extrage domeniile din tot conținutul text al ecranului și le verifică în raport cu o listă neagră</string>
 </resources>
