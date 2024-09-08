@@ -68,13 +68,13 @@ public class Main {
     public static void main(String[] args) {
         extendedMode = args[0].contains("-extended");
         //isFileInNsrl("B61905308B336AD268A782790B661616");
-        int amtMaxMD5 = 7200000; //7.2m
+        int amtMaxMD5 = 7600000; //7.6m
         if (extendedMode) {
             amtMaxMD5 = 52000000; //52m
         }
-        int amtMaxSHA1 = 50000; //50k
-        int amtMaxSHA256 = 2000000; //2m
-        int amtMaxDomains = 4200000; //4.2m
+        int amtMaxSHA1 = 100000; //100k
+        int amtMaxSHA256 = 2200000; //2.2m
+        int amtMaxDomains = 4500000; //4.5m
         signaturesMD5 = BloomFilter.create(Funnels.stringFunnel(Charsets.US_ASCII), amtMaxMD5, 0.00001);
         signaturesSHA1 = BloomFilter.create(Funnels.stringFunnel(Charsets.US_ASCII), amtMaxSHA1, 0.00001);
         signaturesSHA256 = BloomFilter.create(Funnels.stringFunnel(Charsets.US_ASCII), amtMaxSHA256, 0.00001);
@@ -105,6 +105,7 @@ public class Main {
                     }
                     if (!line.startsWith("#") && isHexadecimal(line) && (line.length() == 32 || line.length() == 40 || line.length() == 64)) {
                         arrExclusions.add(line);
+
                         //System.out.println("\t\tAdded: " + line);
                     }
                 }
@@ -115,6 +116,8 @@ public class Main {
         }
         System.out.println("\tLoaded " + arrExclusions.size() + " excluded hashes");
 
+        int amtDomainsRead = 0;
+        int amtDomainsAdded = 0;
         if (args.length == 2 && !extendedMode) {
             System.out.println("Processing domains:");
             File domainDatabase = new File(args[1]);
@@ -125,7 +128,9 @@ public class Main {
                         String line = s.nextLine().trim().toLowerCase();
                         if (!line.startsWith("#")) {
                             domains.put(line);
+                            amtDomainsAdded++;
                         }
+                        amtDomainsRead++;
                     }
                     s.close();
                 } catch (Exception e) {
@@ -194,17 +199,17 @@ public class Main {
         }
 
         System.out.println("Lines read: valid: " + amtLinesValid + ", invalid: " + amtLinesInvalid);
-        System.out.println("Read count: md5: " + amtSignaturesReadMD5 + ", sha1: " + amtSignaturesReadSHA1 + ", sha256: " + amtSignaturesReadSHA256);
-        System.out.println("Added count: md5: " + amtSignaturesAddedMD5 + ", sha1: " + amtSignaturesAddedSHA1 + ", sha256: " + amtSignaturesAddedSHA256);
-        System.out.println("Approximate count: md5: " + signaturesMD5.approximateElementCount() + ", sha1: " + signaturesSHA1.approximateElementCount() + ", sha256: " + signaturesSHA256.approximateElementCount());
+        System.out.println("Read count: md5: " + amtSignaturesReadMD5 + ", sha1: " + amtSignaturesReadSHA1 + ", sha256: " + amtSignaturesReadSHA256 + ", domains: " + amtDomainsRead);
+        System.out.println("Added count: md5: " + amtSignaturesAddedMD5 + ", sha1: " + amtSignaturesAddedSHA1 + ", sha256: " + amtSignaturesAddedSHA256 + ", domains: " + amtDomainsAdded);
+        System.out.println("Approximate count: md5: " + signaturesMD5.approximateElementCount() + ", sha1: " + signaturesSHA1.approximateElementCount() + ", sha256: " + signaturesSHA256.approximateElementCount() + ", domains: " + domains.approximateElementCount());
         if (extendedMode) {
             System.out.println("Deduped count: md5: " + amtSignaturesDedupedMD5);
         }
-        System.out.println("Max amount: md5: " + amtMaxMD5 + ", sha1: " + amtMaxSHA1 + ", sha256: " + amtMaxSHA256);
-        System.out.println("Fill amount: md5: " + ((100F / amtMaxMD5) * amtSignaturesAddedMD5) + "%, sha1: " + ((100F / amtMaxSHA1) * amtSignaturesAddedSHA1) + "%, sha256: " + ((100F / amtMaxSHA256) * amtSignaturesAddedSHA256) + "%");
+        System.out.println("Max amount: md5: " + amtMaxMD5 + ", sha1: " + amtMaxSHA1 + ", sha256: " + amtMaxSHA256 + ", domains: " + amtMaxDomains);
+        System.out.println("Fill amount: md5: " + ((100F / amtMaxMD5) * amtSignaturesAddedMD5) + "%, sha1: " + ((100F / amtMaxSHA1) * amtSignaturesAddedSHA1) + "%, sha256: " + ((100F / amtMaxSHA256) * amtSignaturesAddedSHA256) + "%, domains: " + ((100F / amtMaxDomains) * amtDomainsAdded) + "%");
 
         System.out.println("App reported count: " + (signaturesMD5.approximateElementCount() + signaturesSHA1.approximateElementCount() + signaturesSHA256.approximateElementCount()));
-        System.out.println("Expected false postive rate: md5: " + signaturesMD5.expectedFpp() + ", sha1: " + signaturesSHA1.expectedFpp() + ", sha256: " + signaturesSHA256.expectedFpp());
+        System.out.println("Expected false postive rate: md5: " + signaturesMD5.expectedFpp() + ", sha1: " + signaturesSHA1.expectedFpp() + ", sha256: " + signaturesSHA256.expectedFpp() + ", domains: " + domains.expectedFpp());
         System.out.println("Testing exclusions:");
         int matchedExclusions = 0;
         for (String excluded : arrExclusions) {
