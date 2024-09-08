@@ -63,7 +63,7 @@ public class Main {
 
     private static boolean extendedMode = false;
 
-    private static ArrayList<String> arrExclusions = new ArrayList<String>();
+    public static final Set<String> arrExclusions = new HashSet<>();
 
     public static void main(String[] args) {
         extendedMode = args[0].contains("-extended");
@@ -105,7 +105,6 @@ public class Main {
                     }
                     if (!line.startsWith("#") && isHexadecimal(line) && (line.length() == 32 || line.length() == 40 || line.length() == 64)) {
                         arrExclusions.add(line);
-
                         //System.out.println("\t\tAdded: " + line);
                     }
                 }
