@@ -1,2 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_copyright">版權所有 2017-2024 Divested Computing Group</string>
+    <string name="app_license">授權： GPL-3.0</string>
+    <string name="app_version">版本： %s</string>
+    <string name="app_db_type_clamav">由 ClamAV 資料庫特徵提供支援</string>
+    <string name="lblOnionRoutingToggle">透過 Tor 下載</string>
+    <string name="lblOnionRoutingEnabledHint">正在透過 Tor 下載，這可能需要一點時間…</string>
+    <string name="lblOnionRoutingNotInstalled">Orbit 未安裝！</string>
+    <string name="lblUpdateDatabase">更新資料庫</string>
+    <string name="lblDatabaseServer">資料庫伺服器複寫</string>
+    <string name="lblFullCredits">致謝</string>
+    <string name="lblScanSystem">掃描 /system</string>
+</resources>
