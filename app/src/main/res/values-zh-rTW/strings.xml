@@ -40,4 +40,7 @@
     <string name="main_hashing_files">正在計算檔案哈希值…</string>
     <string name="main_hashing_done">已計算所有檔案的哈希值</string>
     <string name="main_database_download_error">檔案未下載，回應代碼 %s</string>
+    <string name="main_scanning_done">掃描在 %s 秒內完成 @ %sMB/s！</string>
+    <string name="main_files_scanned_count">已掃描 %s 個檔案</string>
+    <string name="scan_control">掃描控制</string>
 </resources>
