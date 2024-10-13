@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_license">الترخيص: GPL-3.0</string>
+    <string name="app_version">الاصدار: %s</string>
+    <string name="lblOnionRoutingToggle">قم بالتنزيل عبر Tor</string>
+    <string name="lblOnionRoutingEnabledHint">التنزيل عبر Tor، قد يستغرق هذا بعض الوقت…</string>
+    <string name="lblOnionRoutingNotInstalled">لم يتم تثبيت Orbot !</string>
+    <string name="lblUpdateDatabase">تحديث قواعد البيانات</string>
+    <string name="lblDatabaseServer">تجاوز خادم قاعدة البيانات</string>
+    <string name="lblScanSystem">مسح / النظام</string>
+    <string name="lblScanApps">مسح ملفات APK للتطبيقات</string>
+</resources>
