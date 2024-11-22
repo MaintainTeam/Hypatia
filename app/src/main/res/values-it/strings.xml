@@ -8,7 +8,7 @@
     <string name="lblOnionRoutingNotInstalled">Orbot non è installato!</string>
     <string name="lblUpdateDatabase">Aggiorna i database</string>
     <string name="lblDatabaseServer">Modifica il server dei database</string>
-    <string name="lblFullCredits">Crediti</string>
+    <string name="lblFullCredits">Riconoscimenti</string>
     <string name="lblScanSystem">Scansiona le app di sistema</string>
     <string name="lblScanApps">Scansiona le app</string>
     <string name="lblScanInternal">Scansiona la memoria interna</string>
@@ -81,4 +81,5 @@
     <string name="accessibility_service_label">Scanner di link di Hypatia</string>
     <string name="accessibility_service_description">Estrae i domini dal testo visualizzato a schermo verifica se compaiono su una lista nera</string>
     <string name="lblLinkScannerToggle">Scanner di link</string>
+    <string name="app_copyright">Copyright 2017-2024 di Divested Computing Group</string>
 </resources>
