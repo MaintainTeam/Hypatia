@@ -87,4 +87,5 @@
 \nTämä edellyttää saavutettavuuspalvelun käyttöoikeuden myöntämistä manuaalisesti.
 \nTämä voi vaikuttaa merkittävästi suorituskykyyn silloin, kun näytöllä on paljon tekstiä.</string>
     <string name="accessibility_service_description">Poimii verkkotunnukset kaikesta näytön tekstisisällöstä ja vertaa niitä estolistaan</string>
+    <string name="lblResetCloudflare">Cloudflare-peili</string>
 </resources>
