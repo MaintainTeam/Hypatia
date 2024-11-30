@@ -69,29 +69,36 @@ Credits
 - MalwareBazaar for extra databases (CC0)
 - RecursiveFileObserver.java (GPL-3.0-or-later): Daniel Gultsch, ownCloud Inc., Bartek Przybylski
 - GPGDetachedSignatureVerifier.java (GPL-2.0-or-later): Federico Fissore, Arduino LLC
-- Petra Mirelli for the German/Spanish/Italian translations, the app banner/feature graphic, and various tweaks.
-- Jean-Luc Tibaux and Petra Mirelli for the French translations.
-- @srccrow for the Italian translations.
-- @inkhorn for the Portuguese translations.
-- @jontaix for Portuguese translations.
-- @lucasmz for Brazilian Portuguese translations.
-- @q1011 for the Russian translations.
-- Oswald van Ginkel for the Afrikaans translations.
-- huuhaa for the Finnish translations.
-- Marcin Mikołajczak for Polish translations.
-- @Manuel-Senpai for the Spanish translations.
-- @Balthazar1234 for German translations.
-- @Sdarfeesh for the simplified Chinese translations.
-- @cardpuncher for French and the Turkish translations.
-- Tommaso Fonda for Italian translations.
-- Dimitris Vagiakakos for the Greek translations.
-- @gallegonovato for the Spanish translations.
-- @Fjuro for the Czech translations.
-- @thereisnoanderson for German translations.
-- @ghose for the Galician translations.
-- @yurtpage: Russian Translation
+- Petra Mirelli for the app banner/feature graphic and various tweaks.
 - @eloitor: Translations work
 - Icons: Google/Android/AOSP, License: Apache 2.0, https://google.github.io/material-design-icons/
+
+Translations
+------------
+- Afrikaans: Oswald van Ginkel
+- Arabic: abdelbasset jabrane, ABDO GM
+- Chinese (Simplified): Sdarfeesh, Crit, 大王叫我来巡山
+- Chinese (Traditional Han script): 張可揚
+- Croatian: lukapiplica
+- Czech: Fjuro
+- Estonian: Priit Jõerüüt
+- Finnish: huuhaa, Ricky Tigg
+- French: cardpuncher, Jean-Luc Tibaux, Petra Mirelli, thraex
+- Galician: ghose, josé m
+- German: thereisnoanderson, Balthazar1234, Petra Mirelli, Ettore Atalan
+- Greek: Dimitris Vagiakakos
+- Indonesian: Adrien N
+- Italian: Tommaso Fonda, srccrow, Petra Mirelli, Dark Space
+- Japanese: honyaku
+- Polish: Marcin Mikołajczak
+- Portuguese (Brazil): lucasmz
+- Portuguese: jontaix, inkhorn, ssantos
+- Romanian: Renko
+- Russian: yurtpage, q1011, Andrey
+- Slovak: Pa Di
+- Spanish: gallegonovato, Manuel-Senpai, Petra Mirelli
+- Turkish: cardpuncher
+- Ukrainian: Fqwe1
 
 Notices
 -------

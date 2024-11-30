@@ -1,0 +1,17 @@
+Translation updates thanks to the following contributors:
+- Arabic: abdelbasset jabrane, ABDO GM
+- Chinese (Simplified): Crit, 大王叫我来巡山
+- Chinese (Traditional Han script): 張可揚
+- Croatian: lukapiplica
+- Estonian: Priit Jõerüüt
+- Finnish: Ricky Tigg
+- German: thereisnoanderson, Ettore Atalan
+- Indonesian: Adrien N
+- Italian: Tommaso Fonda, Dark Space
+- Japanese: honyaku
+- Portuguese: ssantos
+- Romanian: Renko
+- Russian: Andrey
+- Slovak: Pa Di
+- Spanish: gallegonovato
+- Ukrainian: Fqwe1
