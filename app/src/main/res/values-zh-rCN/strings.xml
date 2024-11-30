@@ -4,13 +4,12 @@
     <string name="app_license">许可证：GPL-3.0</string>
     <string name="app_version">版本：%s</string>
     <string name="app_db_type_clamav">由 ClamAV 数据库特征码提供支持</string>
-
     <string name="lblOnionRoutingToggle">通过 Tor 下载</string>
     <string name="lblOnionRoutingEnabledHint">正在通过 Tor 下载，这可能需要一段时间…</string>
     <string name="lblOnionRoutingNotInstalled">Orbot 未安装！</string>
     <string name="lblUpdateDatabase">更新数据库</string>
     <string name="lblDatabaseServer">数据库服务器覆盖</string>
-    <string name="lblFullCredits">致谢名单</string>
+    <string name="lblFullCredits">致谢</string>
     <string name="lblScanSystem">扫描 /system</string>
     <string name="lblScanApps">扫描应用软件包</string>
     <string name="lblScanInternal">扫描内部存储空间</string>
@@ -25,7 +24,6 @@
     <string name="lblRealtimeScannerToggle">实时扫描</string>
     <string name="lblReset">重置</string>
     <string name="lblOverride">覆盖</string>
-
     <string name="main_database_updating">正在更新 %s 个数据库…</string>
     <string name="main_database_override">使用服务器 %s</string>
     <string name="main_database_download_success">下载成功</string>
@@ -35,7 +33,6 @@
     <string name="main_database_not_changed">文件无变更</string>
     <string name="main_database_not_modified_since">（%s 以来）</string>
     <string name="main_database_download_error_logcat">下载失败，查看 Logcat</string>
-
     <string name="main_starting_scan">开始扫描…</string>
     <string name="main_cancelling_scan">正在取消扫描…</string>
     <string name="main_files_pending_scan">%s 个文件等待扫描</string>
@@ -48,4 +45,49 @@
     <string name="main_files_scanned_count">已扫描 %s 个文件</string>
     <string name="scan_control">扫描控制</string>
     <string name="lblScanRunning">跳过操作，扫描正在运行！</string>
+    <string name="self_test_result_success">自检成功.</string>
+    <string name="ignoreDetection">忽略</string>
+    <string name="confirm_extended_summary">【实验性功能】
+\n启用此功能将增加对约4000万个病毒特征码的检测能力。
+\n- 这需要下载200MB的数据。
+\n- 会使应用启动时间增加两分钟以上。
+\n- 会增加应用内存占用和误报率。
+\n此数据库每季度更新一次。</string>
+    <string name="confirm_delete_title">确定删除</string>
+    <string name="confirm_update_summary">您似乎正在使用按流量计费的网络连接。您确定要更新数据库吗？
+\n这可能下载最多 %s MB 的数据，并可能产生额外费用。</string>
+    <string name="confirm_lookup_summary">确定在浏览器中打开VirusTotal.com并提交以下哈希值吗？</string>
+    <string name="lblSigningKey">数据库签名密钥</string>
+    <string name="lblNoNetwork">没有网络连接！</string>
+    <string name="self_test_result_failure">自检失败！</string>
+    <string name="lblDatabasesUpdated">所有数据库已更新！</string>
+    <string name="uninstallApp">卸载</string>
+    <string name="deleteFile">删除</string>
+    <string name="deleted">已删除！</string>
+    <string name="detections_none">未找到匹配项 :)</string>
+    <string name="detections_found">找到匹配项！:(</string>
+    <string name="ignored">已忽略！</string>
+    <string name="confirm_delete_summary">您确定要删除以下文件吗？</string>
+    <string name="delete_failed">删除失败！</string>
+    <string name="confirm_update_title">确定下载</string>
+    <string name="lblResetCloudflare">Cloudflare镜像</string>
+    <string name="lblExtendedDatabaseToggle">增强版数据库</string>
+    <string name="lblResetPrimary">主服务器</string>
+    <string name="lblNotificationLinkDetection">检测到恶意链接：</string>
+    <string name="confirm_extended_title">启用增强版数据库？</string>
+    <string name="lblSelfTest">编写自检文件</string>
+    <string name="lblUpdateRunning">当前正在进行更新，请等待更新完成再进行其他操作！</string>
+    <string name="lblWroteTestFiles">自检文件已编写！</string>
+    <string name="lblLinkScannerToggle">链接扫描器</string>
+    <string name="confirm_link_scanner_title">启用链接扫描器？</string>
+    <string name="accessibility_service_label">Hypatia链接扫描器</string>
+    <string name="confirm_link_scanner_summary">[实验性功能]
+\n此功能将下载一个额外的域名数据库。
+\n在屏幕内容中找到的任何域名都将与该数据库进行比对。
+\n这需要手动授予辅助功能服务权限。
+\n这可能会对包含大量文本的屏幕产生显著的性能影响。</string>
+    <string name="lblDatabaseLoading">当前正在加载数据库，请等待更新完成再进行其他操作！</string>
+    <string name="accessibility_service_description">从所有屏幕文本内容中提取域名，并比对屏蔽列表进行检查</string>
+    <string name="confirm_lookup_title">确定查询</string>
+    <string name="lookupVT">查询</string>
 </resources>

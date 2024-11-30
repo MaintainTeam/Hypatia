@@ -3,9 +3,8 @@
     <string name="app_license">Licencia: GPL-3.0</string>
     <string name="app_version">Versión: %s</string>
     <string name="app_db_type_clamav">Con firmas del estilo de ClamAV</string>
-
     <string name="lblOnionRoutingToggle">Descarga a través de Tor</string>
-    <string name="lblOnionRoutingEnabledHint">Descargando sobre Tor, esto puede tardar un rato...</string>
+    <string name="lblOnionRoutingEnabledHint">Descargando a través de Tor, esto puede tardar un poco…</string>
     <string name="lblOnionRoutingNotInstalled">¡Orbot no está instalado!</string>
     <string name="lblUpdateDatabase">Actualizar las bases de datos</string>
     <string name="lblDatabaseServer">Sustitución del servidor de las bases de datos</string>
@@ -19,12 +18,11 @@
     <string name="lblNotificationRealtimeTitle">Escáner en tiempo real</string>
     <string name="lblNotificationRealtimeDescription">Se utiliza para mostrar el contador de archivos escaneados y mantener el servicio en segundo plano</string>
     <string name="lblNotificationRealtimeText">El software malicioso conocido se detecta en tiempo real</string>
-    <string name="lblNotificationRealtimeStopped">Hypatia: Detenida la exploración en tiempo real</string>
+    <string name="lblNotificationRealtimeStopped">Hypatia: Escaneo en tiempo real detenido</string>
     <string name="lblNotificationRealtimeDetection">Software malicioso detectado:</string>
     <string name="lblRealtimeScannerToggle">Escáner en tiempo real</string>
     <string name="lblReset">Reiniciar</string>
     <string name="lblOverride">Anular</string>
-
     <string name="main_database_updating">Actualizando las bases de datos %s...</string>
     <string name="main_database_override">Utilizando el servidor %s</string>
     <string name="main_database_download_success">Se ha descargado correctamente</string>
@@ -34,21 +32,20 @@
     <string name="main_database_not_changed">Archivo no modificado</string>
     <string name="main_database_not_modified_since">desde %s</string>
     <string name="main_database_download_error_logcat">No se ha podido descargar, compruebe el logcat</string>
-
-    <string name="main_starting_scan">Empezando a escanear...</string>
+    <string name="main_starting_scan">Iniciando el escaneo…</string>
     <string name="main_cancelling_scan">Cancelando el escaneo...</string>
     <string name="main_files_pending_scan">%s archivos pendientes de escanear</string>
     <string name="main_database_loading">Cargando la base de datos...</string>
     <string name="main_database_loaded">Base de datos cargada con %s firmas</string>
     <string name="main_hashing_files">Archivos hash…</string>
     <string name="main_hashing_done">Hashes calculados para todos los archivos</string>
-    <string name="main_hash_scan_done">Comprobados todos los hashes %s con las bases de datos de las firmas</string>
+    <string name="main_hash_scan_done">Comprobados todos los %s hashes con las bases de datos de las firmas</string>
     <string name="main_scanning_done">¡Análisis completado en %s segundos @ %sMB/s!</string>
-    <string name="main_files_scanned_count">%s archivos escaneados</string>
+    <string name="main_files_scanned_count">%s archivos analizados</string>
     <string name="scan_control">Control del escaneo</string>
     <string name="lblScanRunning">Omitiendo la acción, ¡se está ejecutando un escaneo!</string>
     <string name="lblSigningKey">Clave de la firma de la base de datos</string>
-    <string name="lblNoNetwork">¡Ninguna red conectada!</string>
+    <string name="lblNoNetwork">¡Sin conexión a Internet!</string>
     <string name="self_test_result_success">Autocomprobación realizada con éxito.</string>
     <string name="self_test_result_failure">¡Autocomprobación fallida!</string>
     <string name="lblDatabaseLoading">Omitiendo la acción, ¡la base de datos se está cargando!</string>
@@ -74,4 +71,17 @@
     <string name="confirm_update_summary">Parece que estás en una conexión medida (límite de datos). ¿Seguro que desea actualizar las bases de datos?\nPuede descargar hasta %s megabytes de datos.</string>
     <string name="lblUpdateRunning">Omitiendo la acción, ¡se está ejecutando una actualización!</string>
     <string name="lblWroteTestFiles">¡Se escribieron los archivos de prueba!</string>
+    <string name="lblResetPrimary">Servidores principales</string>
+    <string name="lblNotificationLinkDetection">Enlace malicioso detectado:</string>
+    <string name="app_copyright">Derechos de autor 2017-2024 Divested Computing Group</string>
+    <string name="lblResetCloudflare">Espejo de Cloudflare</string>
+    <string name="accessibility_service_description">Extrae dominios de todo el contenido del texto de la pantalla y los compara con una lista de bloqueo</string>
+    <string name="lblLinkScannerToggle">Escáner de enlaces</string>
+    <string name="confirm_link_scanner_title">¿Habilitar el escáner de enlaces?</string>
+    <string name="confirm_link_scanner_summary">[EXPERIMENTAL]
+\nEsto descargará una base de datos adicional de dominios.
+\nCualquier dominio que se encuentre en el contenido de la pantalla se cotejará con la base de datos.
+\nEsto requiere conceder manualmente permiso al servicio de accesibilidad.
+\nEsto puede tener un impacto sustancial en el rendimiento de las pantallas con grandes cantidades de texto.</string>
+    <string name="accessibility_service_label">Analizador de enlaces de Hypatia</string>
 </resources>

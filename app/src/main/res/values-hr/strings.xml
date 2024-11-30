@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_version">Verzija: %s</string>
+    <string name="lblOnionRoutingToggle">Preuzmi preko Tor-a</string>
+    <string name="lblOnionRoutingEnabledHint">Preuzimanje preko Tor-a, ovo može potrajati…</string>
+    <string name="lblOnionRoutingNotInstalled">Orbot nije instaliran!</string>
+    <string name="lblUpdateDatabase">Ažurirajte baze podataka</string>
+    <string name="lblScanSystem">Skeniraj /sustav</string>
+    <string name="lblScanApps">Skenirajte APK-ove aplikacija</string>
+    <string name="lblScanExternal">Skeniraj vanjsku pohranu</string>
+    <string name="lblNotificationMalwareDetectionTitle">Otkrivanje zlonamjernog softvera</string>
+    <string name="lblNotificationRealtimeTitle">Skener u stvarnom vremenu</string>
+    <string name="lblNotificationRealtimeDetection">Otkriven zlonamjerni softver:</string>
+    <string name="lblRealtimeScannerToggle">Skener u stvarnom vremenu</string>
+    <string name="lblNotificationRealtimeDescription">Koristi se za prikaz broja skeniranih datoteka i održavanje pozadinske usluge</string>
+    <string name="lblReset">Resetiraj</string>
+    <string name="main_database_download_success">Uspješno preuzeto</string>
+    <string name="main_database_override">Korištenje poslužitelja %s</string>
+    <string name="main_database_released_on">Objavljeno %s</string>
+    <string name="main_database_not_modified_since">od %s</string>
+    <string name="main_database_download_error_logcat">Preuzimanje nije uspjelo, provjerite logcat</string>
+    <string name="main_starting_scan">Pokretanje skeniranja…</string>
+    <string name="main_database_loading">Učitavanje baze podataka…</string>
+    <string name="main_files_scanned_count">%s skeniranih datoteka</string>
+    <string name="self_test_result_success">Samotestiranje uspješno.</string>
+    <string name="self_test_result_failure">Samotestiranje nije uspjelo!</string>
+    <string name="lblDatabasesUpdated">Sve baze podataka su ažurirane!</string>
+    <string name="deleted">Izbrisano!</string>
+    <string name="ignoreDetection">Zanemari</string>
+    <string name="deleteFile">Izbriši</string>
+    <string name="confirm_lookup_summary">Jeste li sigurni da želite otvoriti VirusTotal.com u svom web pregledniku sa sljedećim hash-om?</string>
+    <string name="detections_none">Nije pronađeno podudaranje :)</string>
+    <string name="detections_found">Podudaranja pronađena! :(</string>
+    <string name="confirm_lookup_title">Potvrdite traženje</string>
+    <string name="confirm_update_title">Potvrdite preuzimanje</string>
+    <string name="lblWroteTestFiles">Napisao test datoteke!</string>
+    <string name="lblResetCloudflare">Cloudflare Mirror</string>
+    <string name="accessibility_service_label">Hypatia skener veza</string>
+    <string name="lblResetPrimary">Primarni poslužitelji</string>
+    <string name="lblNotificationLinkDetection">Otkrivena zlonamjerna veza:</string>
+    <string name="confirm_link_scanner_title">Omogućiti skener veza?</string>
+    <string name="app_license">Licenca: GPL-3.0</string>
+    <string name="lblFullCredits">Zasluge</string>
+    <string name="lblScanInternal">Skeniraj unutarnju pohranu</string>
+    <string name="lblNotificationMalwareDetectionDescription">Koristi se za upozorenje kada se otkrije zlonamjerni softver</string>
+    <string name="lblNotificationRealtimeText">Poznati zlonamjerni softver bit će otkriven u stvarnom vremenu</string>
+    <string name="lblNotificationRealtimeStopped">Hypatia: Zaustavljeno skeniranje u stvarnom vremenu</string>
+    <string name="main_database_updating">Ažuriranje %s baza podataka…</string>
+    <string name="main_no_database_available">Nema dostupne baze podataka, ne skenira se…</string>
+    <string name="main_cancelling_scan">Otkazivanje skeniranja…</string>
+    <string name="lblScanRunning">Preskakanje radnje, skeniranje je u tijeku!</string>
+    <string name="main_database_not_changed">Datoteka nije promijenjena</string>
+    <string name="main_files_pending_scan">%s datoteke čekaju skeniranje</string>
+    <string name="main_scanning_done">Skeniranje dovršeno za %s sekundi @ %sMB/s!</string>
+    <string name="scan_control">Kontrola skeniranja</string>
+    <string name="lblDatabaseLoading">Preskakanje radnje, baza podataka se učitava!</string>
+    <string name="confirm_delete_title">Potvrdite brisanje</string>
+    <string name="delete_failed">Brisanje nije uspjelo!</string>
+    <string name="lblSelfTest">Napišite datoteke za samotestiranje</string>
+    <string name="confirm_delete_summary">Jeste li sigurni da želite izbrisati sljedeću datoteku?</string>
+    <string name="ignored">Ignorirano!</string>
+    <string name="uninstallApp">Deinstaliraj</string>
+    <string name="lblExtendedDatabaseToggle">Proširena baza podataka</string>
+    <string name="confirm_extended_title">Omogućiti proširenu bazu podataka?</string>
+    <string name="confirm_extended_summary">[EKSPERIMENTALNO]
+\nTo će omogućiti otkrivanje dodatnih ~40 milijuna potpisa.
+\nTo zahtijeva preuzimanje od 200 MB, usporit će pokretanje za više od dvije minute, povećat će upotrebu RAM-a aplikacije i povećati stopu lažno pozitivnih rezultata.
+\nOva se baza podataka ažurira samo kvartalno.</string>
+    <string name="confirm_update_summary">Čini se da ste na ograničenoj vezi. Jeste li sigurni da želite ažurirati baze podataka?
+\nMože preuzeti do %s megabajta podataka.</string>
+    <string name="accessibility_service_description">Izdvaja domene iz cjelokupnog tekstualnog sadržaja na zaslonu i uspoređuje ih s popisom blokiranih</string>
+    <string name="lblLinkScannerToggle">Skener veza</string>
+    <string name="lblUpdateRunning">Preskakanje radnje, ažuriranje je u tijeku!</string>
+    <string name="confirm_link_scanner_summary">[EKSPERIMENTALNO]
+\nOvo će preuzeti dodatnu bazu podataka domena.
+\nSve domene pronađene u sadržaju zaslona provjerit će se u bazi podataka.
+\nTo zahtijeva ručno dodjeljivanje dopuštenja usluge pristupačnosti.
+\nTo može imati značajan utjecaj na performanse na zaslonima s velikom količinom teksta.</string>
+    <string name="app_copyright">Autorska prava 2017-2024 Divested Computing Group</string>
+    <string name="app_db_type_clamav">Pokreće potpise u stilu ClamAV</string>
+    <string name="main_database_download_error">Datoteka nije preuzeta, kod odgovora %s</string>
+    <string name="main_database_loaded">Učitana baza podataka s potpisima %s</string>
+    <string name="main_hash_scan_done">Provjereni su svi %s hashovi prema bazama podataka potpisa</string>
+    <string name="lblSigningKey">Ključ za potpisivanje baze podataka</string>
+    <string name="lblNoNetwork">Nema mrežne veze!</string>
+    <string name="main_hashing_done">Izračunati hashovi za sve datoteke</string>
+</resources>

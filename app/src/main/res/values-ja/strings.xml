@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lblUpdateDatabase">データベースを更新</string>
+    <string name="lblNotificationMalwareDetectionDescription">マルウェアが検出されたときに使用</string>
+    <string name="lblNotificationRealtimeTitle">常時スキャン</string>
+    <string name="lblNotificationRealtimeText">既知のマルウェアはリアルタイムに検出されます</string>
+    <string name="lblNotificationRealtimeDetection">マルウェア検出：</string>
+    <string name="main_database_override">サーバー %s を利用します</string>
+    <string name="main_no_database_available">データベースなし、スキャンしません</string>
+    <string name="main_database_not_modified_since">%sから</string>
+    <string name="main_database_download_error_logcat">ダウンロード失敗、 logcatを確認すること</string>
+    <string name="main_starting_scan">スキャン開始</string>
+    <string name="main_hashing_files">ファイルをハッシュしています・・・</string>
+    <string name="main_hash_scan_done">%sハッシュ数をシグネチャーデータベースと照合完了</string>
+    <string name="lblScanRunning">対応を保留、スキャンはすでに実行中！</string>
+    <string name="self_test_result_success">自己テストに成功。</string>
+    <string name="lblDatabasesUpdated">全データベースを更新しました！</string>
+    <string name="confirm_delete_title">削除確認</string>
+    <string name="uninstallApp">アンインストール</string>
+    <string name="lblSelfTest">自己テストファイルを生成</string>
+    <string name="lblExtendedDatabaseToggle">データベースを拡張する</string>
+    <string name="confirm_update_title">ダウンロードを確認</string>
+    <string name="lblUpdateRunning">アクションをスキップして、更新を実行しています。</string>
+    <string name="app_copyright">Copyright 2017-2024 Divested Computing Group</string>
+    <string name="app_version">バージョン: %s</string>
+    <string name="lblOnionRoutingToggle">Tor経由でダウンロード</string>
+    <string name="app_db_type_clamav">ClamAVシグネチャで強化されています</string>
+    <string name="lblOnionRoutingEnabledHint">Tor経由でダウンロード中。時間がかかります・・・</string>
+    <string name="lblOnionRoutingNotInstalled">Orbotがインストールされていません！</string>
+    <string name="main_database_loaded">データベース %sシグネチャー を読み込みました</string>
+    <string name="lblDatabaseServer">データベースサーバーを上書き</string>
+    <string name="lblFullCredits">著作</string>
+    <string name="lblScanSystem">/systemをスキャン</string>
+    <string name="app_license">License: GPL-3.0</string>
+    <string name="lblScanApps">アプリAPKをスキャン</string>
+    <string name="lblScanInternal">内部ストレージをスキャン</string>
+    <string name="lblScanExternal">外部ストレージをスキャン</string>
+    <string name="lblNotificationMalwareDetectionTitle">マルウェアを検出</string>
+    <string name="lblNotificationRealtimeDescription">バックグラウンドサービスを維持するためと、スキャンされたファイルを表示するために利用</string>
+    <string name="lblNotificationRealtimeStopped">Hypatia: リアルタイム検出が停止されました</string>
+    <string name="lblRealtimeScannerToggle">リアルタイムスキャナ</string>
+    <string name="lblOverride">上書き</string>
+    <string name="main_database_download_success">ダウンロード成功</string>
+    <string name="lblReset">初期化</string>
+    <string name="main_database_updating">%s データベースを更新中・・・</string>
+    <string name="main_database_download_error">コード %s、ファイルのダウンロード失敗</string>
+    <string name="main_database_released_on">%s にリリースされました</string>
+    <string name="main_database_not_changed">ファイル変更なし</string>
+    <string name="main_database_loading">データベースを読み込んでいます・・・</string>
+    <string name="main_cancelling_scan">スキャンを中断しようとしています・・・</string>
+    <string name="main_files_pending_scan">%s ファイルがスキャン待ちです</string>
+    <string name="main_hashing_done">全ファイルのハッシュを計算しました</string>
+    <string name="main_scanning_done">%s 秒 %sMB/s　でスキャン完了！</string>
+    <string name="scan_control">スキャン設定</string>
+    <string name="main_files_scanned_count">%sファイルがスキャンされました</string>
+    <string name="self_test_result_failure">自己テストに失敗！</string>
+    <string name="detections_found">一致しています！</string>
+    <string name="lblSigningKey">データベース署名鍵</string>
+    <string name="lblDatabaseLoading">対応を無視、データベースは読み込み中！</string>
+    <string name="lookupVT">調べる</string>
+    <string name="deleteFile">削除する</string>
+    <string name="ignoreDetection">無視</string>
+    <string name="delete_failed">削除できませんでした！</string>
+    <string name="lblNoNetwork">ネットワーク接続なし！</string>
+    <string name="confirm_delete_summary">このファイルを本当に削除してええのか？</string>
+    <string name="deleted">削除されました！</string>
+    <string name="detections_none">一致なし</string>
+    <string name="confirm_lookup_summary">VirusTotal.comをブラウザで開き、以下のハッシュを調べますか？</string>
+    <string name="confirm_lookup_title">調べますか？</string>
+    <string name="ignored">無視されました！</string>
+    <string name="confirm_extended_title">拡張データベースを使いますか？</string>
+    <string name="confirm_extended_summary">[実験的] 
+\nこれにより、約 4,000 万の追加のシグネチャを検出できるようになります。
+\nこれには 200 MB のダウンロードが必要で、起動が 2 分以上遅くなり、アプリの RAM 使用量が増加し、誤検出率が高くなります。
+\nこのデータベースは四半期ごとにのみ更新されます。</string>
+    <string name="confirm_update_summary">従量制接続を使用しているようです。データベースを更新してもよろしいですか?
+\n最大 %s MBのデータがダウンロードされる可能性があります。</string>
+    <string name="lblWroteTestFiles">テストファイルを作成しました！</string>
+    <string name="lblResetPrimary">メインサーバー</string>
+    <string name="accessibility_service_label">Hypatiaリンクスキャナ</string>
+    <string name="lblResetCloudflare">Cloudflareミラー</string>
+    <string name="accessibility_service_description">すべての画面テキストコンテンツからドメインを抽出し、ブロックリストと照合します</string>
+    <string name="confirm_link_scanner_title">リンクスキャナを有効化しますか？</string>
+    <string name="confirm_link_scanner_summary">[実験的] 
+\nこれにより、ドメインの追加データベースがダウンロードされます。
+\n画面コンテンツで見つかったドメインはすべて、データベースと照合されます。
+\nこれには、アクセシビリティ サービスの権限を手動で付与する必要があります。
+\nこれにより、大量のテキストを含む画面でパフォーマンスに重大な影響が出る可能性があります。</string>
+    <string name="lblNotificationLinkDetection">悪意のあるリンク検出:</string>
+    <string name="lblLinkScannerToggle">リンクスキャナ</string>
+</resources>

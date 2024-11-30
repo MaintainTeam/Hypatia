@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_license">Licenza: GPL-3.0</string>
+    <string name="app_db_type_clamav">Funciona grazas ao tipo de sinaturas ClamAV</string>
+    <string name="lblOnionRoutingToggle">Descargar usando Tor</string>
+    <string name="lblOnionRoutingEnabledHint">A descargar desde Tor, podería levarlle un anaco…</string>
+    <string name="lblOnionRoutingNotInstalled">Orbot non está instalada!</string>
+    <string name="lblDatabaseServer">Sobreescribir servidor BDD</string>
+    <string name="lblFullCredits">Crédito</string>
+    <string name="lblScanApps">Examinar APKs de App</string>
+    <string name="lblScanExternal">Examinar Almacenaxe Externa</string>
+    <string name="lblNotificationRealtimeStopped">Hypatia: Detívose o Exame en tempo real</string>
+    <string name="lblReset">Restablecer</string>
+    <string name="lblOverride">Sobreescribir</string>
+    <string name="main_database_download_error">Non se descargou o ficheiro, código da resposta %s</string>
+    <string name="main_database_released_on">Publicada o %s</string>
+    <string name="main_database_not_modified_since">desde %s</string>
+    <string name="main_database_download_error_logcat">Fallou a descarga, comproba logcat</string>
+    <string name="main_database_loaded">Cargouse a base de datos con %s sinaturas</string>
+    <string name="main_hashing_files">A crear sumas de comprobación…</string>
+    <string name="main_hashing_done">Calculadas as sumas para todos os ficheiros</string>
+    <string name="main_hash_scan_done">Comprobadas %s sumas contra as sinaturas na base de datos</string>
+    <string name="main_scanning_done">Exame completo en %s segundos @ %sMB/s!</string>
+    <string name="scan_control">Control do Exame</string>
+    <string name="lblNoNetwork">Non hai conexión á rede!</string>
+    <string name="self_test_result_success">Auto comprobación correcta.</string>
+    <string name="lblDatabaseLoading">Omitindo acción, está a cargar a base de datos!</string>
+    <string name="lblDatabasesUpdated">Actulizadas as bases de datos!</string>
+    <string name="confirm_lookup_summary">Tes certeza de querer ir a VirusTotal.com no navegador e buscar a suma de comprobación?</string>
+    <string name="confirm_delete_title">Confirmar eliminación</string>
+    <string name="accessibility_service_description">Extrae o dominio do contido en texto na pantalla e compróbao contra unha lista de bloqueo</string>
+    <string name="lblLinkScannerToggle">Escáner de Ligazóns</string>
+    <string name="main_cancelling_scan">A deter o exame…</string>
+    <string name="main_files_pending_scan">%s ficheiros pendentes do exame</string>
+    <string name="main_database_loading">A cargar base de datos…</string>
+    <string name="app_copyright">Copyright 2017-2024 Divested Computing Group</string>
+    <string name="lblScanInternal">Examinar Almacenaxe Interna</string>
+    <string name="app_version">Versión: %s</string>
+    <string name="lblScanSystem">Examinar /system</string>
+    <string name="lblUpdateDatabase">Actualizar bases de datos</string>
+    <string name="lblNotificationRealtimeTitle">Exame en tempo real</string>
+    <string name="lblNotificationRealtimeDescription">Úsase para mostrar o contador de ficheiros examinados e manter o servizo en segundo plano</string>
+    <string name="lblNotificationMalwareDetectionTitle">Detección de Malware</string>
+    <string name="main_database_download_success">Descarga correcta</string>
+    <string name="lblNotificationMalwareDetectionDescription">Úsase para avisar cando se detecta software malicioso</string>
+    <string name="lblNotificationRealtimeDetection">Malware atopado:</string>
+    <string name="lblNotificationRealtimeText">O software malicioso coñecido será detectado en tempo real</string>
+    <string name="lblRealtimeScannerToggle">Exame en tempo real</string>
+    <string name="main_database_updating">Actualizando %s bases de datos…</string>
+    <string name="main_database_override">A usar o servidor %s</string>
+    <string name="main_no_database_available">Non hai base de datos dispoñible, non se analiza…</string>
+    <string name="main_database_not_changed">Ficheiro sen cambios</string>
+    <string name="self_test_result_failure">Fallou a autocomprobación!</string>
+    <string name="main_starting_scan">A iniciar exame…</string>
+    <string name="lblScanRunning">Omitindo acción, está a examinar!</string>
+    <string name="lblSigningKey">Chave de sinatura da base de datos</string>
+    <string name="main_files_scanned_count">%s ficheiros examinados</string>
+    <string name="lookupVT">Buscar</string>
+    <string name="deleted">Eliminado!</string>
+    <string name="deleteFile">Eliminar</string>
+    <string name="ignoreDetection">Ignorar</string>
+    <string name="detections_none">Non hai concordancias :)</string>
+    <string name="detections_found">Atopáronse concordancias :(</string>
+    <string name="confirm_lookup_title">Confirmar achado</string>
+    <string name="confirm_delete_summary">Tes certeza de querer eliminar o seguinte ficheiro?</string>
+    <string name="delete_failed">Fallou a eliminación!</string>
+    <string name="ignored">Ignorado!</string>
+    <string name="uninstallApp">Desinstalar</string>
+    <string name="lblSelfTest">Escribir ficheiro da autocomprobación</string>
+    <string name="lblExtendedDatabaseToggle">Base de datos ampliada</string>
+    <string name="confirm_extended_title">Queres ampliar a base de datos?</string>
+    <string name="confirm_extended_summary">[EXPERIMENTAL]
+\nAsí farase a comprobación de uns ~40 millóns de sinaturas adicionais.
+\nHaberá que descargar 200MB, o inicio levaralle uns 2 minutos, aumentará o uso de RAM e aumentará a taxa de falsos positivos.
+\nA base de datos só se actuliza trimestralmente.</string>
+    <string name="confirm_update_title">Confirmar descarga</string>
+    <string name="lblUpdateRunning">A omitir a acción, estase a actualizar!</string>
+    <string name="lblNotificationLinkDetection">Detectada Ligazón Maliciosa:</string>
+    <string name="confirm_update_summary">Semella que tes unha conexión con datos medidos. Tes certeza de querer descargar a base de datos?
+\nPodería descargar arredor de %s megabytes de datos.</string>
+    <string name="lblWroteTestFiles">Escribiuse o ficheiro de comprobación!</string>
+    <string name="lblResetPrimary">Servidores Principais</string>
+    <string name="lblResetCloudflare">Espello en Cloudflare</string>
+    <string name="accessibility_service_label">Escáner de Ligazóns Hypatia</string>
+    <string name="confirm_link_scanner_title">Activar escáner de ligazóns?</string>
+    <string name="confirm_link_scanner_summary">[EXPERIMENTAL]
+\nVas descargar unha base de datos de dominios adicional.
+\nCalquera dominio atopado no contido da pantalla vai ser comparado coa base de datos.
+\nPara esto hai que conceder manualmente o permiso ao servizo de accesibilidade.
+\nPodería causar un impacto sustancial no rendemento da pantalla cando hai moito texto.</string>
+</resources>

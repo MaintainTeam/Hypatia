@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lblOnionRoutingEnabledHint">Sťahovanie cez Tor môže chvíľu trvať…</string>
+    <string name="app_version">Verzia: %s</string>
+    <string name="app_db_type_clamav">Poháňané signatúrami v štýle ClamAV</string>
+    <string name="lblOnionRoutingToggle">Stiahnuť cez Tor</string>
+    <string name="lblUpdateDatabase">Aktualizovať databázy</string>
+    <string name="lblDatabaseServer">Prepísanie databázového serveru</string>
+    <string name="lblFullCredits">Ocenenie</string>
+    <string name="lblScanSystem">Skenovať / systém</string>
+    <string name="lblScanApps">Skenovanie APK aplikácií</string>
+    <string name="lblScanExternal">Skenovať externé úložisko</string>
+    <string name="lblNotificationMalwareDetectionTitle">Detekcia škodlivého softvéru</string>
+    <string name="lblNotificationRealtimeTitle">Skenovať v reálnom čase</string>
+    <string name="lblNotificationRealtimeDescription">Slúži na zobrazenie počtu skenovaných súborov a udržiavanie služby na pozadí</string>
+    <string name="lblNotificationRealtimeStopped">Hypatia: Skenovanie v reálnom čase sa zastavilo</string>
+    <string name="lblRealtimeScannerToggle">Skenovať v reálnom čase</string>
+    <string name="lblReset">Obnovenie</string>
+    <string name="lblOverride">Prepísať</string>
+    <string name="main_database_updating">Aktualizácia %s databáz…</string>
+    <string name="main_database_override">Použitý server: %s</string>
+    <string name="main_database_download_success">Úspešne stiahnuté</string>
+    <string name="main_database_download_error">Súbor nebol stiahnutý, kód odpovede %s</string>
+    <string name="main_database_not_changed">Súbor sa nezmenil</string>
+    <string name="main_database_not_modified_since">od %s</string>
+    <string name="main_database_download_error_logcat">Nepodarilo sa stiahnuť, skontrolujte logcat</string>
+    <string name="main_cancelling_scan">Zrušenie skenovania…</string>
+    <string name="main_files_pending_scan">%s súborov čakajúcich na skenovanie</string>
+    <string name="main_database_loading">Načítanie databázy…</string>
+    <string name="main_database_loaded">Načítaná databáza s %s podpismi</string>
+    <string name="main_hashing_files">Hashovanie súborov…</string>
+    <string name="main_hashing_done">Vypočítané hashe pre všetky súbory</string>
+    <string name="main_hash_scan_done">Skontrolované všetky %s hašov voči databázam podpisov</string>
+    <string name="main_scanning_done">Skenovanie sa dokončilo za %s sekúnd pri %sMB/s!</string>
+    <string name="main_files_scanned_count">%s skenovaných súborov</string>
+    <string name="scan_control">Ovládanie skenovania</string>
+    <string name="lblScanRunning">Vynechanie akcie, prebieha skenovanie!</string>
+    <string name="lblSigningKey">Podpisový kľúč databázy</string>
+    <string name="lblNoNetwork">Nie je pripojená žiadna sieť!</string>
+    <string name="self_test_result_success">Samootestovanie prebehlo úspešne.</string>
+    <string name="self_test_result_failure">Samootestovanie zlyhalo!</string>
+    <string name="lblDatabaseLoading">Vynechanie akcie, databáza sa načítava!</string>
+    <string name="lblDatabasesUpdated">Všetky databázy sú aktualizované!</string>
+    <string name="lookupVT">Vyhľadávanie</string>
+    <string name="deleted">Vymazané!</string>
+    <string name="deleteFile">Vymazať</string>
+    <string name="ignoreDetection">Ignorovať</string>
+    <string name="confirm_lookup_title">Potvrdenie vyhľadávania</string>
+    <string name="confirm_delete_title">Potvrdenie vymazania</string>
+    <string name="delete_failed">Nepodarilo sa vymazať!</string>
+    <string name="ignored">Ignorované!</string>
+    <string name="uninstallApp">Odinštalovať</string>
+    <string name="lblSelfTest">Zapísať vlastné testovacie súbory</string>
+    <string name="lblExtendedDatabaseToggle">Rozšírená databáza</string>
+    <string name="confirm_extended_title">Zapnúť rozšírenú databázu?</string>
+    <string name="confirm_update_title">Potvrdiť stiahnutie</string>
+    <string name="confirm_update_summary">Zdá sa, že máte merané pripojenie. Určite chcete aktualizovať databázy?
+\nMôže sa stiahnuť až %s megabajtov údajov.</string>
+    <string name="lblUpdateRunning">Preskočenie akcie, prebieha aktualizácia!</string>
+    <string name="lblWroteTestFiles">Zapísané testovacie súbory!</string>
+    <string name="lblResetPrimary">Primárne servery</string>
+    <string name="lblResetCloudflare">Zrkadlo Cloudflare</string>
+    <string name="accessibility_service_label">Hypatia skener odkazov</string>
+    <string name="accessibility_service_description">Extrahuje domény z celého textového obsahu obrazovky a kontroluje ich podľa zoznamu blokov</string>
+    <string name="lblLinkScannerToggle">Skener odkazov</string>
+    <string name="confirm_link_scanner_title">Zapnúť skener odkazov?</string>
+    <string name="app_copyright">Copyright 2017-2024 Divested Computing Group</string>
+    <string name="app_license">Licencia: GPL-3.0</string>
+    <string name="lblOnionRoutingNotInstalled">Orbot nie je nainštalovaný!</string>
+    <string name="lblScanInternal">Skenovať interné úložisko</string>
+    <string name="lblNotificationMalwareDetectionDescription">Používa sa na upozornenie pri zistení škodlivého softvéru</string>
+    <string name="lblNotificationRealtimeText">Známy škodlivý softvér sa bude zisťovať v reálnom čase</string>
+    <string name="lblNotificationRealtimeDetection">Zistený škodlivý softvér:</string>
+    <string name="main_no_database_available">Nie je k dispozícii žiadna databáza, neskenuje sa…</string>
+    <string name="main_database_released_on">Vydané dňa %s</string>
+    <string name="main_starting_scan">Spustenie skenovania…</string>
+    <string name="detections_none">Nenašla sa žiadna zhoda :)</string>
+    <string name="detections_found">Zhody nájdené! :(</string>
+    <string name="confirm_lookup_summary">Ste si istí, že chcete otvoriť VirusTotal.com vo svojom webovom prehliadači s nasledujúcim hashom?</string>
+    <string name="confirm_delete_summary">Ste si istí, že chcete odstrániť nasledujúci súbor?</string>
+    <string name="confirm_extended_summary">[EXPERIMENTÁLNE]
+\nUmožní detekciu ďalších ~ 40 miliónov signatúr.
+\nVyžaduje si to 200 MB na stiahnutie, spomalí spustenie o viac ako dve minúty, zvýši využitie pamäte RAM aplikácie a zvýši mieru falošne pozitívnych výsledkov.
+\nTáto databáza sa aktualizuje len raz za štvrťrok.</string>
+    <string name="lblNotificationLinkDetection">Zistené škodlivé prepojenie:</string>
+    <string name="confirm_link_scanner_summary">[EXPERIMENTÁLNE] ↵ 
+\nStiahne sa ďalšia databáza domén. ↵ 
+\nVšetky domény nájdené v obsahu na displeji sa porovnajú s databázou. ↵ 
+\nVyžaduje sa manuálne udelenie povolenia služby dostupnosti. ↵ 
+\nMôže mať značný vplyv na výkon zariadenia pri veľkom množstve textu na displeji.</string>
+</resources>

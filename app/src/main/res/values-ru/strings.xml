@@ -3,7 +3,6 @@
     <string name="app_license">Лицензия: GPL-3.0</string>
     <string name="app_version">Версия: %s</string>
     <string name="app_db_type_clamav">Используются сигнатуры от ClamAV</string>
-
     <string name="lblOnionRoutingToggle">Скачать через Tor</string>
     <string name="lblOnionRoutingEnabledHint">Загрузка через Tor может занять некоторое время…</string>
     <string name="lblOnionRoutingNotInstalled">Orbot не установлен!</string>
@@ -24,7 +23,6 @@
     <string name="lblRealtimeScannerToggle">Сканер в реальном времени</string>
     <string name="lblReset">Сбросить</string>
     <string name="lblOverride">Переопределить</string>
-
     <string name="main_database_updating">Обновляются базы данных: %s…</string>
     <string name="main_database_override">Используется сервер %s</string>
     <string name="main_database_download_success">Успешно загружена</string>
@@ -34,7 +32,6 @@
     <string name="main_database_not_changed">Файл не изменен</string>
     <string name="main_database_not_modified_since">%s</string>
     <string name="main_database_download_error_logcat">Не удалось загрузить, проверьте logcat</string>
-
     <string name="main_starting_scan">Запуск сканирования…</string>
     <string name="main_cancelling_scan">Отмена сканирования…</string>
     <string name="main_files_pending_scan">%s файла(-ов) ожидают сканирования</string>
@@ -74,4 +71,17 @@
     <string name="confirm_update_summary">Похоже, вы используете тарифицируемое подключение. Вы уверены, что хотите обновить базы данных?\nОбъем загружаемых данных может достигать %s мегабайт.</string>
     <string name="lblUpdateRunning">Пропуск действия, запущено обновление!</string>
     <string name="lblWroteTestFiles">Записаны тестовые файлы!</string>
+    <string name="app_copyright">© Divested Computing Group, 2017–2024</string>
+    <string name="lblResetPrimary">Основные серверы</string>
+    <string name="lblResetCloudflare">Зеркало Cloudflare</string>
+    <string name="lblNotificationLinkDetection">Обнаружена вредоносная ссылка:</string>
+    <string name="accessibility_service_description">Извлекает домены из всего текстового содержимого экрана и проверяет их на соответствие списку блокировок</string>
+    <string name="lblLinkScannerToggle">Сканер ссылок</string>
+    <string name="confirm_link_scanner_title">Включить сканер ссылок?</string>
+    <string name="confirm_link_scanner_summary">[ЭКСПЕРИМЕНТАЛЬНО]
+\nЭто позволит загрузить дополнительную базу данных доменов.
+\nВсе домены, найденные в содержимом экрана, будут проверены по этой базе.
+\nДля этого необходимо вручную предоставить разрешение службе доступности.
+\nЭто может существенно повлиять на производительность экранов с большим количеством текста.</string>
+    <string name="accessibility_service_label">Сканер Hypatia Link</string>
 </resources>

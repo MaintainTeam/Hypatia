@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_copyright">Авторські права 2017-2024 Divested Computing Group</string>
+    <string name="app_license">Ліцензія: GPL-3.0</string>
+    <string name="app_version">Версія: %s</string>
+    <string name="app_db_type_clamav">Працює на основі сигнатур ClamAV</string>
+    <string name="lblOnionRoutingToggle">Завантажити через Tor</string>
+    <string name="lblOnionRoutingEnabledHint">Завантаження через Tor, це може зайняти деякий час…</string>
+    <string name="lblDatabaseServer">Перевизначення сервера бази даних</string>
+    <string name="lblFullCredits">Подяки</string>
+    <string name="lblScanSystem">Сканувати /system</string>
+    <string name="lblScanApps">Сканувати APK застосунків</string>
+    <string name="lblScanInternal">Сканувати внутрішнє сховище</string>
+    <string name="lblScanExternal">Сканування зовнішнє сховище</string>
+    <string name="lblNotificationRealtimeTitle">Сканер у реальному часі</string>
+    <string name="lblReset">Скинути</string>
+    <string name="main_database_released_on">Випущено %s</string>
+    <string name="main_database_not_changed">Файл не змінено</string>
+    <string name="main_hashing_files">Хешування файлів…</string>
+    <string name="main_hashing_done">Обчислено хеш для всіх файлів</string>
+    <string name="main_hash_scan_done">Перевірено всі %s хеші за сигнатурами баз даних</string>
+    <string name="main_scanning_done">Сканування завершено за %s секунд зі швидкістю %s МБ/с!</string>
+    <string name="main_files_scanned_count">%s файлів проскановано</string>
+    <string name="scan_control">Керування скануванням</string>
+    <string name="lblScanRunning">Пропуск дії, сканування триває!</string>
+    <string name="lblSigningKey">Ключ підписання бази даних</string>
+    <string name="lblNoNetwork">Немає підключення до Інтернету!</string>
+    <string name="deleteFile">Видалити</string>
+    <string name="deleted">Видалено!</string>
+    <string name="ignoreDetection">Ігнорувати</string>
+    <string name="detections_none">Збігів не знайдено :)</string>
+    <string name="detections_found">Збіги знайдено! :(</string>
+    <string name="lblDatabaseLoading">Пропуск дії, завантаження бази даних!</string>
+    <string name="lblDatabasesUpdated">Усі бази даних оновлено!</string>
+    <string name="lookupVT">Пошук</string>
+    <string name="self_test_result_success">Самотестування пройдена.</string>
+    <string name="self_test_result_failure">Самотестування не вдалася!</string>
+    <string name="confirm_lookup_title">Підтвердити пошук</string>
+    <string name="confirm_lookup_summary">Ви впевнені, що хочете відкрити VirusTotal.com у своєму браузері з наступним хешем?</string>
+    <string name="confirm_delete_title">Підтвердити видалення</string>
+    <string name="confirm_delete_summary">Ви впевнені, що хочете видалити наступний файл?</string>
+    <string name="delete_failed">Не вдалося видалити!</string>
+    <string name="ignored">Проігноровано!</string>
+    <string name="lblExtendedDatabaseToggle">Розширена база даних</string>
+    <string name="confirm_extended_title">Увімкнути розширену базу даних?</string>
+    <string name="confirm_update_title">Підтвердити завантаження</string>
+    <string name="lblSelfTest">Написання файлів самотестування</string>
+    <string name="lblUpdateRunning">Пропуск дії, оновлення триває!</string>
+    <string name="lblResetPrimary">Основні сервери</string>
+    <string name="lblResetCloudflare">Дзеркало Cloudflare</string>
+    <string name="accessibility_service_label">Сканер посилань Hypatia</string>
+    <string name="accessibility_service_description">Витягує домени з усього текстового вмісту екрана та перевіряє їх за блок-листом</string>
+    <string name="confirm_link_scanner_title">Увімкнути сканер посилань?</string>
+    <string name="lblWroteTestFiles">Файли самотестування записано!</string>
+    <string name="lblNotificationRealtimeDetection">Виявлено шкідливий застосунок:</string>
+    <string name="lblOnionRoutingNotInstalled">Orbot не встановлено!</string>
+    <string name="lblUpdateDatabase">Оновити бази даних</string>
+    <string name="lblNotificationMalwareDetectionDescription">Використовується для повідомлення про виявлення шкідливих застосунків</string>
+    <string name="lblNotificationMalwareDetectionTitle">Виявлення шкідливих застосунків</string>
+    <string name="lblNotificationRealtimeDescription">Використовується для відображення лічильника відсканованих файлів й підтримки фонової служби</string>
+    <string name="main_files_pending_scan">%s файлів, що очікують на перевірку</string>
+    <string name="lblNotificationRealtimeText">Відомі шкідливі застосунки будуть виявлятися в режимі реального часу</string>
+    <string name="lblNotificationRealtimeStopped">Hypatia: Сканування у реальному часі зупинено</string>
+    <string name="lblRealtimeScannerToggle">Сканер у реальному часі</string>
+    <string name="lblOverride">Перевизначити</string>
+    <string name="main_database_updating">Оновлення %s баз даних…</string>
+    <string name="main_database_download_success">Успішно завантажено</string>
+    <string name="main_database_download_error">Файл не завантажено, код відповіді %s</string>
+    <string name="main_no_database_available">Немає доступних баз даних, не сканується…</string>
+    <string name="main_database_override">Використовується сервер %s</string>
+    <string name="main_database_not_modified_since">з %s</string>
+    <string name="main_database_download_error_logcat">Не вдалося завантажити, перевірте logcat</string>
+    <string name="main_starting_scan">Починається сканування…</string>
+    <string name="main_cancelling_scan">Скасування сканування…</string>
+    <string name="main_database_loading">Завантаження баз даних…</string>
+    <string name="main_database_loaded">Завантажено базу даних з %s сигнатурами</string>
+    <string name="uninstallApp">Видалити</string>
+    <string name="confirm_extended_summary">[ЕКСПЕРИМЕНТАЛЬНО]
+\nЦе дозволить виявити додатково ~40 мільйонів сигнатур.
+\nЦе потребує завантаження 200 МБ, сповільнить запуск на дві хвилини, збільшить використання оперативної пам\'яті та підвищить кількість хибних спрацьовувань.
+\nЦя база даних оновлюється лише щокварталу.</string>
+    <string name="confirm_update_summary">Здається, ви перебуваєте на мобільному Інтернеті. Ви впевнені, що хочете оновити бази даних?
+\nЦе може завантажити до %s МБ даних.</string>
+    <string name="lblNotificationLinkDetection">Виявлено шкідливе посилання:</string>
+    <string name="lblLinkScannerToggle">Сканер посилань</string>
+    <string name="confirm_link_scanner_summary">[ЕКСПЕРИМЕНТАЛЬНО]
+\nЦе призведе до завантаження додаткової бази даних доменів.
+\nБудь-які домени, знайдені у вмісті екрана, буде перевірено за базою даних.
+\nЦе вимагає надати вручну дозвіл до служб доступності.
+\nЦе може суттєво вплинути на продуктивність на екранах з великою кількістю тексту.</string>
+</resources>

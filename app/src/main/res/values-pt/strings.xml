@@ -4,7 +4,6 @@
     <string name="app_license">Licença: GPL-3.0</string>
     <string name="app_version">Versão: %s</string>
     <string name="app_db_type_clamav">Produzido por assinaturas estilo ClamAV</string>
-
     <string name="lblOnionRoutingEnabledHint">Baixando via Tor, isto pode demorar um pouco…</string>
     <string name="lblOnionRoutingNotInstalled">Orbot não está instalado!</string>
     <string name="lblUpdateDatabase">Atualizar base de dados</string>
@@ -21,7 +20,6 @@
     <string name="lblNotificationRealtimeStopped">Hypatia: Análise em tempo real parou</string>
     <string name="lblNotificationRealtimeDetection">Malware detectado:</string>
     <string name="lblRealtimeScannerToggle">Analisar em tempo real</string>
-
     <string name="main_database_updating">Atualizando %s base de dados…</string>
     <string name="main_database_download_success">Baixado com sucesso</string>
     <string name="main_database_download_error">Arquivo não baixado, código de resposta %s</string>
@@ -30,7 +28,6 @@
     <string name="main_database_not_changed">Arquivo não alterado</string>
     <string name="main_database_not_modified_since">desde %s</string>
     <string name="main_database_download_error_logcat">Falha no download, veja logcat</string>
-
     <string name="main_starting_scan">Iniciando análise…</string>
     <string name="main_cancelling_scan">Cancelando análise…</string>
     <string name="main_files_pending_scan">%s arquivos pendentes para analisar</string>
@@ -41,4 +38,54 @@
     <string name="main_hash_scan_done">Verificados todos %s hashes em relação a base de dados de assinaturas</string>
     <string name="main_scanning_done">Análise concluída em %s segundos @ %sMB/s!</string>
     <string name="main_files_scanned_count">%s arquivos analisados</string>
+    <string name="lblDatabaseServer">Alterar o servidor do banco de dados</string>
+    <string name="lblReset">Redefinir</string>
+    <string name="lblOverride">Alterar</string>
+    <string name="main_database_override">A usar o servidor %s</string>
+    <string name="scan_control">Botão de Escaneamento Manual</string>
+    <string name="lblScanRunning">A pular a ação, um escaneamento já está em execução!</string>
+    <string name="lblSigningKey">Chave de assinatura do banco de dados</string>
+    <string name="lblNoNetwork">Nenhuma rede conectada!</string>
+    <string name="self_test_result_success">A auto-verificação foi feita com sucesso.</string>
+    <string name="self_test_result_failure">A auto-verificação falhou!</string>
+    <string name="lblDatabaseLoading">A pular a ação, o banco de dados está a carregar!</string>
+    <string name="lblDatabasesUpdated">Todos os bancos de dados estão atualizados!</string>
+    <string name="lookupVT">Consultar</string>
+    <string name="ignoreDetection">Ignorar</string>
+    <string name="detections_none">Nenhuma correspondência encontrada :)</string>
+    <string name="detections_found">Foram encontradas correspondências! :(</string>
+    <string name="confirm_lookup_title">Confirmar consulta</string>
+    <string name="confirm_lookup_summary">Tem certeza que deseja abrir VirusTotal.com no seu navegador web com a hash seguinte?</string>
+    <string name="confirm_delete_title">Confirmar apagar</string>
+    <string name="confirm_delete_summary">Tem certeza que deseja apagar o ficheiro seguinte?</string>
+    <string name="delete_failed">Falha ao apagar!</string>
+    <string name="ignored">Ignorado!</string>
+    <string name="uninstallApp">Desinstalar</string>
+    <string name="lblSelfTest">Criar ficheiros de auto-verificação</string>
+    <string name="lblExtendedDatabaseToggle">Banco de dados extendido</string>
+    <string name="confirm_extended_title">Ativar o banco de dados extendido?</string>
+    <string name="confirm_extended_summary">[EXPERIMENTAL]
+\nAtivará a detecção de ~40 milhões de assinaturas adicionais.
+\nRequer uma descarga de ~125MB, irá fazer com que a inicialização demore mais que 2 minutos, aumentará o uso de RAM do app e aumentará a taxa de falsos positivos.
+\nEste banco de dados atualiza somente trimestralmente.</string>
+    <string name="confirm_update_title">Confirmar descarga</string>
+    <string name="confirm_update_summary">Parece estar numa conexão medida. Tem certeza que deseja atualizar os bancos de dados?
+\nPode precisar de descarregar %s MBs de dados.</string>
+    <string name="lblUpdateRunning">A pular a ação, uma atualização está em execução!</string>
+    <string name="lblWroteTestFiles">Ficheiros de auto-verificação foram criados!</string>
+    <string name="lblResetPrimary">Servidores Primários</string>
+    <string name="lblResetCloudflare">Espelho Cloudflare</string>
+    <string name="accessibility_service_label">Scanner de ligações do Hypatia</string>
+    <string name="accessibility_service_description">Extrai domínios de todo o conteúdo de texto do ecrã e verifica se estão numa lista de bloqueio</string>
+    <string name="lblNotificationLinkDetection">Ligação maliciosa detetada:</string>
+    <string name="lblLinkScannerToggle">Scanner de ligações</string>
+    <string name="confirm_link_scanner_title">Ativar o scanner de ligações?</string>
+    <string name="confirm_link_scanner_summary">[EXPERIMENTAL]
+\nDescarregará um banco de dados adicional de domínios.
+\nQualquer domínio encontrado no conteúdo do ecrã será verificado no banco de dados.
+\nPrecisa que a permissão de serviço de acessibilidade seja concedida manualmente.
+\nPode ter um impacto considerável no ecrã com grandes quantidades de texto.</string>
+    <string name="lblOnionRoutingToggle">Descarregar via Tor</string>
+    <string name="deleteFile">Apagar</string>
+    <string name="deleted">Apagado!</string>
 </resources>

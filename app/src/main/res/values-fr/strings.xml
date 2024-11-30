@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_copyright">Copyright 2017-2024 Divested Computing Group</string>
-    <string name="app_license">Licence: GPL-3.0</string>
-    <string name="app_version">Numéro de version: %s</string>
+    <string name="app_license">Licence : GPL-3.0</string>
+    <string name="app_version">Numéro de version : %s</string>
     <string name="app_db_type_clamav">Propulsé par les signatures de style ClamAV</string>
-
     <string name="lblOnionRoutingToggle">Téléchargement par Tor</string>
     <string name="lblOnionRoutingEnabledHint">Téléchargement par Tor, cela peut prendre un certain temps…</string>
     <string name="lblOnionRoutingNotInstalled">Orbot n\'est pas installé !</string>
@@ -20,12 +19,11 @@
     <string name="lblNotificationRealtimeTitle">Analyser en temps réel</string>
     <string name="lblNotificationRealtimeDescription">Utilisé pour montrer les fichiers scannés compteur et maintenir le service de fond</string>
     <string name="lblNotificationRealtimeText">Les logiciels malveillants connus seront détectés en temps réel</string>
-    <string name="lblNotificationRealtimeStopped">Hypatia: Scanner en temps réel a été arrêté</string>
+    <string name="lblNotificationRealtimeStopped">Hypatia : Scanner en temps réel a été arrêté</string>
     <string name="lblNotificationRealtimeDetection">Logiciel malveillant détecté :</string>
     <string name="lblRealtimeScannerToggle">Scanner en temps réel</string>
     <string name="lblReset">Réinitialiser</string>
     <string name="lblOverride">Remplacer</string>
-
     <string name="main_database_updating">Mise à jour des %s bases de données…</string>
     <string name="main_database_override">Utilisation du serveur %s</string>
     <string name="main_database_download_success">Téléchargement réussi</string>
@@ -35,7 +33,6 @@
     <string name="main_database_not_changed">Fichier non modifié</string>
     <string name="main_database_not_modified_since">depuis le %s</string>
     <string name="main_database_download_error_logcat">Téléchargement échoué, vérifier le logcat</string>
-
     <string name="main_starting_scan">Démarrage de l\'analyse…</string>
     <string name="main_cancelling_scan">L\'analyse est annulée…</string>
     <string name="main_files_pending_scan">%s dossiers en attente de scan</string>
@@ -43,7 +40,7 @@
     <string name="main_hashing_files">Hachage de fichiers…</string>
     <string name="main_hashing_done">Hachages calculés pour tous les fichiers</string>
     <string name="main_hash_scan_done">Vérification de tous les hachages %s par rapport aux bases de données de signatures</string>
-    <string name="main_scanning_done">Analyse complétée en %s secondes @ %sMo/s!</string>
+    <string name="main_scanning_done">Analyse complétée en %s secondes @ %sMo/s !</string>
     <string name="main_files_scanned_count">%s fichiers analysés</string>
     <string name="scan_control">Contrôle de l\'analyse</string>
     <string name="lblScanRunning">Action ignorée, une analyse est en cours !</string>
@@ -74,4 +71,17 @@
     <string name="confirm_update_summary">Vous semblez être sur une connexion facturée au volume ou à la durée. Êtes-vous sûr de vouloir mettre à jour les bases de données ?\nCela peut télécharger jusqu\'à %s mégaoctets de données.</string>
     <string name="lblUpdateRunning">Action sautée, une mise à jour est en cours d\'exécution !</string>
     <string name="lblWroteTestFiles">Fichiers d\'auto-test écrits !</string>
+    <string name="main_database_loading">Chargement de la base de données…</string>
+    <string name="lblNotificationLinkDetection">Lien malveillant détecté :</string>
+    <string name="accessibility_service_description">Extraire des domaines depuis la totalité du texte sur l\'écran et les comparer à un liste de blocage</string>
+    <string name="lblResetPrimary">Serveurs primaires</string>
+    <string name="accessibility_service_label">Analyseur de liens Hypatia</string>
+    <string name="lblLinkScannerToggle">Analyseur de liens</string>
+    <string name="confirm_link_scanner_title">Activer l\'analyseur de liens ?</string>
+    <string name="lblResetCloudflare">Miroir Cloudflare</string>
+    <string name="confirm_link_scanner_summary">[EXPÉRIMENTAL]
+\nCela téléchargera une base de données supplémentaire de domaines.
+\nTout lien trouvé dans le contenu de l\'écran sera comparé avec la base de données
+\nIl faut l\'autorisation This requires granting accessibility service permission manually.
+\nThis can have a substantial performance impact on screens with large amounts of text.</string>
 </resources>

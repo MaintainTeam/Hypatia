@@ -3,13 +3,12 @@
     <string name="app_license">Licenza: GPL-3.0</string>
     <string name="app_version">Versione: %s</string>
     <string name="app_db_type_clamav">Basato su firme in stile ClamAV</string>
-
     <string name="lblOnionRoutingToggle">Aggiorna tramite Tor</string>
     <string name="lblOnionRoutingEnabledHint">Aggiornamento tramite Tor, potrebbe volerci un po\'…</string>
     <string name="lblOnionRoutingNotInstalled">Orbot non è installato!</string>
     <string name="lblUpdateDatabase">Aggiorna i database</string>
     <string name="lblDatabaseServer">Modifica il server dei database</string>
-    <string name="lblFullCredits">Crediti</string>
+    <string name="lblFullCredits">Riconoscimenti</string>
     <string name="lblScanSystem">Scansiona le app di sistema</string>
     <string name="lblScanApps">Scansiona le app</string>
     <string name="lblScanInternal">Scansiona la memoria interna</string>
@@ -24,7 +23,6 @@
     <string name="lblRealtimeScannerToggle">Scansione in tempo reale</string>
     <string name="lblReset">Reset</string>
     <string name="lblOverride">Modifica</string>
-
     <string name="main_database_updating">Aggiornamento database %s…</string>
     <string name="main_database_override">Utilizza un altro server %s</string>
     <string name="main_database_download_success">Scaricato con successo</string>
@@ -34,7 +32,6 @@
     <string name="main_database_not_changed">Database non modificato</string>
     <string name="main_database_not_modified_since">dal %s</string>
     <string name="main_database_download_error_logcat">Impossibile aggiornare, controlla il logcat</string>
-
     <string name="main_starting_scan">Avviamento scansione…</string>
     <string name="main_cancelling_scan">Annullamento scansione…</string>
     <string name="main_files_pending_scan">%s file da scansionare</string>
@@ -76,4 +73,13 @@
     <string name="confirm_update_summary">Sembra che tu sia connesso a una rete a consumo. Sei sicuro di voler aggiornare i database?\nCiò potrebbe causare lo scaricamento di %s megabyte di dati.</string>
     <string name="lblUpdateRunning">Operazione non eseguita poiché un aggiornamento è in corso!</string>
     <string name="lblWroteTestFiles">I file di test sono stati scritti!</string>
+    <string name="lblNotificationLinkDetection">Link malevolo rilevato:</string>
+    <string name="lblResetPrimary">Server primari</string>
+    <string name="lblResetCloudflare">Mirror di Cloudflare</string>
+    <string name="confirm_link_scanner_title">Abilitare lo scanner di link?</string>
+    <string name="confirm_link_scanner_summary">[SPERIMENTALE]\nQuesta funzione scaricherà un database aggiuntivo di domini.\nOgni dominio visualizzato a schermo verrà confrontato con quelli nel database.\nCiò richiede l\'abilitazione manuale del servizio di accessibilità.\nCiò può avere un impatto considerevole sulle prestazioni quando sullo schermo è presente una grande quantità di testo.</string>
+    <string name="accessibility_service_label">Scanner di link di Hypatia</string>
+    <string name="accessibility_service_description">Estrae i domini dal testo visualizzato a schermo verifica se compaiono su una lista nera</string>
+    <string name="lblLinkScannerToggle">Scanner di link</string>
+    <string name="app_copyright">Copyright 2017-2024 di Divested Computing Group</string>
 </resources>

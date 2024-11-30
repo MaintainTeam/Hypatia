@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_license">Litsents: GPL-3.0</string>
+    <string name="app_version">Versioon: %s</string>
+    <string name="app_copyright">Autoriõigused 2017-2024 Divested Computing Group</string>
+    <string name="main_database_override">Kasutame serverit %s</string>
+    <string name="lblResetPrimary">Põhiserverid</string>
+    <string name="lblResetCloudflare">Cloudflare peegelserver</string>
+    <string name="lblFullCredits">Rakenduse teave</string>
+    <string name="lblOnionRoutingToggle">Laadi alla Tori võrgu kaudu</string>
+    <string name="lblOnionRoutingEnabledHint">Laadime alla Tori võrgu kaudu, selleks võib natuke aega kuluda…</string>
+    <string name="lblOnionRoutingNotInstalled">Orbot on paigaldamata!</string>
+    <string name="lblUpdateDatabase">Uuenda viiruseandmete andmebaasid</string>
+    <string name="app_db_type_clamav">Töötab ClamAV-tüüpi viirusetuvastuse alusel</string>
+    <string name="lblDatabaseServer">Kasuta muud andmekogu</string>
+    <string name="lblScanSystem">Kontrolli /system kausta</string>
+    <string name="lblScanApps">Kontrolli rakenduste apk-faile</string>
+    <string name="lblScanInternal">Kontrolli sisemist andmekogu</string>
+    <string name="lblScanExternal">Kontrolli välist andmekogu</string>
+    <string name="lblNotificationMalwareDetectionTitle">Tuvasta pahavara</string>
+    <string name="lblNotificationMalwareDetectionDescription">Kasutusel hoiatamaks pahavara tuvastamisel</string>
+    <string name="lblNotificationRealtimeTitle">Kontrolli reaalajas</string>
+    <string name="lblNotificationRealtimeDescription">See eelistus hoiab taustateenust töös ja kuvab kontrollitud failide loendit</string>
+    <string name="lblNotificationRealtimeText">Tuvastame teadaoleva pahavara reaalajas</string>
+    <string name="lblNotificationRealtimeStopped">Hypatia: Reaalajas kontroll on peatatud</string>
+    <string name="lblNotificationRealtimeDetection">Tuvastasime pahavara:</string>
+    <string name="lblRealtimeScannerToggle">Kontroll reaalajas</string>
+    <string name="lblReset">Lähtesta</string>
+    <string name="lblOverride">Asenda server</string>
+    <string name="main_database_updating">Uuendame %s andmebaasi…</string>
+    <string name="main_database_download_success">Allalaadimine õnnestus</string>
+    <string name="main_database_download_error">Faili allalaadimine ei õnnestunud; veakood %s</string>
+    <string name="main_no_database_available">Viirusetunnuste andmebaasi pole olemas, viiruste kontrollimine pole võimalik…</string>
+    <string name="main_database_released_on">Avaldatud: %s</string>
+    <string name="main_database_not_changed">Fail pole muutunud</string>
+    <string name="main_database_not_modified_since">peale %s</string>
+    <string name="main_database_download_error_logcat">Allalaadimine ei õnnestunud, vaata mida logcat ütleb</string>
+    <string name="main_starting_scan">Alustame kontrollimist…</string>
+    <string name="main_cancelling_scan">Katkestame kontrollimise…</string>
+    <string name="main_files_pending_scan">%s faili on kontrollimise ootel</string>
+    <string name="main_database_loading">Laadime andmebaasi…</string>
+    <string name="main_database_loaded">Laadisime %s viirusetunnusega andmebaasi</string>
+    <string name="main_hashing_files">Räsime faile…</string>
+    <string name="main_hashing_done">Kontrollisime kõikide failide räsisid</string>
+    <string name="main_hash_scan_done">Kontrollisime kõik %s räsisid viirusetunnuste andmebaasi suhtes</string>
+    <string name="main_scanning_done">Kontrollimine lõppes %s sekundiga kiirusel %s MB/s!</string>
+    <string name="main_files_scanned_count">Kontrollisime %s faili</string>
+    <string name="scan_control">Kontrollimise seadistused</string>
+    <string name="lblScanRunning">Jätsime tegevuse vahele, kontrollimine on just pooleli!</string>
+    <string name="lblSigningKey">Andmebaasi allkirja võti</string>
+    <string name="lblNoNetwork">Võrguühendus puudub!</string>
+    <string name="self_test_result_success">Enesetest õnnestus.</string>
+    <string name="self_test_result_failure">Enesetest ei õnnestunud!</string>
+    <string name="lblDatabaseLoading">Jätsime tegevuse vahele, andmebaasi laadimine on just pooleli!</string>
+    <string name="lblDatabasesUpdated">Kõik viirusetunnuste andmebaasid on uuendatud!</string>
+    <string name="lookupVT">Kontrollimise tulemus</string>
+    <string name="deleteFile">Kustuta</string>
+    <string name="deleted">Kustutatud!</string>
+    <string name="ignoreDetection">Eira</string>
+    <string name="detections_none">Ei leidnud ühtegi vastet viirusetunnustele :)</string>
+    <string name="detections_found">Leidsime vasteid viirusetunnustele :)</string>
+    <string name="confirm_lookup_title">Kinnita kontrolli tulemus</string>
+    <string name="confirm_lookup_summary">Kas sa oled kindel et soovid avada oma veebibrauseris VirusTotal.com saidi antud räsiga?</string>
+    <string name="confirm_delete_title">Kinnita kustutamine</string>
+    <string name="confirm_delete_summary">Kas sa oled kindel, et soovid selle faili kustutada?</string>
+    <string name="delete_failed">Kustutamine ei õnnestunud!</string>
+    <string name="ignored">Eiratud!</string>
+    <string name="uninstallApp">Eemalda paigaldus</string>
+    <string name="lblSelfTest">Salvesta enesetestifailid</string>
+    <string name="lblExtendedDatabaseToggle">Laiendatud viirusetunnuste andmebaas</string>
+    <string name="confirm_extended_title">Kas soovid kasutusele võtta laiendatud viirusetunnuste andmebaasi?</string>
+    <string name="confirm_update_title">Kinnita allalaadimine</string>
+    <string name="lblUpdateRunning">Jätame tegevuse vahele, uuendus on juba töös!</string>
+    <string name="lblWroteTestFiles">Salvestasime testfailid!</string>
+    <string name="confirm_update_summary">Tundub, et kasutad mahupõhist internetiühendust. Kas sa oled kindel, et soovid uuendada viirusetunnuste andmebaase?
+\nLaadime alla kuni %s megabaiti andmeid.</string>
+    <string name="accessibility_service_label">Hypatia linkide kontrollija</string>
+    <string name="lblNotificationLinkDetection">Tuvastasime pahavara lingi:</string>
+    <string name="lblLinkScannerToggle">Linkide kontrollija</string>
+    <string name="accessibility_service_description">Tuvastame kogu ekraanivaates leiduvad kõik lingid ning kontrollime nende olemasolu pahavara linkide andmekogus</string>
+    <string name="confirm_link_scanner_title">Kas võtad linkide kontrollija kasutusele?</string>
+    <string name="confirm_link_scanner_summary">[KATSELINE]
+\nSelle lahenduse puhul laadime alla täiendava domeenide andmekogu.
+\nKoontrollime kõiki ekraanil leiduvate domeenide olemasolu selles andmebaasis.
+\nSellise kontrolli toimimine eeldab, et sa käsitsi annad rakendusele õiguse kasutada ligipääsetavuse funktsionaalsust.
+\nKui ekraanivaates on palju teksti, siis annab selline kontroll nutiseadme jõudluses märgatavalt tunda.</string>
+    <string name="confirm_extended_summary">[KATSELINE]
+\nSellega võtad kasutusele täiendavad ~40 millionit viirusetunnust.
+\nVajalik on 200MB suuruse andmekogu allalaadimine, rakenduse käivitamine venib kahe minuti võrra ning kasvab mälukastutus ja samuti võib lisanduda mingil määral valepositiivseid tulemusi.
+\nSeda andmebaasi uuendatakse vaid kord kvartalis.</string>
+</resources>
