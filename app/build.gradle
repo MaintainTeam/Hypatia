@@ -12,9 +12,23 @@ android {
     }
     buildTypes {
         debug {
-            applicationIdSuffix ".debug"
+            debuggable true
+
+            // suffix the app id and the app name with git branch name
+            def workingBranch = getGitWorkingBranch()
+            def normalizedWorkingBranch = workingBranch.replaceFirst("^[^A-Za-z]+", "").replaceAll("[^0-9A-Za-z]+", "")
+            if (normalizedWorkingBranch.isEmpty() || workingBranch == "master" || workingBranch == "dev" || workingBranch == "stable") {
+                // default values when branch name could not be determined or is master, dev or stable
+                applicationIdSuffix ".debug"
+                resValue "string", "app_name", "Hypatia Debug"
+            } else {
+                applicationIdSuffix ".debug." + normalizedWorkingBranch
+                resValue "string", "app_name", "Hypatia " + workingBranch
+            }
+
             minifyEnabled true
             zipAlignEnabled true
+
         }
         release {
             shrinkResources true
@@ -39,4 +53,20 @@ dependencies {
     implementation 'commons-io:commons-io:2.5'
     implementation 'org.bouncycastle:bcpg-jdk15to18:1.77'
     implementation 'com.google.guava:guava:33.0.0-jre'
+}
+
+static String getGitWorkingBranch() {
+    try {
+        def gitProcess = "git rev-parse --abbrev-ref HEAD".execute()
+        gitProcess.waitFor()
+        if (gitProcess.exitValue() == 0) {
+            return gitProcess.text.trim()
+        } else {
+            // not a git repository
+            return ""
+        }
+    } catch (IOException ignored) {
+        // git was not found
+        return ""
+    }
 }
