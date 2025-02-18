@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_copyright">Telif hakkı 2017-2024 Divested Computing Group</string>
+    <string name="app_copyright">Telif hakkı 2017-2024 Divested Computing Group, 2025 MaintainTeam</string>
     <string name="app_license">Lisans: GPL-3.0</string>
     <string name="app_version">Sürüm: %s</string>
     <string name="app_db_type_clamav">ClamAV tarzı imzalarla güçlendirilmiştir</string>
@@ -41,7 +41,7 @@
     <string name="main_hashing_files">Dosyaların karma değeri hesaplanıyor…</string>
     <string name="main_hashing_done">Tüm dosyaların karma değeri hesaplandı</string>
     <string name="main_hash_scan_done">Tüm %s karma değer imza veri tabanlarıyla karşılaştırıldı</string>
-    <string name="main_scanning_done">Tarama % saniyede %sMB/s hızla tamamlandı!</string>
+    <string name="main_scanning_done">Tarama %s saniyede %sMB/s hızla tamamlandı!</string>
     <string name="main_files_scanned_count">%s dosya tarandı</string>
     <string name="scan_control">Tarama Kontrolü</string>
     <string name="lblScanRunning">Faaliyet es geçiliyor, bir tarama devam etmekte!</string>
