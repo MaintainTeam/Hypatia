@@ -71,4 +71,13 @@
     <string name="self_test_result_success">Swauji berhasil.</string>
     <string name="confirm_lookup_summary">Anda yakin ingin membuka laman VirusTotal.com pada leramban web dengan pilahan berikut?</string>
     <string name="confirm_extended_summary">[PILIHAN INI MASIH DALAM TAHAP EKSPERIMENTAL]\nPilihan ini akan mendeteksi sekitar ~40 juta tanda tangan.\nPilihan ini juga membutuhkan pengunduhan data sebesar 200 MB yang akan memperlambat jalannya aplikasi, meningkatkan penggunaan RAM, dan memperbesar kemungkinan hasil pemindaian positif palsu.\nPangkalan-pangkalan data ini hanya akan dimutakhirkan tiap triwulan sekali.</string>
+    <string name="lblSelfTest">Tulis file uji diri</string>
+    <string name="lblExtendedDatabaseToggle">Database diperpanjang</string>
+    <string name="accessibility_service_label">Pemindai Tautan Hypatia</string>
+    <string name="accessibility_service_description">Mengekstrak domain dari semua konten teks layar dan memeriksanya terhadap daftar blocklist</string>
+    <string name="confirm_extended_title">Aktifkan database yang diperluas?</string>
+    <string name="detections_none">Tidak ada kecocokan yang ditemukan :)</string>
+    <string name="detections_found">Sesuatu ditemukan! :(</string>
+    <string name="lblWroteTestFiles">Menulis file uji!</string>
+    <string name="lblResetCloudflare">Cloudflare Cermin</string>
 </resources>
