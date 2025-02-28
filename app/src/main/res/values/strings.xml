@@ -76,7 +76,7 @@
     <string name="lblUpdateRunning">Skipping action, an update is running!</string>
     <string name="lblWroteTestFiles">Wrote test files!</string>
     <string name="lblResetPrimary">Primary Servers</string>
-    <string name="lblResetCloudflare">Cloudflare Mirror</string>
+    <string name="lblResetGitHub">GitHub Mirror</string>
     <string name="accessibility_service_label">Hypatia Link Scanner</string>
     <string name="accessibility_service_description">Extracts domains from all screen text content and checks them against a blocklist</string>
     <string name="lblNotificationLinkDetection">Malicious Link Detected:</string>
