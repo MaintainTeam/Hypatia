@@ -52,7 +52,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ShareScanner">
+            android:name=".ShareScanner"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
                 <category android:name="android.intent.category.DEFAULT" />
