@@ -9,7 +9,6 @@ android {
         resValue "string", "app_name", "Hypatia"
         minSdkVersion 21
         targetSdkVersion 34
-        multiDexEnabled true
         versionCode 314
         versionName "3.14"
         resConfigs 'en', 'ar', 'bg', 'cs', 'de', 'es', 'et', 'fi', 'fr', 'gl', 'hr', 'in', 'it', 'ja', 'pt', 'pt-rBR', 'ro', 'ru', 'sk', 'ta', 'tr', 'uk', 'zh-rCN', 'zh-rTW'
@@ -66,8 +65,6 @@ dependencies {
     implementation 'org.bouncycastle:bcpg-jdk15to18:1.77'
     implementation 'com.google.guava:guava:33.0.0-jre'
     implementation 'androidx.appcompat:appcompat:1.6.1'
-    def multidex_version = "2.0.1"
-    implementation "androidx.multidex:multidex:$multidex_version"
 }
 
 static String getGitWorkingBranch() {

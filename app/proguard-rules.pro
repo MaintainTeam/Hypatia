@@ -24,3 +24,6 @@
 
 # Disable obfuscation
 -dontobfuscate
+
+-keep class androidx.appcompat.app.** { *; }
+-keep class androidx.appcompat.widget.** { *; }
