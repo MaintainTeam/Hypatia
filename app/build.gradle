@@ -1,14 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 33
+    compileSdkVersion 34
     namespace 'us.spotco.malwarescanner'
 
     defaultConfig {
         applicationId "org.maintainteam.hypatia"
         resValue "string", "app_name", "Hypatia"
-        minSdkVersion 16
-        targetSdkVersion 32
+        minSdkVersion 21
+        targetSdkVersion 34
         multiDexEnabled true
         versionCode 314
         versionName "3.14"
