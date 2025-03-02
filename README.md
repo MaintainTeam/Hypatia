@@ -33,6 +33,12 @@ Features
 - Minimal dependencies: the app only uses libraries when necessary
 - Signature databases can be enabled/disabled at the users demand
 
+Troubleshooting
+------------------
+- The app crashes and is very buggy. 
+- Unable to download databases.
+- Add extra databases. 
+
 Technical Details
 ------------------
 - Signature databases are serialized Guava BloomFilter object format
