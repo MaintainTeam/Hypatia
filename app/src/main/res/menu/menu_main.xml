@@ -1,4 +1,5 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="us.spotco.malwarescanner.MainActivity">
 
@@ -6,7 +7,7 @@
         android:id="@+id/btnStartScan"
         android:title="@string/scan_control"
         android:icon="@android:drawable/ic_media_play"
-        android:showAsAction="always" />
+        app:showAsAction="always" />
     <item
         android:id="@+id/toggleOnionRouting"
         android:title="@string/lblOnionRoutingToggle"
