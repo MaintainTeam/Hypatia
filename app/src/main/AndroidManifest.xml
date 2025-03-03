@@ -35,7 +35,7 @@
             android:name=".NotificationPromptActivity"
             android:exported="false"
             android:launchMode="singleInstance"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:theme="@style/Theme.AppCompat.Translucent"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:noHistory="true"
