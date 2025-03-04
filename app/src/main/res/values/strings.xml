@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_copyright">Copyright 2017-2024 Divested Computing Group, 2025 MaintainTeam</string>
+    <string name="app_copyright">Copyright 2017-2024 Divested Computing Group\nCopyleft 2025 MaintainTeam Organization</string>
     <string name="app_license">License: GPL-3.0</string>
     <string name="app_version">Version: %s</string>
     <string name="app_db_type_clamav">Powered by ClamAV style signatures</string>
