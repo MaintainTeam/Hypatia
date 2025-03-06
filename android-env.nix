@@ -1,4 +1,5 @@
 # see https://github.com/tadfisher/android-nixpkgs
+# run with `nix-shell android-env.nix`
 { pkgs ? import <nixpkgs> { config.android_sdk.accept_license = true; } }:
 
 let
