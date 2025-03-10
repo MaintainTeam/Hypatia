@@ -34,9 +34,12 @@ android {
 
         }
         release {
-            shrinkResources true
+            if (System.properties.containsKey('packageSuffix')) {
+                applicationIdSuffix System.getProperty('packageSuffix')
+                resValue "string", "app_name", "Hypatia " + System.getProperty('packageSuffix')
+            }
             minifyEnabled true
-            zipAlignEnabled true
+            shrinkResources false // disabled to fix F-Droid's reproducible build
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -57,6 +60,13 @@ android {
     }
     buildFeatures {
         buildConfig = true
+    }
+    dependenciesInfo {
+
+        // Disables dependency metadata when building APKs.
+        includeInApk = false
+        // Disables dependency metadata when building Android App Bundles.
+        includeInBundle = false
     }
 }
 
