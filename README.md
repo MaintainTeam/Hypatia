@@ -1,5 +1,5 @@
 > [!WARNING]
-> ### This is a fork of the original (and discontinued) app, **which is still looking for maintainers**. Please consider to [apply](https://github.com/MaintainTeam/Hypatia/issues/1) to keep this app maintained !
+> ### This is a fork of the [original](https://github.com/Divested-Mobile/Hypatia) (and discontinued) app, **which is still looking for maintainers**. Please consider to [apply](https://github.com/MaintainTeam/Hypatia/issues/1) to keep this app maintained !
 
 ![Banner](./fastlane/metadata/android/en-US/images/featureGraphic.png)
 
@@ -33,6 +33,7 @@ Features
 - Minimal dependencies: the app only uses libraries when necessary
 - Signature databases can be enabled/disabled at the users demand
 
+
 Troubleshooting
 ------------------
 - **The app crashes and is very buggy:**
@@ -42,6 +43,18 @@ If this occurs, try tapping the ellipsis in the top right of the main screen and
 - **There are false positives:**
 This occasionally occurs due to the nature of bloom filters. If you believe there is a false positive, first, rescan. This will sometimes fix the false positive. And if this still returns a false positive, scan the file to [VirusTotal](https://www.virustotal.com/gui/home/upload), and this will tell you if you truly have a false positive or rather some malware.
 
+Signature Databases
+-------------------
+We currently have 2 working signature database server provider. Both Signing keys are `5298C0C0C3E73288`
+> [!WARNING]
+> Codeberg sometimes return 500 (see https://github.com/MaintainTeam/Hypatia/issues/11#issuecomment-2693793420)
+- [Codeberg](https://codeberg.org/MaintainTeam/HypatiaDatabases/)
+  - to use in app & see generation reports: https://maintainteam.codeberg.page/HypatiaDatabases/
+- [GitHub](https://github.com/MaintainTeam/HypatiaDatabases/)
+  - to use in app & see generation reports: https://maintainteam.github.io/HypatiaDatabases/
+
+Database updates occurs in per 2 day about at 01 AM - 03 AM in both provider to `unsigned` branch. Then signing process made by self-hosted CI and push to `gh-pages`/`pages` branch about 06 AM. Each provider will generate static web-server from these branches. (UTC)
+
 Technical Details
 ------------------
 - Signature databases are serialized Guava BloomFilter object format
@@ -50,17 +63,13 @@ Technical Details
 - Files have their MD5/SHA-1/SHA-256 hashes calculated in one pass
 - Realtime scanner is multithreaded and will use half of the device's core count for scanning multiple files asynchronously
 - Realtime scanning powered by a recursive FileObserver
-<!-- - Network connections will be made to the following: https://divested.dev/MalwareScannerSignatures/hypatia-*-bloom.bin{,.sig}
-- Statistics & generation output of the current database is available via https://divested.dev/MalwareScannerSignatures/ -->
 
 Planned Updates
 ----------------
 - Option to scan on access
-- Scan files via share intent
 - Scan newly installed/updated apps
 - Option to let 3rd-party apps invoke scans
 - Automatic database updates
-- Automatic database generation
 - Database sanity checks
 - Testing
 - Better GUI
