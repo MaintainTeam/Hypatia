@@ -35,9 +35,12 @@ Features
 
 Troubleshooting
 ------------------
-- The app crashes and is very buggy. 
-- Unable to download databases.
-- Add extra databases. 
+- **The app crashes and is very buggy:**
+The first thing to check is if you have extended databases enabled. Extended databases require more RAM (8 GB), and can occasionally cause the app to be very buggy.
+- **Unable to download databases:**
+If this occurs, try tapping the ellipsis in the top right of the main screen and tap `Database server override`. This uses a mirror database in case the main database is down.
+- **There are false positives:**
+This occasionally occurs due to the nature of bloom filters. If you believe there is a false positive, first, rescan. This will sometimes fix the false positive. And if this still returns a false positive, scan the file to [VirusTotal](https://www.virustotal.com/gui/home/upload), and this will tell you if you truly have a false positive or rather some malware.
 
 Technical Details
 ------------------
