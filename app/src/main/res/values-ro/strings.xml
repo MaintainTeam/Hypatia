@@ -12,7 +12,7 @@
     <string name="main_database_released_on">Lansat pe data de %s</string>
     <string name="main_starting_scan">Scanare începută…</string>
     <string name="main_cancelling_scan">Scanarea se anulează…</string>
-    <string name="main_scanning_done">Scanarea completată în %s secunde @ %sMB/s!</string>
+    <string name="main_scanning_done">Scanare finalizată în %1$s secunde @ %2$s MB/s!</string>
     <string name="main_files_scanned_count">%s fișiere scanate</string>
     <string name="scan_control">Control de scanare</string>
     <string name="lblScanRunning">Acțiune ignorată, scanare in curs de desfășurare!</string>
@@ -44,7 +44,7 @@
     <string name="lblScanExternal">Scanează stocarea externă</string>
     <string name="lblOnionRoutingEnabledHint">Se descarcă prin Tor, asta poate dura un timp…</string>
     <string name="main_database_not_changed">Fișierul a rămas neschimbat</string>
-    <string name="app_copyright">Drepturi de autor 2017-2024 Divested Computing Group</string>
+    <string name="app_copyright">Drepturi de autor 2017-2024 Divested Computing Group\nCopyleft 2025 MaintainTeam Organization</string>
     <string name="app_license">Licență: GPL-3.0</string>
     <string name="app_db_type_clamav">Se utilizează semnături de tip ClamAV</string>
     <string name="lblFullCredits">Credite</string>
@@ -67,4 +67,19 @@
     <string name="confirm_update_summary">Se pare că aveți o conexiune contorizată. Sunteți sigur(ă) că doriți să actualizați bazele de date?
 \nSe pot descărca până la %s megabiti de date.</string>
     <string name="accessibility_service_description">Extrage domeniile din tot conținutul text al ecranului și le verifică în raport cu o listă neagră</string>
+    <string name="app_disclaimer">Acesta este doar un scaner malware care compară fișierele cu hash-uri găsite anterior. Nu este o baghetă magică care îți păstrează întregul Android super sigur. Ar trebui să fii atent la ceea ce descarci!</string>
+    <string name="lblNotificationRealtimeDescription">Folosit pentru a afișa contorul fișierelor scanate și pentru a menține serviciul de fundal</string>
+    <string name="lblDatabaseServer">Înlocuire server de baze de date</string>
+    <string name="self_test_result_success">Auto-testarea a avut succes.</string>
+    <string name="self_test_result_failure">Auto-test eșuat!</string>
+    <string name="lookupVT">Căutare</string>
+    <string name="detections_none">Nu s-au găsesc potriviri :)</string>
+    <string name="detections_found">Potriviri găsite! :(</string>
+    <string name="confirm_lookup_title">Confirmă căutarea</string>
+    <string name="lblSelfTest">Scrie fișiere auto-test</string>
+    <string name="confirm_extended_summary">[EXPERIMENTAL]\nAceasta va permite detectarea a ~ 40 milioane de semnături suplimentare.\nNecesită o descărcare de 200 MB, va încetini pornirea cu peste două minute, va crește utilizarea memoriei operative și va crește rata fals-pozitivă.\nAceastă bază de date se actualizează doar trimestrial.</string>
+    <string name="lblResetGitHub">Oglindă Github</string>
+    <string name="cache_scan_result_deletion_warning">Întrucât aceasta a fost o scanare de partajare, ar trebui să elimini sau să muți fișierul în carantină!</string>
+    <string name="lblWroteTestFiles">S-au scris fișierele de testare!</string>
+    <string name="confirm_link_scanner_summary">[EXPERIMENTAL]\nAceasta va descărca o bază de date suplimentară de domenii.\nOrice domenii găsite în conținutul ecranului vor fi verificate în baza de date.\nAcest lucru necesită acordarea manuală a permisiunii serviciului de accesibilitate.\nAcest lucru poate avea un impact substanțial de performanță asupra ecranelor cu cantități mari de text.</string>
 </resources>
