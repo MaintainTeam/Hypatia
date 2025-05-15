@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_disclaimer">זהו רק סורק תוכנות זדוניות שמשווה קבצים ל-hashs שנמצאו בעבר. לא שרביט קסמים ששומר על כל האנדרואיד שלך מאובטח במיוחד. אתה צריך להיזהר במה שאתה מוריד/לוחץ!</string>
-    <string name="app_copyright">זכויות יוצרים 2017-2024 Disested Computing Group\nCopyleft 2025 MaintainTeam Organization</string>
+    <string name="app_disclaimer">זה רק סורק תוכנות זדוניות שמשווה קבצים ל-hashs שנמצאו בעבר. לא שרביט קסמים שהופך את כל מכשיר האנדרואיד שלך לסופר מאובטח. עדיין צריך להיזהר במה שמורידים/לוחצים!</string>
+    <string name="app_copyright">זכויות יוצרים 2017-2024 Divested Computing Group\nCopyleft 2025 MaintainTeam Organization</string>
     <string name="lblNotificationRealtimeTitle">סריקה בזמן אמת</string>
     <string name="lblRealtimeScannerToggle">סורק בזמן אמת</string>
     <string name="main_hashing_done">גיבובים מחושבים עבור כל הקבצים</string>
@@ -18,7 +18,7 @@
     <string name="app_license">רשיון: GPL-3.0</string>
     <string name="app_version">גירסה: %s</string>
     <string name="app_db_type_clamav">מופעל על ידי חתימות בסגנון ClamAV</string>
-    <string name="lblOnionRoutingToggle">הורד דרך טור</string>
+    <string name="lblOnionRoutingToggle">הורד דרך Tor</string>
     <string name="lblNotificationMalwareDetectionDescription">משמש להתראה כאשר מזוהה תוכנה זדונית</string>
     <string name="lblNotificationRealtimeDescription">משמש להצגת מונה קבצים שנסרקו ולתחזק את שירות הרקע</string>
     <string name="lblNotificationRealtimeText">תוכנות זדוניות ידועות יתגלו בזמן אמת</string>
@@ -37,13 +37,13 @@
     <string name="lblUpdateRunning">מדלג על הפעולה, עידכון פועל כעת!</string>
     <string name="lblWroteTestFiles">כתיבת קבצים נסיון!</string>
     <string name="lblResetPrimary">שרתים ראשיים</string>
-    <string name="lblResetGitHub">GitHub Mirror</string>
+    <string name="lblResetGitHub">מראת GitHub</string>
     <string name="lblNotificationLinkDetection">זוהה קישור זדוני:</string>
     <string name="cache_scan_result_deletion_warning">מכיוון שזו הייתה סריקת שיתוף, עליך להסיר או לבודד באופן ידני את הקובץ!</string>
     <string name="deleted">נמחק!</string>
     <string name="main_database_download_error">הקובץ לא ירד, קוד תגובה %s</string>
     <string name="main_no_database_available">אין מסד נתונים זמין, לא יכול לסרוק…</string>
-    <string name="lblOnionRoutingEnabledHint">הורדה דרך Tor, זה עשוי לקחת זמן מה…</string>
+    <string name="lblOnionRoutingEnabledHint">מתבצעת הורדה דרך Tor, זה עשוי לקחת זמן מה…</string>
     <string name="main_database_loaded">טוען מסד נתונים עם %s חתימות</string>
     <string name="lblUpdateDatabase">מעדכן מסד נתונים</string>
     <string name="lblLinkScannerToggle">סורק קישורים</string>
@@ -54,13 +54,13 @@
     <string name="lblFullCredits">קרדיטים</string>
     <string name="main_database_not_changed">קובץ לא השתנה</string>
     <string name="lblNotificationRealtimeStopped">Hypatia: הסריקה בזמן אמת הופסקה</string>
-    <string name="lblScanRemovable">Scan Removable Storage</string>
-    <string name="lblScanApps">סריקת אפליקציות APKs</string>
+    <string name="lblScanRemovable">סריקת אחסון נתיק</string>
+    <string name="lblScanApps">סריקת חבילות אפליקצייה</string>
     <string name="lblDatabaseServer">עקיפה של שרת מסד הנתונים</string>
-    <string name="lblScanExternal">סרוק אחסון חיצוני</string>
+    <string name="lblScanExternal">סריקת אחסון חיצוני</string>
     <string name="lblOverride">עקיפה</string>
     <string name="lblSigningKey">מפתח חתימת מסד נתונים</string>
-    <string name="lblScanSystem">סריקה /system</string>
+    <string name="lblScanSystem">סריקת /system</string>
     <string name="main_files_pending_scan">%s קבצים ממתינים לסריקה</string>
     <string name="lblNotificationMalwareDetectionTitle">זיהוי תוכנות זדוניות</string>
     <string name="lblReset">איפוס</string>
@@ -82,4 +82,5 @@
     <string name="lblExtendedDatabaseToggle">מסד נתונים מורחב</string>
     <string name="confirm_extended_summary">[נסיוני]\nזה יאפשר זיהוי של כ-40 מיליון חתימות נוספות.\nזה דורש הורדה של 200MB, יאט את האתחול ביותר משתי דקות, יגדיל את השימוש ב-RAM של האפליקציה, ויגדיל שיעור זיהויים שגויים.\nמסד נתונים זה מתעדכן רק מדי רבעון.</string>
     <string name="confirm_update_summary">נראה שאתה בחיבור מדורג. האם אתה בטוח שברצונך לעדכן את מסדי הנתונים?\nזה עשוי להוריד עד %s מגה-בייט של נתונים.</string>
+    <string name="see_notifications">נא לראות את ההתראות כדי לטפל בקובץ המזוהם.</string>
 </resources>
