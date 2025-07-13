@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_license">Lizenz: GPL-3.0</string>
-    <string name="app_copyright">Urheberrecht 2017-2024 Divested Computing Group</string>
+    <string name="app_copyright">Copyright 2017-2024 Divested Computing Group\n\nCopyleft 2025 MaintainTeam Organization</string>
     <string name="app_version">Version: %s</string>
     <string name="app_db_type_clamav">Basierend auf Signaturen im Stil von ClamAV</string>
     <string name="lblOnionRoutingToggle">Downloads via Tor</string>
@@ -41,7 +41,7 @@
     <string name="main_hashing_files">Generiere Prüfsummen der Dateien…</string>
     <string name="main_hashing_done">Prüfsummen für alle Dateien generiert</string>
     <string name="main_hash_scan_done">Alle %s Prüfsummen wurden mit den Signaturen der Datenbank(en) verglichen</string>
-    <string name="main_scanning_done">Überprüfung nach %s Sekunden und mit %sMB/s abgeschlossen!</string>
+    <string name="main_scanning_done">Überprüfung abgeschlossen in %1$s Sekunden mit %2$sMB/s!</string>
     <string name="main_files_scanned_count">%s Dateien überprüft</string>
     <string name="scan_control">Scan Steuerung</string>
     <string name="lblScanRunning">Vorhaben wurde übersprungen, ein aktiver Scan läuft bereits!</string>
@@ -85,4 +85,7 @@
 \nJegliche erkannte Webaddresse im Bildschirminhalt wird mittels dieser Datenbank verglichen.
 \nDiese funktion benötigt das manuelle freigeben der Android \"Bedienungshilfe-Berechtigung\".
 \nDiese funktion kann bei Bildschirminhalten mit viel Text einen großen einfluss auf die Geräteleistung verusachen.</string>
+    <string name="app_disclaimer">Dies ist lediglich ein Malware-Scanner, der Dateien mit zuvor gefundenen Hashes vergleicht. Kein Zauberstab, der Ihr gesamtes Android-Gerät supersicher macht. Seien Sie vorsichtig, was Sie herunterladen/anklicken!</string>
+    <string name="lblResetGitHub">GitHub Mirror</string>
+    <string name="cache_scan_result_deletion_warning">Da es sich um einen Freigabescan handelte, sollten Sie die Datei manuell entfernen oder unter Quarantäne stellen!</string>
 </resources>
