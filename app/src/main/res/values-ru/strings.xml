@@ -71,7 +71,7 @@
     <string name="confirm_update_summary">Похоже, вы используете тарифицируемое подключение. Вы уверены, что хотите обновить базы данных?\nОбъем загружаемых данных может достигать %s мегабайт.</string>
     <string name="lblUpdateRunning">Пропуск действия, запущено обновление!</string>
     <string name="lblWroteTestFiles">Записаны тестовые файлы!</string>
-    <string name="app_copyright">© Divested Computing Group, 2017–2024</string>
+    <string name="app_copyright">Авторское право 2017-2024 Divested Computing Group\nАвторское лево 2025 MaintainTeam Organization</string>
     <string name="lblResetPrimary">Основные серверы</string>
     <string name="lblResetCloudflare">Зеркало Cloudflare</string>
     <string name="lblNotificationLinkDetection">Обнаружена вредоносная ссылка:</string>
