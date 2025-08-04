@@ -43,7 +43,6 @@
     <string name="main_database_download_error_logcat">பதிவிறக்கம் செய்யத் தவறிவிட்டது, LogCat ஐ சரிபார்க்கவும்</string>
     <string name="main_starting_scan">ச்கேன் தொடங்குகிறது…</string>
     <string name="main_cancelling_scan">ச்கேன் ரத்து செய்தல்…</string>
-    <string name="main_files_pending_scan">SCAN நிலுவையில் உள்ள %கோப்புகள்</string>
     <string name="main_database_loading">தரவுத்தளத்தை ஏற்றுகிறது…</string>
     <string name="main_database_loaded">%s கையொப்பங்களுடன் ஏற்றப்பட்ட தரவுத்தளம்</string>
     <string name="main_hashing_files">கோப்புகளை ஏசிங் செய்யுங்கள்…</string>
