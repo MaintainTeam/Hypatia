@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'org.jetbrains.kotlin.android'
 
 android {
-    compileSdkVersion 35
+    compileSdkVersion 36
     namespace 'us.spotco.malwarescanner'
 
     defaultConfig {
@@ -82,12 +82,12 @@ android {
 }
 
 dependencies {
-    implementation 'commons-io:commons-io:2.5'
-    implementation 'org.bouncycastle:bcpg-jdk15to18:1.77'
-    implementation 'com.google.guava:guava:33.0.0-jre'
-    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'commons-io:commons-io:2.20.0'
+    implementation 'org.bouncycastle:bcpg-jdk15to18:1.81'
+    implementation 'com.google.guava:guava:33.4.8-jre'
+    implementation 'androidx.appcompat:appcompat:1.7.1'
     implementation 'androidx.documentfile:documentfile:1.1.0'
-    implementation 'androidx.core:core-ktx:1.16.0'
+    implementation 'androidx.core:core-ktx:1.17.0'
 }
 
 static String getGitWorkingBranch() {
