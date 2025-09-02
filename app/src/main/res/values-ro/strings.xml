@@ -81,4 +81,5 @@
     <string name="cache_scan_result_deletion_warning">Întrucât aceasta a fost o scanare de partajare, ar trebui să elimini sau să muți fișierul în carantină!</string>
     <string name="lblWroteTestFiles">S-au scris fișierele de testare!</string>
     <string name="confirm_link_scanner_summary">[EXPERIMENTAL]\nAceasta va descărca o bază de date suplimentară de domenii.\nOrice domenii găsite în conținutul ecranului vor fi verificate în baza de date.\nAcest lucru necesită acordarea manuală a permisiunii serviciului de accesibilitate.\nAcest lucru poate avea un impact substanțial de performanță asupra ecranelor cu cantități mari de text.</string>
+    <string name="see_notifications">Consultă Notificările pentru a gestiona fișierul infectat.</string>
 </resources>
