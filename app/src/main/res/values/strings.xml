@@ -84,6 +84,7 @@
     <string name="lblLinkScannerToggle">Link Scanner</string>
     <string name="confirm_link_scanner_title">Enable link scanner?</string>
     <string name="confirm_link_scanner_summary">[EXPERIMENTAL]\nThis will download an additional database of domains.\nAny domains found in screen content will be checked against the database.\nThis requires granting accessibility service permission manually.\nThis can have a substantial performance impact on screens with large amounts of text.</string>
+    <string name="database_not_loaded_link_scanner">No database loaded. Please update databases to use the link scanner.</string>
     <string name="cache_scan_result_deletion_warning">Since this was a share scan you should manually remove or quarantine the file!</string>
     <string name="see_notifications">Please see Notifications to manage the infected file.</string>
 </resources>
