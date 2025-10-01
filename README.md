@@ -65,19 +65,18 @@ Technical Details
 
 Permissions
 -----------------
-- `ACCESS_NETWORK_STATE`
+- `ACCESS_NETWORK_STATE`: Checks if a network is available before updating databases.
 - `FOREGROUND_SERVICE` and `FOREGROUND_SERVICE_SPECIAL_USE`: Used for realtime scanning.
 - `INTERNET`: Download and update databases.
-- `MANAGE_EXTERNAL_STORAGE`: Used for reading malicous files for scanning, and deleting infected files.
-- `QUERY_ALL_PACKAGES`: Used for scanning malicous apps.
-- `READ_EXTERNAL_STORAGE`: Scanning external storage.
-- `RECIEVE_BOOT_COMPLETED`: Restart the app on reboot.
+- `MANAGE_EXTERNAL_STORAGE`: Used for reading malicious files for scanning, and deleting infected files.
+- `WRITE_EXTERNAL_STORAGE` and `READ_EXTERNAL_STORAGE`: Used for scanning and removing infected files on older Android versions.
+- `QUERY_ALL_PACKAGES`: Used for scanning malicious apps.
+- `RECEIVE_BOOT_COMPLETED`: Restart the app on reboot.
 - `REQUEST_DELETE_PACKAGES`: Used for removing infected apps.
 - `POST_NOTIFICATIONS`: Notifications.
-- `WAKE_LOCK`
-- `WRITE_EXTERNAL_STORAGE`: Used for removing infected files.
+- `WAKE_LOCK`: Keeps phone awake while scanning to prevent the process from being killed.
 - `ACCESIBILITY_SERVICE`: Used to allow the link scanner to read the screen and check for malicious domains.
-- `DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION`
+- `DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION`: Required for receiver declarations in Android.
 
 Planned Updates
 ----------------
