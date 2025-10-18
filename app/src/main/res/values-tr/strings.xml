@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_copyright">Telif hakkı 2017-2024 Divested Computing Group\nTelif Müsaadeli 2025 MaintainTeam Organizasyonu</string>
+    <string name="app_copyright">Telif hakkı 2017–2024 Divested Computing Group\nTelif Müsaadeli 2025 MaintainTeam Organizasyonu</string>
     <string name="app_license">Lisans: GPL-3.0</string>
     <string name="app_version">Sürüm: %s</string>
     <string name="app_db_type_clamav">ClamAV tarzı imzalarla güçlendirilmiştir</string>
@@ -12,8 +12,8 @@
     <string name="lblFullCredits">Katkıda bulunanlar</string>
     <string name="lblScanSystem">Sistemi /tara</string>
     <string name="lblScanApps">Uygulama APK\'larını tara</string>
-    <string name="lblScanInternal">Dahili Depolamayı Tara</string>
     <string name="lblScanExternal">Harici Depolamayı Tara</string>
+    <string name="lblScanRemovable">Scan Removable Storage</string>
     <string name="lblNotificationMalwareDetectionTitle">Kötücül Yazılım Tespiti</string>
     <string name="lblNotificationMalwareDetectionDescription">Kötücül yazılım bulunduğunda haber vermek için kullanılır</string>
     <string name="lblNotificationRealtimeTitle">Gerçek zamanlı tarayıcı</string>
@@ -75,7 +75,6 @@
     <string name="confirm_link_scanner_title">Bağlantı tarayıcısı etkinleştirilsin mi?</string>
     <string name="lblResetPrimary">Birincil Sunucular</string>
     <string name="accessibility_service_label">Hypatia Bağlantı Tarayıcısı</string>
-    <string name="lblResetCloudflare">Cloudflare Yansısı</string>
     <string name="accessibility_service_description">Tüm metin ekran içeriğinden alan isimlerini çıkarır ve bunları bir engelleme listesiyle karşılaştırır</string>
     <string name="lblNotificationLinkDetection">Kötücül Bağlantı Tespit Edildi:</string>
     <string name="lblLinkScannerToggle">Bağlantı Tarayıcısı</string>

@@ -7,7 +7,7 @@
     <string name="lblUpdateDatabase">Ažurirajte baze podataka</string>
     <string name="lblScanSystem">Skeniraj /sustav</string>
     <string name="lblScanApps">Skenirajte APK-ove aplikacija</string>
-    <string name="lblScanExternal">Skeniraj vanjsku pohranu</string>
+    <string name="lblScanRemovable">Scan Removable Storage</string>
     <string name="lblNotificationMalwareDetectionTitle">Otkrivanje zlonamjernog softvera</string>
     <string name="lblNotificationRealtimeTitle">Skener u stvarnom vremenu</string>
     <string name="lblNotificationRealtimeDetection">Otkriven zlonamjerni softver:</string>
@@ -34,14 +34,13 @@
     <string name="confirm_lookup_title">Potvrdite traženje</string>
     <string name="confirm_update_title">Potvrdite preuzimanje</string>
     <string name="lblWroteTestFiles">Napisao test datoteke!</string>
-    <string name="lblResetCloudflare">Cloudflare Mirror</string>
     <string name="accessibility_service_label">Hypatia skener veza</string>
     <string name="lblResetPrimary">Primarni poslužitelji</string>
     <string name="lblNotificationLinkDetection">Otkrivena zlonamjerna veza:</string>
     <string name="confirm_link_scanner_title">Omogućiti skener veza?</string>
     <string name="app_license">Licenca: GPL-3.0</string>
     <string name="lblFullCredits">Zasluge</string>
-    <string name="lblScanInternal">Skeniraj unutarnju pohranu</string>
+    <string name="lblScanExternal">Skeniraj vanjsku pohranu</string>
     <string name="lblNotificationMalwareDetectionDescription">Koristi se za upozorenje kada se otkrije zlonamjerni softver</string>
     <string name="lblNotificationRealtimeText">Poznati zlonamjerni softver bit će otkriven u stvarnom vremenu</string>
     <string name="lblNotificationRealtimeStopped">Hypatia: Zaustavljeno skeniranje u stvarnom vremenu</string>
@@ -76,7 +75,7 @@
 \nSve domene pronađene u sadržaju zaslona provjerit će se u bazi podataka.
 \nTo zahtijeva ručno dodjeljivanje dopuštenja usluge pristupačnosti.
 \nTo može imati značajan utjecaj na performanse na zaslonima s velikom količinom teksta.</string>
-    <string name="app_copyright">Autorska prava 2017-2024 Divested Computing Group</string>
+    <string name="app_copyright">Autorska prava 2017–2024 Divested Computing Group</string>
     <string name="app_db_type_clamav">Pokreće potpise u stilu ClamAV</string>
     <string name="main_database_download_error">Datoteka nije preuzeta, kod odgovora %s</string>
     <string name="main_database_loaded">Učitana baza podataka s potpisima %s</string>

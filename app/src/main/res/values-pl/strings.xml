@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_copyright">Prawa autorskie 2017-2024 Divested Computing Group</string>
+    <string name="app_copyright">Prawa autorskie 2017–2024 Divested Computing Group\nCopyleft 2025 MaintainTeam Organization</string>
     <string name="app_license">Licencja: GPL-3.0</string>
     <string name="app_version">Wersja: %s</string>
     <string name="app_db_type_clamav">Oparto o sygnatury w stylu ClamAV</string>
@@ -12,8 +12,8 @@
     <string name="lblFullCredits">Uznania</string>
     <string name="lblScanSystem">Skanuj /system</string>
     <string name="lblScanApps">Skanuj pliki APK aplikacji</string>
-    <string name="lblScanInternal">Skanuj pamięć wewnętrzną</string>
     <string name="lblScanExternal">Skanuj pamięć zewnętrzną</string>
+    <string name="lblScanRemovable">Scan Removable Storage</string>
     <string name="lblNotificationMalwareDetectionTitle">Wykrywanie złośliwego oprogramowania</string>
     <string name="lblNotificationMalwareDetectionDescription">Wykorzystywane do informowania, gdy wykryto złośliwe oprogramowanie</string>
     <string name="lblNotificationRealtimeTitle">Skaner w czasie rzeczywistym</string>
@@ -27,7 +27,7 @@
     <string name="main_database_updating">Aktualizacja bazy danych %s…</string>
     <string name="main_database_override">Wykorzystywanie serwera %s</string>
     <string name="main_database_download_success">Pomyślnie pobrano</string>
-    <string name="main_database_download_error">Nie pobrano plikku, kod odpowiedzi %s</string>
+    <string name="main_database_download_error">Nie pobrano pliku, kod odpowiedzi %s</string>
     <string name="main_no_database_available">Baza danych nie jest dostępna, nie skanuję…</string>
     <string name="main_database_released_on">Wydano %s</string>
     <string name="main_database_not_changed">Nie zmieniono pliku</string>
@@ -41,6 +41,41 @@
     <string name="main_hashing_files">Hashowanie plików…</string>
     <string name="main_hashing_done">Obliczono hashe dla wszystkich plików</string>
     <string name="main_hash_scan_done">Porównano wszystkie %s hashów z bazą danych sygnatur</string>
-    <string name="main_scanning_done">Ukończono skanowanie w %s sekund @ %sMB/s!</string>
+    <string name="main_scanning_done">Ukończono skanowanie w %1$s sekund @ %2$sMB/s!</string>
     <string name="main_files_scanned_count">Zeskanowano %s plików</string>
+    <string name="confirm_lookup_summary">Czy na pewno chcesz otworzyć VirusTotal.com w swojej przeglądarce internetowej z następującym hashem?</string>
+    <string name="accessibility_service_description">Wyodrębnia domeny z całej zawartości tekstowej ekranu i porównuje je z listą zablokowanych</string>
+    <string name="lblExtendedDatabaseToggle">Rozszerzona baza danych</string>
+    <string name="delete_failed">Nie udało się usunąć!</string>
+    <string name="self_test_result_failure">Autotest nie powiódł się!</string>
+    <string name="confirm_extended_summary">[EKSPERYMENTALNE]\nUmożliwi to wykrycie dodatkowych ~40 milionów podpisów.\nWymaga to pobrania 200 MB, spowolni uruchamianie o ponad dwie minuty, zwiększy wykorzystanie pamięci RAM aplikacji i zwiększy współczynnik fałszywych wyników pozytywnych.\nTa baza danych jest aktualizowana tylko kwartalnie.</string>
+    <string name="confirm_extended_title">Włączyć rozszerzoną bazę danych?</string>
+    <string name="app_disclaimer">To tylko skaner malware, który porównuje pliki z wcześniej znalezionymi haszami. Nie magiczna różdżka, która zapewnia super bezpieczeństwo całego twojego androida. Powinieneś uważać na to, co pobierasz/klikasz!</string>
+    <string name="lblNoNetwork">Brak połączenia z internetem!</string>
+    <string name="lblSigningKey">Klucz podpisujący bazę danych</string>
+    <string name="scan_control">Kontrola skanowania</string>
+    <string name="lblScanRunning">Akcja pominięta, skanowanie jest w toku!</string>
+    <string name="lblDatabaseLoading">Akcja pominięta, ładowanie bazy danych!</string>
+    <string name="lblDatabasesUpdated">Zaktualizowano wszystkie bazy danych!</string>
+    <string name="deleteFile">Usuń</string>
+    <string name="deleted">Usunięte!</string>
+    <string name="ignoreDetection">Ignoruj</string>
+    <string name="detections_none">Nie dopasowano wyników :)</string>
+    <string name="confirm_delete_title">Potwierdź usunięcie</string>
+    <string name="detections_found">Znaleziono dopasowania! :(</string>
+    <string name="confirm_delete_summary">Czy na pewno chcesz usunąć następujący plik?</string>
+    <string name="ignored">Zignorowano!</string>
+    <string name="uninstallApp">Odinstaluj</string>
+    <string name="lblSelfTest">Zapisz pliki autotestu</string>
+    <string name="confirm_update_title">Potwierdź pobranie</string>
+    <string name="confirm_update_summary">Wygląda na to, że korzystasz z połączenia taryfowego. Czy na pewno chcesz zaktualizować bazy danych?\nMoże pobrać do %s megabajtów danych.</string>
+    <string name="lblUpdateRunning">Akcja pominięta, trwa aktualizacja!</string>
+    <string name="lblWroteTestFiles">Zapisano pliki testowe!</string>
+    <string name="lblResetPrimary">Serwery podstawowe</string>
+    <string name="lblNotificationLinkDetection">Wykryto złośliwy link:</string>
+    <string name="lblLinkScannerToggle">Skaner linków</string>
+    <string name="confirm_link_scanner_title">Włączyć skaner linków?</string>
+    <string name="confirm_link_scanner_summary">[EKSPERYMENTALNE]\nSpowoduje to pobranie dodatkowej bazy danych domen.\nWszystkie domeny znalezione w zawartości ekranu zostaną sprawdzone w bazie danych.\nWymaga to ręcznego udzielenia uprawnień usługi ułatwień dostępu.\nMoże to mieć znaczący wpływ na wydajność ekranów z dużą ilością tekstu.</string>
+    <string name="cache_scan_result_deletion_warning">Ponieważ było to skanowanie współdzielone, należy ręcznie usunąć plik lub umieścić go w kwarantannie!</string>
+    <string name="self_test_result_success">Autotest zakończony sukcesem.</string>
 </resources>

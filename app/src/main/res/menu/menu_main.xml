@@ -44,13 +44,13 @@
         android:checkable="true"
         android:checked="true" />
     <item
-        android:id="@+id/mnuScanInternal"
-        android:title="@string/lblScanInternal"
+        android:id="@+id/mnuScanExternal"
+        android:title="@string/lblScanExternal"
         android:checkable="true"
         android:checked="true" />
     <item
-        android:id="@+id/mnuScanExternal"
-        android:title="@string/lblScanExternal"
+        android:id="@+id/mnuScanRemovable"
+        android:title="@string/lblScanRemovable"
         android:checkable="true"
         android:checked="false" />
     <item

@@ -11,8 +11,8 @@
     <string name="lblFullCredits">Riconoscimenti</string>
     <string name="lblScanSystem">Scansiona le app di sistema</string>
     <string name="lblScanApps">Scansiona le app</string>
-    <string name="lblScanInternal">Scansiona la memoria interna</string>
     <string name="lblScanExternal">Scansiona la memoria esterna</string>
+    <string name="lblScanRemovable">Scan Removable Storage</string>
     <string name="lblNotificationMalwareDetectionTitle">Malware rilevato</string>
     <string name="lblNotificationMalwareDetectionDescription">Indica quando il malware è rilevato</string>
     <string name="lblNotificationRealtimeTitle">Scansione in tempo reale</string>
@@ -73,11 +73,10 @@
     <string name="lblWroteTestFiles">I file di test sono stati scritti!</string>
     <string name="lblNotificationLinkDetection">Link malevolo rilevato:</string>
     <string name="lblResetPrimary">Server primari</string>
-    <string name="lblResetCloudflare">Mirror di Cloudflare</string>
     <string name="confirm_link_scanner_title">Abilitare lo scanner di link?</string>
     <string name="confirm_link_scanner_summary">[SPERIMENTALE]\nQuesta funzione scaricherà un database aggiuntivo di domini.\nOgni dominio visualizzato a schermo verrà confrontato con quelli nel database.\nCiò richiede l\'abilitazione manuale del servizio di accessibilità.\nCiò può avere un impatto considerevole sulle prestazioni quando sullo schermo è presente una grande quantità di testo.</string>
     <string name="accessibility_service_label">Scanner di link di Hypatia</string>
     <string name="accessibility_service_description">Estrae i domini dal testo visualizzato a schermo verifica se compaiono su una lista nera</string>
     <string name="lblLinkScannerToggle">Scanner di link</string>
-    <string name="app_copyright">Copyright 2017-2024 di Divested Computing Group</string>
+    <string name="app_copyright">Copyright 2017–2024 di Divested Computing Group</string>
 </resources>

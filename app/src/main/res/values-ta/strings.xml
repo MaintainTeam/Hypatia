@@ -5,11 +5,10 @@
     <string name="lblNoNetwork">பிணையம் இணைக்கப்படவில்லை!</string>
     <string name="lookupVT">தேடல்</string>
     <string name="confirm_extended_title">நீட்டிக்கப்பட்ட தரவுத்தளத்தை இயக்கவா?</string>
-    <string name="lblResetCloudflare">கிளவுட்ஃப்ளேர் கண்ணாடி</string>
     <string name="accessibility_service_label">ஐபதியா இணைப்பு ச்கேனர்</string>
     <string name="lblNotificationLinkDetection">தீங்கிழைக்கும் இணைப்பு கண்டறியப்பட்டது:</string>
     <string name="lblLinkScannerToggle">இணைப்பு ச்கேனர்</string>
-    <string name="app_copyright">பதிப்புரிமை 2017-2024 பிரிக்கப்பட்ட கம்ப்யூட்டிங் குழு</string>
+    <string name="app_copyright">பதிப்புரிமை 2017–2024 பிரிக்கப்பட்ட கம்ப்யூட்டிங் குழு</string>
     <string name="app_license">உரிமம்: சிபிஎல் -3.0</string>
     <string name="app_version">பதிப்பு: %s</string>
     <string name="app_db_type_clamav">கிளாமாவ் பாணி கையொப்பங்களால் இயக்கப்படுகிறது</string>
@@ -21,8 +20,8 @@
     <string name="lblFullCredits">வரவு</string>
     <string name="lblScanSystem">ச்கேன் /சிச்டம்</string>
     <string name="lblScanApps">பயன்பாட்டு APKS ஐ ச்கேன் செய்யுங்கள்</string>
-    <string name="lblScanInternal">உள் சேமிப்பிடத்தை ச்கேன் செய்யுங்கள்</string>
     <string name="lblScanExternal">வெளிப்புற சேமிப்பிடத்தை ச்கேன் செய்யுங்கள்</string>
+    <string name="lblScanRemovable">Scan Removable Storage</string>
     <string name="lblNotificationMalwareDetectionTitle">தீம்பொருள் கண்டறிதல்</string>
     <string name="lblNotificationMalwareDetectionDescription">தீம்பொருள் கண்டறியப்படும்போது எச்சரிக்கைப் பயன்படுத்தப்படுகிறது</string>
     <string name="lblNotificationRealtimeTitle">நிகழ்நேர ச்கேனர்</string>
@@ -43,7 +42,6 @@
     <string name="main_database_download_error_logcat">பதிவிறக்கம் செய்யத் தவறிவிட்டது, LogCat ஐ சரிபார்க்கவும்</string>
     <string name="main_starting_scan">ச்கேன் தொடங்குகிறது…</string>
     <string name="main_cancelling_scan">ச்கேன் ரத்து செய்தல்…</string>
-    <string name="main_files_pending_scan">SCAN நிலுவையில் உள்ள %கோப்புகள்</string>
     <string name="main_database_loading">தரவுத்தளத்தை ஏற்றுகிறது…</string>
     <string name="main_database_loaded">%s கையொப்பங்களுடன் ஏற்றப்பட்ட தரவுத்தளம்</string>
     <string name="main_hashing_files">கோப்புகளை ஏசிங் செய்யுங்கள்…</string>

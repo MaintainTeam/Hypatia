@@ -2,10 +2,9 @@
 <resources>
     <string name="app_license">Litsents: GPL-3.0</string>
     <string name="app_version">Versioon: %s</string>
-    <string name="app_copyright">Autoriõigused 2017-2024 Divested Computing Group</string>
+    <string name="app_copyright">Autoriõigused 2017–2024 Divested Computing Group\nAutoriõigused 2025 MaintainTeam Organization</string>
     <string name="main_database_override">Kasutame serverit %s</string>
     <string name="lblResetPrimary">Põhiserverid</string>
-    <string name="lblResetCloudflare">Cloudflare peegelserver</string>
     <string name="lblFullCredits">Rakenduse teave</string>
     <string name="lblOnionRoutingToggle">Laadi alla Tori võrgu kaudu</string>
     <string name="lblOnionRoutingEnabledHint">Laadime alla Tori võrgu kaudu, selleks võib natuke aega kuluda…</string>
@@ -15,8 +14,8 @@
     <string name="lblDatabaseServer">Kasuta muud andmekogu</string>
     <string name="lblScanSystem">Kontrolli /system kausta</string>
     <string name="lblScanApps">Kontrolli rakenduste apk-faile</string>
-    <string name="lblScanInternal">Kontrolli sisemist andmekogu</string>
     <string name="lblScanExternal">Kontrolli välist andmekogu</string>
+    <string name="lblScanRemovable">Skaneeri eemaldatavat andmeruumi</string>
     <string name="lblNotificationMalwareDetectionTitle">Tuvasta pahavara</string>
     <string name="lblNotificationMalwareDetectionDescription">Kasutusel hoiatamaks pahavara tuvastamisel</string>
     <string name="lblNotificationRealtimeTitle">Kontrolli reaalajas</string>
@@ -43,7 +42,7 @@
     <string name="main_hashing_files">Räsime faile…</string>
     <string name="main_hashing_done">Kontrollisime kõikide failide räsisid</string>
     <string name="main_hash_scan_done">Kontrollisime kõik %s räsisid viirusetunnuste andmebaasi suhtes</string>
-    <string name="main_scanning_done">Kontrollimine lõppes %s sekundiga kiirusel %s MB/s!</string>
+    <string name="main_scanning_done">Kontrollimine lõppes %1$s sekundiga kiirusel %2$s MB/s!</string>
     <string name="main_files_scanned_count">Kontrollisime %s faili</string>
     <string name="scan_control">Kontrollimise seadistused</string>
     <string name="lblScanRunning">Jätsime tegevuse vahele, kontrollimine on just pooleli!</string>
@@ -88,4 +87,8 @@
 \nSellega võtad kasutusele täiendavad ~40 millionit viirusetunnust.
 \nVajalik on 200MB suuruse andmekogu allalaadimine, rakenduse käivitamine venib kahe minuti võrra ning kasvab mälukastutus ja samuti võib lisanduda mingil määral valepositiivseid tulemusi.
 \nSeda andmebaasi uuendatakse vaid kord kvartalis.</string>
+    <string name="app_disclaimer">See on ainus pahavara skaneerija, mis võrdleb faile varemleitud räsidega. Loomulikult pole see võlukepike, mis tagab, et sinu Androidi-põhine nutiseade on superturvaline. Alati pead ka ise olema ettevaatlik ja vaatama, mida laadid alla ja klõpsid!</string>
+    <string name="lblResetGitHub">Peegelserver GitHubis</string>
+    <string name="cache_scan_result_deletion_warning">Kuna antud juhul skaneerisid jaosmeediat, siis pead faili käsitsi kustutama või karantiini panema!</string>
+    <string name="see_notifications">Nakatunud failiga tehtavate toimingute valikud leiad teavitusest.</string>
 </resources>

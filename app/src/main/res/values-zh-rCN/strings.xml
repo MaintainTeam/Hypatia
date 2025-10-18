@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_copyright">版权所有 2017-2024 Divested Computing Group</string>
+    <string name="app_copyright">版权所有 2017–2024 Divested Computing Group</string>
     <string name="app_license">许可证：GPL-3.0</string>
     <string name="app_version">版本：%s</string>
     <string name="app_db_type_clamav">由 ClamAV 数据库特征码提供支持</string>
@@ -12,8 +12,8 @@
     <string name="lblFullCredits">致谢</string>
     <string name="lblScanSystem">扫描 /system</string>
     <string name="lblScanApps">扫描应用软件包</string>
-    <string name="lblScanInternal">扫描内部存储空间</string>
     <string name="lblScanExternal">扫描外部存储空间</string>
+    <string name="lblScanRemovable">Scan Removable Storage</string>
     <string name="lblNotificationMalwareDetectionTitle">恶意程序检测</string>
     <string name="lblNotificationMalwareDetectionDescription">用于在检测到恶意程序时发出警报</string>
     <string name="lblNotificationRealtimeTitle">实时扫描</string>
@@ -70,7 +70,6 @@
     <string name="confirm_delete_summary">您确定要删除以下文件吗？</string>
     <string name="delete_failed">删除失败！</string>
     <string name="confirm_update_title">确定下载</string>
-    <string name="lblResetCloudflare">Cloudflare镜像</string>
     <string name="lblExtendedDatabaseToggle">增强版数据库</string>
     <string name="lblResetPrimary">主服务器</string>
     <string name="lblNotificationLinkDetection">检测到恶意链接：</string>

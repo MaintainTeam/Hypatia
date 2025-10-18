@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_copyright">Copyright 2017-2024 Divested Computing Group</string>
+    <string name="app_copyright">Copyright 2017–2024 Divested Computing Group</string>
     <string name="app_license">Licence: GPL-3.0</string>
     <string name="app_version">Verze: %s</string>
     <string name="app_db_type_clamav">Využívá podpisy ve stylu ClamAV</string>
@@ -12,8 +12,8 @@
     <string name="lblFullCredits">Poděkování</string>
     <string name="lblScanSystem">Skenovat /system</string>
     <string name="lblScanApps">Skenovat APK aplikací</string>
-    <string name="lblScanInternal">Skenovat interní úložiště</string>
     <string name="lblScanExternal">Skenovat externí úložiště</string>
+    <string name="lblScanRemovable">Scan Removable Storage</string>
     <string name="lblNotificationMalwareDetectionTitle">Detekce malware</string>
     <string name="lblNotificationMalwareDetectionDescription">Používáno při detekci malware</string>
     <string name="lblNotificationRealtimeTitle">Sken v reálném čase</string>
@@ -73,7 +73,6 @@
     <string name="lblUpdateRunning">Přeskakuji akci, probíhá aktualizace!</string>
     <string name="lblWroteTestFiles">Testovací soubory zapsány!</string>
     <string name="lblResetPrimary">Primární servery</string>
-    <string name="lblResetCloudflare">Zrcadlo Cloudflare</string>
     <string name="accessibility_service_description">Extrahuje domény z veškerého textového obsahu obrazovky a porovná je se seznamem blokovaných domén</string>
     <string name="confirm_link_scanner_summary">[EXPERIMENTÁLNÍ]\nStáhne se další databáze domén.\nVšechny domény nalezené v obsahu obrazovky budou porovnány s touto databází.\nTo vyžaduje ruční udělení oprávnění ke službě přístupnosti.\nU obrazovek s velkým množstvím textu může mít tato funkce značný dopad na výkon.</string>
     <string name="accessibility_service_label">Skener odkazů Hypatia</string>

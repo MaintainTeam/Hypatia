@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_disclaimer">This is only a malware scanner which compares files with previously found hashes. Not a magic wand that keeps your entire android super secure. You should be careful what you download/click!</string>
-    <string name="app_copyright">Copyright 2017-2024 Divested Computing Group\nCopyleft 2025 MaintainTeam Organization</string>
+    <string name="app_copyright">Copyright 2017–2024 Divested Computing Group\nCopyleft 2025 MaintainTeam Organization</string>
     <string name="app_license">License: GPL-3.0</string>
     <string name="app_version">Version: %s</string>
     <string name="app_db_type_clamav">Powered by ClamAV style signatures</string>
@@ -14,7 +14,7 @@
     <string name="lblFullCredits">Credits</string>
     <string name="lblScanSystem">Scan /system</string>
     <string name="lblScanApps">Scan App APKs</string>
-    <string name="lblScanInternal">Scan Internal Storage</string>
+    <string name="lblScanRemovable">Scan Removable Storage</string>
     <string name="lblScanExternal">Scan External Storage</string>
     <string name="lblNotificationMalwareDetectionTitle">Malware Detection</string>
     <string name="lblNotificationMalwareDetectionDescription">Used to alert when malware is detected</string>
@@ -84,5 +84,9 @@
     <string name="lblLinkScannerToggle">Link Scanner</string>
     <string name="confirm_link_scanner_title">Enable link scanner?</string>
     <string name="confirm_link_scanner_summary">[EXPERIMENTAL]\nThis will download an additional database of domains.\nAny domains found in screen content will be checked against the database.\nThis requires granting accessibility service permission manually.\nThis can have a substantial performance impact on screens with large amounts of text.</string>
+    <string name="database_not_loaded_link_scanner">No database loaded. Please update databases to use the link scanner.</string>
+    <string name="link_scanner_notification_text">Screen will be scanned and malicious links will be detected in realtime</string>
+    <string name="link_scanner_notification_description">Used to show link scanning information.</string>
     <string name="cache_scan_result_deletion_warning">Since this was a share scan you should manually remove or quarantine the file!</string>
+    <string name="see_notifications">Please see Notifications to manage the infected file.</string>
 </resources>

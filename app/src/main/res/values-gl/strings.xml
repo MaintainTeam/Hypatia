@@ -8,7 +8,7 @@
     <string name="lblDatabaseServer">Sobreescribir servidor BDD</string>
     <string name="lblFullCredits">Crédito</string>
     <string name="lblScanApps">Examinar APKs de App</string>
-    <string name="lblScanExternal">Examinar Almacenaxe Externa</string>
+    <string name="lblScanRemovable">Scan Removable Storage</string>
     <string name="lblNotificationRealtimeStopped">Hypatia: Detívose o Exame en tempo real</string>
     <string name="lblReset">Restablecer</string>
     <string name="lblOverride">Sobreescribir</string>
@@ -33,8 +33,8 @@
     <string name="main_cancelling_scan">A deter o exame…</string>
     <string name="main_files_pending_scan">%s ficheiros pendentes do exame</string>
     <string name="main_database_loading">A cargar base de datos…</string>
-    <string name="app_copyright">Copyright 2017-2024 Divested Computing Group</string>
-    <string name="lblScanInternal">Examinar Almacenaxe Interna</string>
+    <string name="app_copyright">Copyright 2017–2024 Divested Computing Group</string>
+    <string name="lblScanExternal">Examinar Almacenaxe Externa</string>
     <string name="app_version">Versión: %s</string>
     <string name="lblScanSystem">Examinar /system</string>
     <string name="lblUpdateDatabase">Actualizar bases de datos</string>
@@ -80,7 +80,6 @@
 \nPodería descargar arredor de %s megabytes de datos.</string>
     <string name="lblWroteTestFiles">Escribiuse o ficheiro de comprobación!</string>
     <string name="lblResetPrimary">Servidores Principais</string>
-    <string name="lblResetCloudflare">Espello en Cloudflare</string>
     <string name="accessibility_service_label">Escáner de Ligazóns Hypatia</string>
     <string name="confirm_link_scanner_title">Activar escáner de ligazóns?</string>
     <string name="confirm_link_scanner_summary">[EXPERIMENTAL]

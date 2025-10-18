@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_copyright">Πνευματικά δικαιώματα 2017-2024 Divested Computing Group</string>
+    <string name="app_copyright">Πνευματικά δικαιώματα 2017–2024 Divested Computing Group</string>
     <string name="app_license">Άδεια: GPL-3.0</string>
     <string name="app_version">Έκδοση: %s</string>
     <string name="app_db_type_clamav">Υποστηρίζεται από υπογραφές τύπου ClamAV</string>
@@ -12,8 +12,8 @@
     <string name="lblFullCredits">Credits</string>
     <string name="lblScanSystem">Σάρωση /system</string>
     <string name="lblScanApps">Σάρωση των APKs των εφαρμογών</string>
-    <string name="lblScanInternal">Σάρωση εσωτερικού χώρου αποθήκευσης</string>
     <string name="lblScanExternal">Σάρωση εξωτερικού χώρου αποθήκευσης</string>
+    <string name="lblScanRemovable">Scan Removable Storage</string>
     <string name="lblNotificationMalwareDetectionTitle">Ανίχνευση κακόβουλου λογισμικού</string>
     <string name="lblNotificationMalwareDetectionDescription">Ειδοποίησέ με όταν ανιχνεύεται κακόβουλο λογισμικό</string>
     <string name="lblNotificationRealtimeTitle">Σάρωση σε πραγματικό χρόνο</string>

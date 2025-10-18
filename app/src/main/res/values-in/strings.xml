@@ -13,8 +13,8 @@
     <string name="lblScanSystem">Pindai /sistem</string>
     <string name="lblScanApps">Pindai berkas APK aplikasi</string>
     <string name="lblOnionRoutingEnabledHint">Mengunduh dalam jaringan Tor. Proses ini akan memakan waktu…</string>
+    <string name="lblScanRemovable">Scan Removable Storage</string>
     <string name="lblScanExternal">Pindai Penyimpanan Eksternal</string>
-    <string name="lblScanInternal">Pindai Penyimpanan Internal</string>
     <string name="lblNotificationMalwareDetectionTitle">Deteksi Perangkat Perusak (Malware)</string>
     <string name="lblNotificationRealtimeDescription">Digunakan untuk menampilkan jumlah berkas yang dipindai dan mempertahankan agar aplikasi berjalan di latar</string>
     <string name="lblNotificationRealtimeText">Notifikasi perangkat perusak yang terdeteksi dalam waktu langsung</string>
@@ -79,5 +79,4 @@
     <string name="detections_none">Tidak ada kecocokan yang ditemukan :)</string>
     <string name="detections_found">Sesuatu ditemukan! :(</string>
     <string name="lblWroteTestFiles">Menulis file uji!</string>
-    <string name="lblResetCloudflare">Cloudflare Cermin</string>
 </resources>

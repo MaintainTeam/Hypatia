@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_copyright">版權所有 2017-2024 Divested Computing Group</string>
+    <string name="app_copyright">版權所有 2017–2024 Divested Computing Group</string>
     <string name="app_license">授權： GPL-3.0</string>
     <string name="app_version">版本： %s</string>
     <string name="app_db_type_clamav">由 ClamAV 資料庫特徵提供支援</string>
@@ -12,8 +12,8 @@
     <string name="lblFullCredits">致謝</string>
     <string name="lblScanSystem">掃描 /system</string>
     <string name="lblScanApps">掃描應用程式 APK 檔案</string>
-    <string name="lblScanInternal">掃描內部儲存空間</string>
     <string name="lblScanExternal">掃描外部儲存空間</string>
+    <string name="lblScanRemovable">Scan Removable Storage</string>
     <string name="lblNotificationMalwareDetectionTitle">惡意軟體偵測</string>
     <string name="lblNotificationMalwareDetectionDescription">用於偵測到惡意軟體時發出警示</string>
     <string name="lblNotificationRealtimeDescription">用於顯示已掃描的檔案數量和維護背景服務</string>
@@ -78,5 +78,4 @@
     <string name="lblNotificationLinkDetection">偵測到惡意連結：</string>
     <string name="lblLinkScannerToggle">連結掃描器</string>
     <string name="confirm_link_scanner_title">啟用連結掃描器？</string>
-    <string name="lblResetCloudflare">Cloudflare 鏡像</string>
 </resources>

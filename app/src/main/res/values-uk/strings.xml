@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_copyright">Авторські права 2017-2024 Divested Computing Group</string>
+    <string name="app_copyright">Авторські права 2017–2024 Divested Computing Group\nКопілефт 2025 MaintainTeam Organization</string>
     <string name="app_license">Ліцензія: GPL-3.0</string>
     <string name="app_version">Версія: %s</string>
     <string name="app_db_type_clamav">Працює на основі сигнатур ClamAV</string>
@@ -10,8 +10,8 @@
     <string name="lblFullCredits">Подяки</string>
     <string name="lblScanSystem">Сканувати /system</string>
     <string name="lblScanApps">Сканувати APK застосунків</string>
-    <string name="lblScanInternal">Сканувати внутрішнє сховище</string>
     <string name="lblScanExternal">Сканування зовнішнє сховище</string>
+    <string name="lblScanRemovable">Scan Removable Storage</string>
     <string name="lblNotificationRealtimeTitle">Сканер у реальному часі</string>
     <string name="lblReset">Скинути</string>
     <string name="main_database_released_on">Випущено %s</string>
@@ -47,7 +47,6 @@
     <string name="lblSelfTest">Написання файлів самотестування</string>
     <string name="lblUpdateRunning">Пропуск дії, оновлення триває!</string>
     <string name="lblResetPrimary">Основні сервери</string>
-    <string name="lblResetCloudflare">Дзеркало Cloudflare</string>
     <string name="accessibility_service_label">Сканер посилань Hypatia</string>
     <string name="accessibility_service_description">Витягує домени з усього текстового вмісту екрана та перевіряє їх за блок-листом</string>
     <string name="confirm_link_scanner_title">Увімкнути сканер посилань?</string>

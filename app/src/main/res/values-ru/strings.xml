@@ -11,8 +11,8 @@
     <string name="lblFullCredits">Благодарность</string>
     <string name="lblScanSystem">Сканировать /system</string>
     <string name="lblScanApps">Сканировать APK-файлы приложений</string>
-    <string name="lblScanInternal">Сканировать внутреннее хранилище</string>
     <string name="lblScanExternal">Сканировать внешнее хранилище</string>
+    <string name="lblScanRemovable">Scan Removable Storage</string>
     <string name="lblNotificationMalwareDetectionTitle">Обнаружение вредоносного ПО</string>
     <string name="lblNotificationMalwareDetectionDescription">Используется для оповещения при обнаружении вредоносного ПО</string>
     <string name="lblNotificationRealtimeTitle">Сканер в реальном времени</string>
@@ -71,9 +71,8 @@
     <string name="confirm_update_summary">Похоже, вы используете тарифицируемое подключение. Вы уверены, что хотите обновить базы данных?\nОбъем загружаемых данных может достигать %s мегабайт.</string>
     <string name="lblUpdateRunning">Пропуск действия, запущено обновление!</string>
     <string name="lblWroteTestFiles">Записаны тестовые файлы!</string>
-    <string name="app_copyright">© Divested Computing Group, 2017–2024</string>
+    <string name="app_copyright">Авторское право 2017-2024 Divested Computing Group\nАвторское лево 2025 MaintainTeam Organization</string>
     <string name="lblResetPrimary">Основные серверы</string>
-    <string name="lblResetCloudflare">Зеркало Cloudflare</string>
     <string name="lblNotificationLinkDetection">Обнаружена вредоносная ссылка:</string>
     <string name="accessibility_service_description">Извлекает домены из всего текстового содержимого экрана и проверяет их на соответствие списку блокировок</string>
     <string name="lblLinkScannerToggle">Сканер ссылок</string>

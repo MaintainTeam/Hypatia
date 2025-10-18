@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_copyright">Direitos autorais 2017-2024 Divested Computing Group</string>
+    <string name="app_copyright">Direitos autorais 2017–2024 Divested Computing Group\nCopyleft 2025 Organização MaintainTeam</string>
     <string name="app_license">Licença: GPL-3.0</string>
     <string name="app_version">Versão: %s</string>
     <string name="app_db_type_clamav">Produzido por assinaturas estilo ClamAV</string>
@@ -10,8 +10,8 @@
     <string name="lblFullCredits">Créditos</string>
     <string name="lblScanSystem">Analisar /sistema</string>
     <string name="lblScanApps">Analisar APKs do App</string>
-    <string name="lblScanInternal">Analisar memória interna</string>
     <string name="lblScanExternal">Analisar memória externa</string>
+    <string name="lblScanRemovable">Scan Removable Storage</string>
     <string name="lblNotificationMalwareDetectionTitle">Detecção de malwares</string>
     <string name="lblNotificationMalwareDetectionDescription">Usado para alertar quando um malware é detectado</string>
     <string name="lblNotificationRealtimeTitle">Análise em tempo real</string>
@@ -36,7 +36,7 @@
     <string name="main_hashing_files">Hashing arquivos…</string>
     <string name="main_hashing_done">Hashes calculados para todos os arquivos</string>
     <string name="main_hash_scan_done">Verificados todos %s hashes em relação a base de dados de assinaturas</string>
-    <string name="main_scanning_done">Análise concluída em %s segundos @ %sMB/s!</string>
+    <string name="main_scanning_done">Análise concluída em %1$s segundos a %2$sMB/s!</string>
     <string name="main_files_scanned_count">%s arquivos analisados</string>
     <string name="lblDatabaseServer">Alterar o servidor do banco de dados</string>
     <string name="lblReset">Redefinir</string>
@@ -74,7 +74,6 @@
     <string name="lblUpdateRunning">A pular a ação, uma atualização está em execução!</string>
     <string name="lblWroteTestFiles">Ficheiros de auto-verificação foram criados!</string>
     <string name="lblResetPrimary">Servidores Primários</string>
-    <string name="lblResetCloudflare">Espelho Cloudflare</string>
     <string name="accessibility_service_label">Scanner de ligações do Hypatia</string>
     <string name="accessibility_service_description">Extrai domínios de todo o conteúdo de texto do ecrã e verifica se estão numa lista de bloqueio</string>
     <string name="lblNotificationLinkDetection">Ligação maliciosa detetada:</string>
@@ -88,4 +87,7 @@
     <string name="lblOnionRoutingToggle">Descarregar via Tor</string>
     <string name="deleteFile">Apagar</string>
     <string name="deleted">Apagado!</string>
+    <string name="app_disclaimer">Este é apenas um scanner de malware que compara ficheiros com hashes previamente encontrados. Não é uma varinha mágica que mantém todo o seu android super seguro. É preciso ter cuidado com o que se descarrega/clica!</string>
+    <string name="lblResetGitHub">Espelho do GitHub</string>
+    <string name="cache_scan_result_deletion_warning">Como essa foi uma varredura de compartilhamento, você deve remover manualmente ou colocar o arquivo em quarentena!</string>
 </resources>

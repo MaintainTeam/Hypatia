@@ -21,20 +21,20 @@
     <string name="lblExtendedDatabaseToggle">データベースを拡張する</string>
     <string name="confirm_update_title">ダウンロードを確認</string>
     <string name="lblUpdateRunning">アクションをスキップして、更新を実行しています。</string>
-    <string name="app_copyright">Copyright 2017-2024 Divested Computing Group</string>
+    <string name="app_copyright">Copyright 2017–2024 Divested Computing Group</string>
     <string name="app_version">バージョン: %s</string>
     <string name="lblOnionRoutingToggle">Tor経由でダウンロード</string>
     <string name="app_db_type_clamav">ClamAVシグネチャで強化されています</string>
     <string name="lblOnionRoutingEnabledHint">Tor経由でダウンロード中。時間がかかります・・・</string>
     <string name="lblOnionRoutingNotInstalled">Orbotがインストールされていません！</string>
-    <string name="main_database_loaded">データベース %sシグネチャー を読み込みました</string>
+    <string name="main_database_loaded">データベースから %s個のシグネチャー を読み込みました</string>
     <string name="lblDatabaseServer">データベースサーバーを上書き</string>
     <string name="lblFullCredits">著作</string>
     <string name="lblScanSystem">/systemをスキャン</string>
     <string name="app_license">License: GPL-3.0</string>
     <string name="lblScanApps">アプリAPKをスキャン</string>
-    <string name="lblScanInternal">内部ストレージをスキャン</string>
     <string name="lblScanExternal">外部ストレージをスキャン</string>
+    <string name="lblScanRemovable">Scan Removable Storage</string>
     <string name="lblNotificationMalwareDetectionTitle">マルウェアを検出</string>
     <string name="lblNotificationRealtimeDescription">バックグラウンドサービスを維持するためと、スキャンされたファイルを表示するために利用</string>
     <string name="lblNotificationRealtimeStopped">Hypatia: リアルタイム検出が停止されました</string>
@@ -77,8 +77,7 @@
 \n最大 %s MBのデータがダウンロードされる可能性があります。</string>
     <string name="lblWroteTestFiles">テストファイルを作成しました！</string>
     <string name="lblResetPrimary">メインサーバー</string>
-    <string name="accessibility_service_label">Hypatiaリンクスキャナ</string>
-    <string name="lblResetCloudflare">Cloudflareミラー</string>
+    <string name="accessibility_service_label">Hypatia リンクスキャナ</string>
     <string name="accessibility_service_description">すべての画面テキストコンテンツからドメインを抽出し、ブロックリストと照合します</string>
     <string name="confirm_link_scanner_title">リンクスキャナを有効化しますか？</string>
     <string name="confirm_link_scanner_summary">[実験的] 
@@ -86,6 +85,6 @@
 \n画面コンテンツで見つかったドメインはすべて、データベースと照合されます。
 \nこれには、アクセシビリティ サービスの権限を手動で付与する必要があります。
 \nこれにより、大量のテキストを含む画面でパフォーマンスに重大な影響が出る可能性があります。</string>
-    <string name="lblNotificationLinkDetection">悪意のあるリンク検出:</string>
+    <string name="lblNotificationLinkDetection">悪意のあるリンクを検出しました:</string>
     <string name="lblLinkScannerToggle">リンクスキャナ</string>
 </resources>

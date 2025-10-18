@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_copyright">Direitos Autorais 2017-2024 Divested Computing Group</string>
+    <string name="app_copyright">Direitos Autorais 2017–2024 Divested Computing Group\nCopyleft 2025 MaintainTeam Organization</string>
     <string name="app_license">Licença: GPL-3.0</string>
     <string name="app_version">Versão: %s</string>
-    <string name="app_db_type_clamav">Feito possível por assinaturas estilo ClamAV</string>
+    <string name="app_db_type_clamav">Alimentado por assinaturas no estilo ClamAV</string>
     <string name="lblOnionRoutingToggle">Baixar via Tor</string>
     <string name="lblOnionRoutingEnabledHint">Baixando via Tor, isto pode demorar um pouco…</string>
     <string name="lblOnionRoutingNotInstalled">O Orbot não está instalado!</string>
     <string name="lblUpdateDatabase">Atualizar bancos de dados</string>
-    <string name="lblDatabaseServer">Alterar o servidor do banco de dados</string>
+    <string name="lblDatabaseServer">Substituir o servidor do banco de dados</string>
     <string name="lblFullCredits">Créditos</string>
     <string name="lblScanSystem">Buscar /system</string>
     <string name="lblScanApps">Buscar APKs dos apps</string>
-    <string name="lblScanInternal">Buscar armazenamento interno</string>
     <string name="lblScanExternal">Buscar armazenamento externo</string>
+    <string name="lblScanRemovable">Scan Removable Storage</string>
     <string name="lblNotificationMalwareDetectionTitle">Detecção de Malware</string>
     <string name="lblNotificationMalwareDetectionDescription">Usado para alertar quando malware é detectado</string>
     <string name="lblNotificationRealtimeTitle">Busca em Tempo Real</string>
-    <string name="lblNotificationRealtimeDescription">Usado para mostrar o contador de arquivos buscados e manter o serviço de segundo plano</string>
+    <string name="lblNotificationRealtimeDescription">Usado para mostrar o contador de arquivos escaneados e manter o serviço em segundo plano</string>
     <string name="lblNotificationRealtimeText">Malware conhecido será detectado em tempo real</string>
-    <string name="lblNotificationRealtimeStopped">Hypatia: A busca em tempo real parou</string>
+    <string name="lblNotificationRealtimeStopped">Hypatia: A varredura em tempo real foi interrompida</string>
     <string name="lblNotificationRealtimeDetection">Malware Detectado:</string>
-    <string name="lblRealtimeScannerToggle">Busca em Tempo Real</string>
+    <string name="lblRealtimeScannerToggle">Buscar em Tempo Real</string>
     <string name="lblReset">Redefinir</string>
     <string name="lblOverride">Alterar</string>
-    <string name="main_database_updating">Atualizando %s banco(s) de dados…</string>
+    <string name="main_database_updating">Atualizando os bancos de dados %s…</string>
     <string name="main_database_override">Usando servidor %s</string>
     <string name="main_database_download_success">Baixado com sucesso</string>
     <string name="main_database_download_error">Arquivo não foi baixado, código de resposta %s</string>
@@ -41,7 +41,7 @@
     <string name="main_hashing_files">Calculando as hashes dos arquivos…</string>
     <string name="main_hashing_done">Hashes calculadas para todos os arquivos</string>
     <string name="main_hash_scan_done">Foram verificadas as hashes %s contra o banco de dados de assinaturas</string>
-    <string name="main_scanning_done">A busca foi concluída em %s segundos em %sMB/s!</string>
+    <string name="main_scanning_done">Varredura concluída em %1$s segundos a %2$sMB/s!</string>
     <string name="main_files_scanned_count">%s arquivos buscados</string>
     <string name="scan_control">Botão de Busca Manual</string>
     <string name="lblScanRunning">Pulando ação, uma busca já está em execução!</string>
@@ -79,10 +79,12 @@
 \nPrecisa que a permissão de serviço de acessibilidade seja concedida manualmente.
 \nPode ter um impacto considerável em telas com grandes quantidades de texto.</string>
     <string name="lblResetPrimary">Servidores Primários</string>
-    <string name="lblResetCloudflare">Espelho Cloudflare</string>
     <string name="accessibility_service_label">Busca de Links do Hypatia</string>
     <string name="accessibility_service_description">Extrai domínios de todo o conteúdo de texto da tela e verifica se estão numa lista de bloqueio</string>
     <string name="lblNotificationLinkDetection">Link Malicioso Detectado:</string>
     <string name="lblLinkScannerToggle">Busca de Links</string>
     <string name="confirm_link_scanner_title">Ativar a busca de links?</string>
+    <string name="app_disclaimer">Esse é apenas um verificador de malware que compara arquivos com hashes encontrados anteriormente. Não é uma varinha mágica que mantém todo o seu Android super seguro. Você deve ter cuidado com o que baixa/clica!</string>
+    <string name="lblResetGitHub">Espelho do GitHub</string>
+    <string name="cache_scan_result_deletion_warning">Como essa foi uma varredura de compartilhamento, você deve remover manualmente ou colocar o arquivo em quarentena!</string>
 </resources>
