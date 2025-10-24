@@ -78,4 +78,5 @@
     <string name="confirm_link_scanner_summary">[EKSPERYMENTALNE]\nSpowoduje to pobranie dodatkowej bazy danych domen.\nWszystkie domeny znalezione w zawartości ekranu zostaną sprawdzone w bazie danych.\nWymaga to ręcznego udzielenia uprawnień usługi ułatwień dostępu.\nMoże to mieć znaczący wpływ na wydajność ekranów z dużą ilością tekstu.</string>
     <string name="cache_scan_result_deletion_warning">Ponieważ było to skanowanie współdzielone, należy ręcznie usunąć plik lub umieścić go w kwarantannie!</string>
     <string name="self_test_result_success">Autotest zakończony sukcesem.</string>
+    <string name="see_notifications">Aby zarządzać zainfekowanym plikiem, przejdź do sekcji Powiadomienia.</string>
 </resources>
