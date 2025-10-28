@@ -83,4 +83,7 @@
     <string name="lblResetGitHub">Огледало на GitHub</string>
     <string name="cache_scan_result_deletion_warning">Тъй като това беше сканиране за споделяне, трябва ръчно да премахнете или поставите файла под карантина!</string>
     <string name="see_notifications">Моля, вижте „Известия“ за управление на заразения файл.</string>
+    <string name="database_not_loaded_link_scanner">Няма заредена база данни. Моля, актуализирайте базите данни, за да използвате скенера за връзки.</string>
+    <string name="link_scanner_notification_text">Екранът ще бъде сканиран и злонамерени връзки ще бъдат открити в реално време</string>
+    <string name="link_scanner_notification_description">Използва се за показване на информация за сканиране на връзки.</string>
 </resources>
