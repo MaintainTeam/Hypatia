@@ -36,9 +36,9 @@
     <string name="main_files_pending_scan">%s tarkistettavaa tiedostoa</string>
     <string name="main_database_loading">Ladataan tietokantaa…</string>
     <string name="main_database_loaded">Ladattiin tietokanta %s allekirjoituksella</string>
-    <string name="main_hashing_files">Hashataan tiedostoja…</string>
-    <string name="main_hashing_done">Laskettiin hashit kaikille tiedostoille</string>
-    <string name="main_hash_scan_done">Tarkistettiin kaikki %s hashit allekirjoitustietokannoista</string>
+    <string name="main_hashing_files">Tiedostojen hash-tiivisteiden laskenta…</string>
+    <string name="main_hashing_done">Laskettiin hash-tiivisteet kaikille tiedostoille</string>
+    <string name="main_hash_scan_done">Tarkistettiin kaikki %s hash-tiivisteet digitaalisista allekirjoitustietokannoista</string>
     <string name="main_scanning_done">Tarkistus suoritettu %1$s sekunnissa @ %2$sMB/s!</string>
     <string name="main_files_scanned_count">%s tiedostoa tarkistettu</string>
     <string name="lblDatabasesUpdated">Kaikki tietokannat on päivitetty!</string>
@@ -49,7 +49,7 @@
     <string name="lblScanRunning">Toiminta ohitettiin, tarkistus on käynnissä!</string>
     <string name="lblSigningKey">Tietokannan allekirjoitusavain</string>
     <string name="delete_failed">Poistaminen epäonnistui!</string>
-    <string name="confirm_lookup_summary">Haluatko varmasti avata VirusTotal.com sivuston selaimessasi seuraavalla hashilla?</string>
+    <string name="confirm_lookup_summary">Haluatko varmasti avata VirusTotal.com sivuston selaimessasi seuraavalla hash-tiivisteellä?</string>
     <string name="confirm_extended_summary">[KOKEELLINEN]
 \nTämä ottaa käyttöön ~40 miljoonan ylimääräisen allekirjoituksen havaitsemisen.
 \nTämä vaatii 200 Mt:n latauksen, hidastaa käynnistystä yli kaksi minuuttia, lisää sovelluksen RAM-muistin käyttöä ja lisää väärien positiivisten tulosten määrää.
@@ -87,7 +87,7 @@
 \nTämä edellyttää saavutettavuuspalvelun käyttöoikeuden myöntämistä manuaalisesti.
 \nTämä voi vaikuttaa merkittävästi suorituskykyyn silloin, kun näytöllä on paljon tekstiä.</string>
     <string name="accessibility_service_description">Poimii verkkotunnukset kaikesta näytön tekstisisällöstä ja vertaa niitä estolistaan</string>
-    <string name="app_disclaimer">Tämä on ainoastaan haittaohjelmien tarkistusohjelma, joka vertaa tiedostoja aiemmin löydettyihin hasheihin. Se ei ole taikakeppi, joka pitää koko Android-laitteesi täysin turvassa. Sinun tulee olla varovainen sen suhteen, mitä lataat/klikkaat!</string>
+    <string name="app_disclaimer">Tämä on ainoastaan haittaohjelmien tarkistusohjelma, joka vertaa tiedostoja aiemmin löydettyihin hash-tiivistearvoihin. Se ei ole taikasauva, joka pitää koko Android-laitteesi täysin turvassa. Sinun tulee olla varovainen sen suhteen, mitä lataat/klikkaat!</string>
     <string name="lblResetGitHub">GitHub-peilipalvelin</string>
     <string name="database_not_loaded_link_scanner">Tietokantaa ei ole ladattu. Päivitä tietokannat, jotta voit käyttää linkkiskanneria.</string>
     <string name="link_scanner_notification_text">Näyttöä tarkastellaan ja haitalliset linkit havaitaan reaaliajassa</string>
