@@ -31,6 +31,7 @@
     <string name="main_database_override">Using server %s</string>
     <string name="main_database_download_success">Successfully downloaded</string>
     <string name="main_database_download_error">File not downloaded, response code %s</string>
+    <string name="main_database_validate_error">There was an error while validating the database, please double check the signing key and redownload</string>
     <string name="main_no_database_available">No database available, not scanning…</string>
     <string name="main_database_released_on">Released on %s</string>
     <string name="main_database_not_changed">File not changed</string>
