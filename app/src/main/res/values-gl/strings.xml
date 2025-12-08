@@ -79,7 +79,7 @@
     <string name="confirm_update_summary">Semella que tes unha conexión con datos medidos. Tes certeza de querer descargar a base de datos?
 \nPodería descargar arredor de %s megabytes de datos.</string>
     <string name="lblWroteTestFiles">Escribiuse o ficheiro de comprobación!</string>
-    <string name="lblResetPrimary">Servidores Principais</string>
+    <string name="database_switcher_primary">Servidores Principais</string>
     <string name="accessibility_service_label">Escáner de Ligazóns Hypatia</string>
     <string name="confirm_link_scanner_title">Activar escáner de ligazóns?</string>
     <string name="confirm_link_scanner_summary">[EXPERIMENTAL]

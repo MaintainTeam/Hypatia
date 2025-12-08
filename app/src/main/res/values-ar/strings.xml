@@ -58,7 +58,7 @@
     <string name="confirm_extended_title">فعّل قاعدة البيانات الممتدة؟</string>
     <string name="confirm_update_title">تأكيد التنزيل</string>
     <string name="lblUpdateRunning">تخطي الإجراء، التحديث يعمل!</string>
-    <string name="lblResetPrimary">الخوادم الأساسية</string>
+    <string name="database_switcher_primary">الخوادم الأساسية</string>
     <string name="accessibility_service_label">فاحص الروابط Hypatia</string>
     <string name="lblLinkScannerToggle">فاحص الروابط</string>
     <string name="confirm_link_scanner_title">فعّل فاحص الروابط؟</string>

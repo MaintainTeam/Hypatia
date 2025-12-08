@@ -58,7 +58,7 @@
 \nMôže sa stiahnuť až %s megabajtov údajov.</string>
     <string name="lblUpdateRunning">Preskočenie akcie, prebieha aktualizácia!</string>
     <string name="lblWroteTestFiles">Zapísané testovacie súbory!</string>
-    <string name="lblResetPrimary">Primárne servery</string>
+    <string name="database_switcher_primary">Primárne servery</string>
     <string name="accessibility_service_label">Hypatia skener odkazov</string>
     <string name="accessibility_service_description">Extrahuje domény z celého textového obsahu obrazovky a kontroluje ich podľa zoznamu blokov</string>
     <string name="lblLinkScannerToggle">Skener odkazov</string>

@@ -74,7 +74,7 @@
     <string name="main_database_loading">Chargement de la base de données…</string>
     <string name="lblNotificationLinkDetection">Lien malveillant détecté :</string>
     <string name="accessibility_service_description">Extraire des domaines depuis la totalité du texte sur l\'écran et les comparer à un liste de blocage</string>
-    <string name="lblResetPrimary">Serveurs primaires</string>
+    <string name="database_switcher_primary">Serveurs primaires</string>
     <string name="accessibility_service_label">Analyseur de liens Hypatia</string>
     <string name="lblLinkScannerToggle">Analyseur de liens</string>
     <string name="confirm_link_scanner_title">Activer l\'analyseur de liens ?</string>

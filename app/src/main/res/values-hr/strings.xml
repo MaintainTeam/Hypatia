@@ -35,7 +35,7 @@
     <string name="confirm_update_title">Potvrdite preuzimanje</string>
     <string name="lblWroteTestFiles">Napisao test datoteke!</string>
     <string name="accessibility_service_label">Hypatia skener veza</string>
-    <string name="lblResetPrimary">Primarni poslužitelji</string>
+    <string name="database_switcher_primary">Primarni poslužitelji</string>
     <string name="lblNotificationLinkDetection">Otkrivena zlonamjerna veza:</string>
     <string name="confirm_link_scanner_title">Omogućiti skener veza?</string>
     <string name="app_license">Licenca: GPL-3.0</string>

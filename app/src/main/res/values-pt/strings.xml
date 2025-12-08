@@ -73,7 +73,7 @@
 \nPode precisar de descarregar %s MBs de dados.</string>
     <string name="lblUpdateRunning">A pular a ação, uma atualização está em execução!</string>
     <string name="lblWroteTestFiles">Ficheiros de auto-verificação foram criados!</string>
-    <string name="lblResetPrimary">Servidores Primários</string>
+    <string name="database_switcher_primary">Servidores Primários</string>
     <string name="accessibility_service_label">Scanner de ligações do Hypatia</string>
     <string name="accessibility_service_description">Extrai domínios de todo o conteúdo de texto do ecrã e verifica se estão numa lista de bloqueio</string>
     <string name="lblNotificationLinkDetection">Ligação maliciosa detetada:</string>
@@ -88,6 +88,6 @@
     <string name="deleteFile">Apagar</string>
     <string name="deleted">Apagado!</string>
     <string name="app_disclaimer">Este é apenas um scanner de malware que compara ficheiros com hashes previamente encontrados. Não é uma varinha mágica que mantém todo o seu android super seguro. É preciso ter cuidado com o que se descarrega/clica!</string>
-    <string name="lblResetGitHub">Espelho do GitHub</string>
+    <string name="database_switcher_mirror">Espelho do GitHub</string>
     <string name="cache_scan_result_deletion_warning">Como essa foi uma varredura de compartilhamento, você deve remover manualmente ou colocar o arquivo em quarentena!</string>
 </resources>

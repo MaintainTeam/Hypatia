@@ -78,13 +78,13 @@
 \nQualquer domínio encontrado no conteúdo da tela será verificado no banco de dados.
 \nPrecisa que a permissão de serviço de acessibilidade seja concedida manualmente.
 \nPode ter um impacto considerável em telas com grandes quantidades de texto.</string>
-    <string name="lblResetPrimary">Servidores Primários</string>
+    <string name="database_switcher_primary">Servidores Primários</string>
     <string name="accessibility_service_label">Busca de Links do Hypatia</string>
     <string name="accessibility_service_description">Extrai domínios de todo o conteúdo de texto da tela e verifica se estão numa lista de bloqueio</string>
     <string name="lblNotificationLinkDetection">Link Malicioso Detectado:</string>
     <string name="lblLinkScannerToggle">Busca de Links</string>
     <string name="confirm_link_scanner_title">Ativar a busca de links?</string>
     <string name="app_disclaimer">Esse é apenas um verificador de malware que compara arquivos com hashes encontrados anteriormente. Não é uma varinha mágica que mantém todo o seu Android super seguro. Você deve ter cuidado com o que baixa/clica!</string>
-    <string name="lblResetGitHub">Espelho do GitHub</string>
+    <string name="database_switcher_mirror">Espelho do GitHub</string>
     <string name="cache_scan_result_deletion_warning">Como essa foi uma varredura de compartilhamento, você deve remover manualmente ou colocar o arquivo em quarentena!</string>
 </resources>

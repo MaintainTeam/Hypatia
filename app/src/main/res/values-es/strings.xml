@@ -71,7 +71,7 @@
     <string name="confirm_update_summary">Parece que estás en una conexión medida (límite de datos). ¿Seguro que desea actualizar las bases de datos?\nPuede descargar hasta %s megabytes de datos.</string>
     <string name="lblUpdateRunning">Omitiendo la acción, ¡se está ejecutando una actualización!</string>
     <string name="lblWroteTestFiles">¡Se escribieron los archivos de prueba!</string>
-    <string name="lblResetPrimary">Servidores principales</string>
+    <string name="database_switcher_primary">Servidores principales</string>
     <string name="lblNotificationLinkDetection">Enlace malicioso detectado:</string>
     <string name="app_copyright">Derechos de autor 2017–2024 Divested Computing Group\nCopyleft 2025 Organización MaintainTeam</string>
     <string name="accessibility_service_description">Extrae dominios de todo el contenido del texto de la pantalla y los compara con una lista de bloqueo</string>
@@ -84,6 +84,6 @@
 \nEsto puede tener un impacto sustancial en el rendimiento de las pantallas con grandes cantidades de texto.</string>
     <string name="accessibility_service_label">Analizador de enlaces de Hypatia</string>
     <string name="app_disclaimer">Esto es sólo un escáner de malware que compara archivos con hashes encontrados previamente. No es una varita mágica que mantiene todo tu android super seguro. ¡Usted debe tener cuidado con lo que descarga / clic!</string>
-    <string name="lblResetGitHub">Espejo de GitHub</string>
+    <string name="database_switcher_mirror">Espejo de GitHub</string>
     <string name="cache_scan_result_deletion_warning">Dado que se trata de un escaneo compartido, debe eliminar manualmente el archivo o ponerlo en cuarentena!</string>
 </resources>

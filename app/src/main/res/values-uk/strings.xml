@@ -46,7 +46,7 @@
     <string name="confirm_update_title">Підтвердити завантаження</string>
     <string name="lblSelfTest">Написання файлів самотестування</string>
     <string name="lblUpdateRunning">Пропуск дії, оновлення триває!</string>
-    <string name="lblResetPrimary">Основні сервери</string>
+    <string name="database_switcher_primary">Основні сервери</string>
     <string name="accessibility_service_label">Сканер посилань Hypatia</string>
     <string name="accessibility_service_description">Витягує домени з усього текстового вмісту екрана та перевіряє їх за блок-листом</string>
     <string name="confirm_link_scanner_title">Увімкнути сканер посилань?</string>

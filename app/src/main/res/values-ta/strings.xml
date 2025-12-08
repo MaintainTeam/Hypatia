@@ -74,7 +74,7 @@
     <string name="confirm_update_summary">நீங்கள் ஒரு மீட்டர் இணைப்பில் இருப்பதாகத் தெரிகிறது. தரவுத்தளங்களை புதுப்பிக்க விரும்புகிறீர்களா?\n இது %s மெகாபைட் தரவு வரை பதிவிறக்கம் செய்யலாம்.</string>
     <string name="lblUpdateRunning">செயலைத் தவிர்த்து, புதுப்பிப்பு இயங்குகிறது!</string>
     <string name="lblWroteTestFiles">சோதனை கோப்புகளை எழுதினார்!</string>
-    <string name="lblResetPrimary">முதன்மை சேவையகங்கள்</string>
+    <string name="database_switcher_primary">முதன்மை சேவையகங்கள்</string>
     <string name="accessibility_service_description">அனைத்து திரை உரை உள்ளடக்கத்திலிருந்தும் களங்களை பிரித்தெடுத்து அவற்றை ஒரு பிளாக்லிச்ட்டுக்கு எதிராக சரிபார்க்கிறது</string>
     <string name="confirm_link_scanner_title">இணைப்பு ச்கேனரை இயக்கவா?</string>
     <string name="confirm_link_scanner_summary">[சோதனை]\n இது களங்களின் கூடுதல் தரவுத்தளத்தை பதிவிறக்கும்.\n திரை உள்ளடக்கத்தில் காணப்படும் எந்த களங்களும் தரவுத்தளத்திற்கு எதிராக சரிபார்க்கப்படும்.\n இதற்கு அணுகல் பணி இசைவு கைமுறையாக வழங்க வேண்டும்.\n இது பெரிய அளவிலான உரையுடன் திரைகளில் கணிசமான செயல்திறன் தாக்கத்தை ஏற்படுத்தும்.</string>

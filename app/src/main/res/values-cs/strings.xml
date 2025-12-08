@@ -72,7 +72,7 @@
     <string name="confirm_update_summary">Vypadá to, že se nacházíte na měřeném připojení. Opravdu chcete aktualizovat databáze?\nMůže být staženo až %s megabajtů dat.</string>
     <string name="lblUpdateRunning">Přeskakuji akci, probíhá aktualizace!</string>
     <string name="lblWroteTestFiles">Testovací soubory zapsány!</string>
-    <string name="lblResetPrimary">Primární servery</string>
+    <string name="database_switcher_primary">Primární servery</string>
     <string name="accessibility_service_description">Extrahuje domény z veškerého textového obsahu obrazovky a porovná je se seznamem blokovaných domén</string>
     <string name="confirm_link_scanner_summary">[EXPERIMENTÁLNÍ]\nStáhne se další databáze domén.\nVšechny domény nalezené v obsahu obrazovky budou porovnány s touto databází.\nTo vyžaduje ruční udělení oprávnění ke službě přístupnosti.\nU obrazovek s velkým množstvím textu může mít tato funkce značný dopad na výkon.</string>
     <string name="accessibility_service_label">Skener odkazů Hypatia</string>
