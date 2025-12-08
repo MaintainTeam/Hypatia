@@ -71,7 +71,7 @@
     <string name="confirm_update_summary">Wygląda na to, że korzystasz z połączenia taryfowego. Czy na pewno chcesz zaktualizować bazy danych?\nMoże pobrać do %s megabajtów danych.</string>
     <string name="lblUpdateRunning">Akcja pominięta, trwa aktualizacja!</string>
     <string name="lblWroteTestFiles">Zapisano pliki testowe!</string>
-    <string name="lblResetPrimary">Serwery podstawowe</string>
+    <string name="database_switcher_primary">Serwery podstawowe</string>
     <string name="lblNotificationLinkDetection">Wykryto złośliwy link:</string>
     <string name="lblLinkScannerToggle">Skaner linków</string>
     <string name="confirm_link_scanner_title">Włączyć skaner linków?</string>

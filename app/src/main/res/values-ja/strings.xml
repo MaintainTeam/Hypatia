@@ -76,7 +76,7 @@
     <string name="confirm_update_summary">従量制接続を使用しているようです。データベースを更新してもよろしいですか?
 \n最大 %s MBのデータがダウンロードされる可能性があります。</string>
     <string name="lblWroteTestFiles">テストファイルを作成しました！</string>
-    <string name="lblResetPrimary">メインサーバー</string>
+    <string name="database_switcher_primary">メインサーバー</string>
     <string name="accessibility_service_label">Hypatia リンクスキャナ</string>
     <string name="accessibility_service_description">すべての画面テキストコンテンツからドメインを抽出し、ブロックリストと照合します</string>
     <string name="confirm_link_scanner_title">リンクスキャナを有効化しますか？</string>

@@ -36,7 +36,7 @@
     <string name="delete_failed">Ștergere eșuată!</string>
     <string name="ignored">Ignorat!</string>
     <string name="confirm_update_title">Confirma-ți descărcarea</string>
-    <string name="lblResetPrimary">Serverele principale</string>
+    <string name="database_switcher_primary">Serverele principale</string>
     <string name="lblLinkScannerToggle">Link Scanner</string>
     <string name="app_version">Versiune: %s</string>
     <string name="lblNotificationRealtimeDetection">Malware Detectat:</string>
@@ -77,7 +77,7 @@
     <string name="confirm_lookup_title">Confirmă căutarea</string>
     <string name="lblSelfTest">Scrie fișiere auto-test</string>
     <string name="confirm_extended_summary">[EXPERIMENTAL]\nAceasta va permite detectarea a ~ 40 milioane de semnături suplimentare.\nNecesită o descărcare de 200 MB, va încetini pornirea cu peste două minute, va crește utilizarea memoriei operative și va crește rata fals-pozitivă.\nAceastă bază de date se actualizează doar trimestrial.</string>
-    <string name="lblResetGitHub">Oglindă Github</string>
+    <string name="database_switcher_mirror">Oglindă Github</string>
     <string name="cache_scan_result_deletion_warning">Întrucât aceasta a fost o scanare de partajare, ar trebui să elimini sau să muți fișierul în carantină!</string>
     <string name="lblWroteTestFiles">S-au scris fișierele de testare!</string>
     <string name="confirm_link_scanner_summary">[EXPERIMENTAL]\nAceasta va descărca o bază de date suplimentară de domenii.\nOrice domenii găsite în conținutul ecranului vor fi verificate în baza de date.\nAcest lucru necesită acordarea manuală a permisiunii serviciului de accesibilitate.\nAcest lucru poate avea un impact substanțial de performanță asupra ecranelor cu cantități mari de text.</string>

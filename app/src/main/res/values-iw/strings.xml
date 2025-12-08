@@ -36,8 +36,8 @@
     <string name="confirm_extended_title">להפעיל מסד נתונים מורחב?</string>
     <string name="lblUpdateRunning">מדלג על הפעולה, עידכון פועל כעת!</string>
     <string name="lblWroteTestFiles">נכתבו קבצי בדיקה!</string>
-    <string name="lblResetPrimary">שרתים ראשיים</string>
-    <string name="lblResetGitHub">מראת GitHub</string>
+    <string name="database_switcher_primary">שרתים ראשיים</string>
+    <string name="database_switcher_mirror">מראת GitHub</string>
     <string name="lblNotificationLinkDetection">זוהה קישור זדוני:</string>
     <string name="cache_scan_result_deletion_warning">מכיוון שזו הייתה סריקת שיתוף, עליך להסיר או לבודד באופן ידני את הקובץ!</string>
     <string name="deleted">נמחק!</string>

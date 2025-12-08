@@ -76,7 +76,7 @@
 \nLataus voi kuluttaa jopa %s megatavua dataa.</string>
     <string name="lblUpdateRunning">Toiminta ohitettiin, päivitys on käynnissä!</string>
     <string name="lblWroteTestFiles">Testitiedostot kirjoitettu!</string>
-    <string name="lblResetPrimary">Ensisijaiset palvelimet</string>
+    <string name="database_switcher_primary">Ensisijaiset palvelimet</string>
     <string name="accessibility_service_label">Hypatia Linkkien tarkistaja</string>
     <string name="lblNotificationLinkDetection">Haitallinen linkki havaittu:</string>
     <string name="lblLinkScannerToggle">Linkkien tarkistus</string>

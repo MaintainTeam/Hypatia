@@ -71,7 +71,7 @@
 \n可能會下載多達 %s MB 的資料。</string>
     <string name="lblUpdateRunning">掠過動作，正在執行更新！</string>
     <string name="lblWroteTestFiles">自我測試檔案已編寫！</string>
-    <string name="lblResetPrimary">主要伺服器</string>
+    <string name="database_switcher_primary">主要伺服器</string>
     <string name="confirm_extended_title">要啟用增強版資料庫嗎？</string>
     <string name="confirm_extended_summary">此資料庫僅每季更新一次。</string>
     <string name="accessibility_service_label">Hypatia 連結掃描器</string>

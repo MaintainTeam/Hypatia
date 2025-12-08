@@ -71,7 +71,7 @@
     <string name="delete_failed">删除失败！</string>
     <string name="confirm_update_title">确定下载</string>
     <string name="lblExtendedDatabaseToggle">增强版数据库</string>
-    <string name="lblResetPrimary">主服务器</string>
+    <string name="database_switcher_primary">主服务器</string>
     <string name="lblNotificationLinkDetection">检测到恶意链接：</string>
     <string name="confirm_extended_title">启用增强版数据库？</string>
     <string name="lblSelfTest">编写自检文件</string>

@@ -73,7 +73,7 @@
     <string name="lblUpdateRunning">Faaliyet atlanıyor, bir güncelleme çalışmaktadır!</string>
     <string name="lblWroteTestFiles">Kendi kendini deneme dosyaları yazıldı!</string>
     <string name="confirm_link_scanner_title">Bağlantı tarayıcısı etkinleştirilsin mi?</string>
-    <string name="lblResetPrimary">Birincil Sunucular</string>
+    <string name="database_switcher_primary">Birincil Sunucular</string>
     <string name="accessibility_service_label">Hypatia Bağlantı Tarayıcısı</string>
     <string name="accessibility_service_description">Tüm metin ekran içeriğinden alan isimlerini çıkarır ve bunları bir engelleme listesiyle karşılaştırır</string>
     <string name="lblNotificationLinkDetection">Kötücül Bağlantı Tespit Edildi:</string>

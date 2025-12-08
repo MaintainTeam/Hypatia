@@ -56,7 +56,7 @@
     <string name="confirm_update_title">Konfirmasikan pengunduhan</string>
     <string name="confirm_update_summary">Anda ternyata sedang menggunakan koneksi bermeter. Anda yakin ingin memutakhirkan pangkalan data\nKemungkinan besar-data yang akan diunduh adalah sebanyak %s megabita.</string>
     <string name="lblUpdateRunning">Tindakan dilongkapi. Saat ini pemutakhiran pangkalan data sedang berjalan!</string>
-    <string name="lblResetPrimary">Peladen Utama</string>
+    <string name="database_switcher_primary">Peladen Utama</string>
     <string name="lblNotificationLinkDetection">Tautan jahat terdeteksi:</string>
     <string name="lblLinkScannerToggle">Pemindai Tautan</string>
     <string name="confirm_link_scanner_title">Nyalakan pemindaian tautan?</string>

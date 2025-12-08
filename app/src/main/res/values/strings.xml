@@ -27,6 +27,11 @@
     <string name="lblReset">Reset</string>
     <string name="lblOverride">Override</string>
 
+    <string name="database_switcher_primary">Primary Server</string>
+    <string name="database_switcher_mirror">GitHub Mirror</string>
+    <string name="database_switcher_axp_os" translatable="false">AXP.OS</string>
+    <string name="database_switcher_custom">Custom Server</string>
+    <string name="main_database_new_source">Custom server set: %s</string>
     <string name="main_database_updating">Updating %s databases…</string>
     <string name="main_database_override">Using server %s</string>
     <string name="main_database_download_success">Successfully downloaded</string>
@@ -77,8 +82,6 @@
     <string name="confirm_update_summary">You appear to be on a metered connection. Are you sure you want to update the databases?\nIt may download up to %s megabytes of data.</string>
     <string name="lblUpdateRunning">Skipping action, an update is running!</string>
     <string name="lblWroteTestFiles">Wrote test files!</string>
-    <string name="lblResetPrimary">Primary Servers</string>
-    <string name="lblResetGitHub">GitHub Mirror</string>
     <string name="accessibility_service_label">Hypatia Link Scanner</string>
     <string name="accessibility_service_description">Extracts domains from all screen text content and checks them against a blocklist</string>
     <string name="lblNotificationLinkDetection">Malicious Link Detected:</string>

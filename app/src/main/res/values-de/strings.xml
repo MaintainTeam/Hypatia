@@ -72,7 +72,7 @@
 \nDies könnte bis zu %s Megabytes an Daten herunterladen.</string>
     <string name="lblUpdateRunning">Vorhaben wurde übersprungen, ein aktiver Update läuft bereits!</string>
     <string name="lblWroteTestFiles">Selbsttest Dateien wurden geschrieben!</string>
-    <string name="lblResetPrimary">Primärer Server</string>
+    <string name="database_switcher_primary">Primärer Server</string>
     <string name="confirm_update_title">Download bestätigen</string>
     <string name="accessibility_service_label">Hypatia Link Scanner</string>
     <string name="accessibility_service_description">Entinmmt Webaddressen vom Text des Bildschirminhalts und vergleicht diese gegen die Blockierliste</string>
@@ -85,6 +85,6 @@
 \nDiese funktion benötigt das manuelle freigeben der Android \"Bedienungshilfe-Berechtigung\".
 \nDiese funktion kann bei Bildschirminhalten mit viel Text einen großen einfluss auf die Geräteleistung verusachen.</string>
     <string name="app_disclaimer">Dies ist lediglich ein Malware-Scanner, der Dateien mit zuvor gefundenen Hashes vergleicht. Kein Zauberstab, der Ihr gesamtes Android-Gerät supersicher macht. Seien Sie vorsichtig, was Sie herunterladen/anklicken!</string>
-    <string name="lblResetGitHub">GitHub Mirror</string>
+    <string name="database_switcher_mirror">GitHub Mirror</string>
     <string name="cache_scan_result_deletion_warning">Da es sich um einen Freigabescan handelte, sollten Sie die Datei manuell entfernen oder unter Quarantäne stellen!</string>
 </resources>
