@@ -12,7 +12,7 @@
     <string name="lblScanSystem">Сканировать /system</string>
     <string name="lblScanApps">Сканировать APK-файлы приложений</string>
     <string name="lblScanExternal">Сканировать внешнее хранилище</string>
-    <string name="lblScanRemovable">Scan Removable Storage</string>
+    <string name="lblScanRemovable">Сканировать извлекаемое хранилище</string>
     <string name="lblNotificationMalwareDetectionTitle">Обнаружение вредоносного ПО</string>
     <string name="lblNotificationMalwareDetectionDescription">Используется для оповещения при обнаружении вредоносного ПО</string>
     <string name="lblNotificationRealtimeTitle">Сканер в реальном времени</string>
@@ -83,4 +83,5 @@
 \nДля этого необходимо вручную предоставить разрешение службе доступности.
 \nЭто может существенно повлиять на производительность экранов с большим количеством текста.</string>
     <string name="accessibility_service_label">Сканер Hypatia Link</string>
+    <string name="app_disclaimer">Это всего лишь вредоносный сканер, сравнивающий файлы с известными хэш-суммами из баз данных вредоносных программ, а не чудодейстенное средство, обеспечивающее Вашей системе свехзащищённость. Вам следует быть осторожным и обращать внимание на то, что скачиваете/куда клацаете!</string>
 </resources>
