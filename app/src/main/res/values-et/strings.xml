@@ -91,4 +91,8 @@
     <string name="database_switcher_mirror">Peegelserver GitHubis</string>
     <string name="cache_scan_result_deletion_warning">Kuna antud juhul skaneerisid jaosmeediat, siis pead faili käsitsi kustutama või karantiini panema!</string>
     <string name="see_notifications">Nakatunud failiga tehtavate toimingute valikud leiad teavitusest.</string>
+    <string name="database_not_loaded_link_scanner">Ühtegi andmebaasi pole laaditud. Palun uuenda andmebaasid linkide skanneri jaoks.</string>
+    <string name="link_scanner_notification_text">Ekraanivaade saab olema skaneeritud ja kahtlased lingid tuvastatud reaalajas</string>
+    <string name="link_scanner_notification_description">Kasutusel linkide skaneerimise teabe näitamiseks.</string>
+    <string name="main_database_validate_error">Andmebaasi õigsuse kontrollimisel tekkis viga, palun topeltkontrolli allkirjastamise võtme õigsust ja laadi andmekogu uuesti alla</string>
 </resources>

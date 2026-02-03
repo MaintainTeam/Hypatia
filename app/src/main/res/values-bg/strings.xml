@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_copyright">Copyright 2017–2024 Divested Computing Group</string>
+    <string name="app_copyright">Авторско право 2017–2024 Divested Computing Group\nАвторско право 2025 MaintainTeam Organization</string>
     <string name="lblFullCredits">Кредити</string>
-    <string name="lblScanRemovable">Scan Removable Storage</string>
+    <string name="lblScanRemovable">Сканиране на сменяеми носители</string>
     <string name="lblNotificationMalwareDetectionTitle">Откриване на зловреден софтуер</string>
     <string name="lblNotificationRealtimeDetection">Открит зловреден софтуер:</string>
     <string name="main_database_override">Използва се сървър %s</string>
     <string name="main_hash_scan_done">Всички %s хешове бяха проверени спрямо бази данни със сигнатури</string>
-    <string name="main_scanning_done">Сканирането завърши за %s секунди @ %sMB/s!</string>
+    <string name="main_scanning_done">Сканирането завърши за %1$s секунди @ %2$sMB/s!</string>
     <string name="main_files_scanned_count">Сканирани са %s файла</string>
     <string name="self_test_result_success">Успешен самотест.</string>
     <string name="lookupVT">Търсене</string>
@@ -59,7 +59,7 @@
     <string name="lblDatabaseLoading">Пропускане на действие, базата данни се зарежда!</string>
     <string name="accessibility_service_description">Извлича домейни от цялото текстово съдържание на екрана и ги проверява в списък за блокиране</string>
     <string name="lblNoNetwork">Няма свързана мрежа!</string>
-    <string name="app_license">License: GPL-3.0</string>
+    <string name="app_license">Лиценз: GPL-3.0</string>
     <string name="confirm_link_scanner_title">Активирай скенер на връзки?</string>
     <string name="lblWroteTestFiles">Написах тестови файлове!</string>
     <string name="confirm_lookup_title">Потвърди търсенето</string>
@@ -79,4 +79,12 @@
     <string name="confirm_update_summary">Изглежда, че сте на ограничена връзка. Сигурни ли сте, че искате да актуализирате базите данни?\nМоже да изтегли до %s мегабайта данни.</string>
     <string name="database_switcher_primary">Основни сървъри</string>
     <string name="confirm_link_scanner_summary">[ЕКСПЕРИМЕНТАЛНО]\nТова ще изтегли допълнителна база данни с домейни.\nВсички домейни, намерени в съдържанието на екрана, ще бъдат проверени спрямо базата данни.\nТова изисква ръчно предоставяне на разрешение за услугата за достъпност.\nТова може да има значително въздействие върху производителността на екрани с големи количества текст.</string>
+    <string name="app_disclaimer">Това е само скенер за зловреден софтуер, който сравнява файлове с предварително открити хешове. Не е магическа пръчка, която да пази целия ви Android супер сигурен. Трябва да внимавате какво изтегляте/кликвате!</string>
+    <string name="lblResetGitHub">Огледало на GitHub</string>
+    <string name="cache_scan_result_deletion_warning">Тъй като това беше сканиране за споделяне, трябва ръчно да премахнете или поставите файла под карантина!</string>
+    <string name="see_notifications">Моля, вижте „Известия“ за управление на заразения файл.</string>
+    <string name="database_not_loaded_link_scanner">Няма заредена база данни. Моля, актуализирайте базите данни, за да използвате скенера за връзки.</string>
+    <string name="link_scanner_notification_text">Екранът ще бъде сканиран и злонамерени връзки ще бъдат открити в реално време</string>
+    <string name="link_scanner_notification_description">Използва се за показване на информация за сканиране на връзки.</string>
+    <string name="main_database_validate_error">Възникна грешка при валидирането на базата данни. Моля, проверете отново ключа за подписване и изтеглете отново</string>
 </resources>

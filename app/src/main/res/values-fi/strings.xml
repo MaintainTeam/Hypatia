@@ -6,16 +6,16 @@
     <string name="lblOnionRoutingEnabledHint">Ladataan käyttäen Tor-verkkoa, tämä voi kestää jonkin aikaa…</string>
     <string name="lblOnionRoutingNotInstalled">Orbot:ia ei ole asennettu!</string>
     <string name="lblUpdateDatabase">Päivitä tietokannat</string>
-    <string name="lblDatabaseServer">Tietokantapalvelimen ohitus</string>
+    <string name="lblDatabaseServer">Tietokantapalvelimen ylikirjoitus</string>
     <string name="lblFullCredits">Krediitit</string>
     <string name="lblScanSystem">Tarkista /järjestelmä</string>
     <string name="lblScanApps">Tarkista sovellus APK:t</string>
     <string name="lblScanExternal">Tarkista ulkoinen tallennustila</string>
-    <string name="lblScanRemovable">Scan Removable Storage</string>
+    <string name="lblScanRemovable">Tarkista siirrettävä tallennusväline</string>
     <string name="lblNotificationMalwareDetectionTitle">Haittaohjelmien tunnistus</string>
     <string name="lblNotificationMalwareDetectionDescription">Käytetään hälyttämään, kun haittaohjelma havaitaan</string>
     <string name="lblNotificationRealtimeTitle">Reaaliaikainen tarkistus</string>
-    <string name="lblNotificationRealtimeDescription">Käytetään näyttämään tarkistettujen tiedostojen laskuri ja ylläpitämään taustapalvelua.</string>
+    <string name="lblNotificationRealtimeDescription">Käytetään näyttämään tarkistettujen tiedostojen laskuri ja ylläpitämään taustapalvelua</string>
     <string name="lblNotificationRealtimeText">Tunnetut haittaohjelmat havaitaan reaaliajassa</string>
     <string name="lblNotificationRealtimeStopped">Hypatia: Reaaliaikainen tarkistus pysäytetty</string>
     <string name="lblNotificationRealtimeDetection">Haittaohjelma havaittu:</string>
@@ -36,10 +36,10 @@
     <string name="main_files_pending_scan">%s tarkistettavaa tiedostoa</string>
     <string name="main_database_loading">Ladataan tietokantaa…</string>
     <string name="main_database_loaded">Ladattiin tietokanta %s allekirjoituksella</string>
-    <string name="main_hashing_files">Hashataan tiedostoja…</string>
-    <string name="main_hashing_done">Laskettiin hashit kaikille tiedostoille</string>
-    <string name="main_hash_scan_done">Tarkistettiin kaikki %s hashit allekirjoitustietokannoista</string>
-    <string name="main_scanning_done">Tarkistus suoritettu %s sekunnissa @ %sMB/s!</string>
+    <string name="main_hashing_files">Tiedostojen hash-tiivisteiden laskenta…</string>
+    <string name="main_hashing_done">Laskettiin hash-tiivisteet kaikille tiedostoille</string>
+    <string name="main_hash_scan_done">Tarkistettiin kaikki %s hash-tiivisteet digitaalisista allekirjoitustietokannoista</string>
+    <string name="main_scanning_done">Tarkistus suoritettu %1$s sekunnissa @ %2$sMB/s!</string>
     <string name="main_files_scanned_count">%s tiedostoa tarkistettu</string>
     <string name="lblDatabasesUpdated">Kaikki tietokannat on päivitetty!</string>
     <string name="ignoreDetection">Jätä huomiotta</string>
@@ -49,12 +49,12 @@
     <string name="lblScanRunning">Toiminta ohitettiin, tarkistus on käynnissä!</string>
     <string name="lblSigningKey">Tietokannan allekirjoitusavain</string>
     <string name="delete_failed">Poistaminen epäonnistui!</string>
-    <string name="confirm_lookup_summary">Haluatko varmasti avata VirusTotal.com sivuston selaimessasi seuraavalla hashilla?</string>
+    <string name="confirm_lookup_summary">Haluatko varmasti avata VirusTotal.com sivuston selaimessasi seuraavalla hash-tiivisteellä?</string>
     <string name="confirm_extended_summary">[KOKEELLINEN]
 \nTämä ottaa käyttöön ~40 miljoonan ylimääräisen allekirjoituksen havaitsemisen.
 \nTämä vaatii 200 Mt:n latauksen, hidastaa käynnistystä yli kaksi minuuttia, lisää sovelluksen RAM-muistin käyttöä ja lisää väärien positiivisten tulosten määrää.
 \nTämä tietokanta päivittyy vain neljännesvuosittain.</string>
-    <string name="app_copyright">Tekijänoikeus 2017–2024 Divested Computing Group</string>
+    <string name="app_copyright">Tekijänoikeudet 2017–2024 Divested Computing Group\nCopyleft 2025 MaintainTeam Organization</string>
     <string name="app_license">Lisenssi: GPL-3.0</string>
     <string name="lblNoNetwork">Ei verkkoyhteyttä!</string>
     <string name="self_test_result_success">Omavalvonta onnistui.</string>
@@ -87,4 +87,11 @@
 \nTämä edellyttää saavutettavuuspalvelun käyttöoikeuden myöntämistä manuaalisesti.
 \nTämä voi vaikuttaa merkittävästi suorituskykyyn silloin, kun näytöllä on paljon tekstiä.</string>
     <string name="accessibility_service_description">Poimii verkkotunnukset kaikesta näytön tekstisisällöstä ja vertaa niitä estolistaan</string>
+    <string name="app_disclaimer">Tämä on ainoastaan haittaohjelmien tarkistusohjelma, joka vertaa tiedostoja aiemmin löydettyihin hash-tiivistearvoihin. Se ei ole taikasauva, joka pitää koko Android-laitteesi täysin turvassa. Sinun tulee olla varovainen sen suhteen, mitä lataat/klikkaat!</string>
+    <string name="lblResetGitHub">GitHub-peilipalvelin</string>
+    <string name="database_not_loaded_link_scanner">Tietokantaa ei ole ladattu. Päivitä tietokannat, jotta voit käyttää linkkiskanneria.</string>
+    <string name="link_scanner_notification_text">Näyttöä tarkastellaan ja haitalliset linkit havaitaan reaaliajassa</string>
+    <string name="link_scanner_notification_description">Käytetään linkkien skannaustietojen näyttämiseen.</string>
+    <string name="cache_scan_result_deletion_warning">Koska kyseessä oli jaettu skannaus, sinun tulee poistaa tai eristää tiedosto manuaalisesti!</string>
+    <string name="see_notifications">Katso Ilmoitukset, jos haluat hallita tartunnan saanutta tiedostoa.</string>
 </resources>
