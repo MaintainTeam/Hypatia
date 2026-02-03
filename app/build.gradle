@@ -1,5 +1,7 @@
-apply plugin: 'com.android.application'
-apply plugin: 'org.jetbrains.kotlin.android'
+plugins {
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.kotlin.android)
+}
 
 android {
     compileSdkVersion 36
@@ -82,12 +84,13 @@ android {
 }
 
 dependencies {
-    implementation 'commons-io:commons-io:2.20.0'
-    implementation 'org.bouncycastle:bcpg-jdk15to18:1.81'
-    implementation 'com.google.guava:guava:33.4.8-jre'
-    implementation 'androidx.appcompat:appcompat:1.7.1'
-    implementation 'androidx.documentfile:documentfile:1.1.0'
-    implementation 'androidx.core:core-ktx:1.17.0'
+    implementation(libs.commons.io)
+    implementation(libs.bouncycastle.bcpg)
+    implementation(libs.guava)
+
+    implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.documentfile)
+    implementation(libs.androidx.core.ktx)
 }
 
 static String getGitWorkingBranch() {
