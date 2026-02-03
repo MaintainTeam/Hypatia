@@ -76,7 +76,7 @@ jobs:
           gh release upload "v${version}" $(echo $(find . -name '*.apk' -type f -exec basename \{} \;) checksums.txt) --repo MaintainTeam/Hypatia
 
       - name: Archive reports for job
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: reports
           path: '*/build/reports'
