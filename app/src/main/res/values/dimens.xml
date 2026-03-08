@@ -1,1 +1,6 @@
-<resources></resources>
+<resources>
+    <dimen name="progress_card_elevation">2dp</dimen>
+    <dimen name="progress_card_radius">8dp</dimen>
+    <dimen name="threat_item_padding">12dp</dimen>
+    <dimen name="log_padding">12dp</dimen>
+</resources>
