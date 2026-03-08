@@ -25,6 +25,7 @@
     <string name="lblNotificationRealtimeDetection">Malware Detected:</string>
     <string name="lblRealtimeScannerToggle">Realtime Scanner</string>
     <string name="lblReset">Reset</string>
+    <string name="lblResetGitHub">GitHub mirror</string>
     <string name="lblOverride">Override</string>
 
     <string name="database_switcher_primary">Primary Server</string>
