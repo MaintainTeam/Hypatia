@@ -2,4 +2,16 @@
 <resources>
     <color name="colorRed">#FF0000</color>
     <color name="colorGreen">#008000</color>
+
+    <!-- Modern UI -->
+    <color name="primary">#1A237E</color>
+    <color name="primaryDark">#0D1542</color>
+    <color name="accent">#00BFA5</color>
+    <color name="surface">#FAFAFA</color>
+    <color name="background">#F5F5F5</color>
+    <color name="threatRed">#C62828</color>
+    <color name="threatBg">#FFEBEE</color>
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#757575</color>
+    <color name="divider">#E0E0E0</color>
 </resources>
