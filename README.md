@@ -1,6 +1,8 @@
 > [!WARNING]
 > ### This is a fork of the [original](https://github.com/Divested-Mobile/Hypatia) (and discontinued) app from DivestOS.
 
+> read at the bottom for notes outside of this fork
+
 ![Banner](./fastlane/metadata/android/en-US/images/featureGraphic.png)
 
 Hypatia
@@ -159,3 +161,4 @@ Fork notices
 ---
 - There is additional support with ai
 - If needed to merge with main, ask for me to know
+- I will still maintain the code by hand, this is just something to keep the code alive and well
