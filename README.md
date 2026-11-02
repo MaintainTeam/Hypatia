@@ -155,5 +155,7 @@ Notices
 - MaintainTeam is not affiliated with Cisco or ESET
 - Hypatia is not sponsored or endorsed by Cisco or ESET
 
-
+Fork notices
+---
 - There is additional support with ai
+- If needed to merge with main, ask for me to know
