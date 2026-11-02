@@ -154,3 +154,6 @@ Notices
 - Divested Computing Group is not affiliated with Cisco or ESET
 - MaintainTeam is not affiliated with Cisco or ESET
 - Hypatia is not sponsored or endorsed by Cisco or ESET
+
+
+- There is additional support with ai
