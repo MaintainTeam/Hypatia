@@ -1,7 +1,7 @@
+> read at the bottom for notes outside of this fork
+
 > [!WARNING]
 > ### This is a fork of the [original](https://github.com/Divested-Mobile/Hypatia) (and discontinued) app from DivestOS.
-
-> read at the bottom for notes outside of this fork
 
 ![Banner](./fastlane/metadata/android/en-US/images/featureGraphic.png)
 
